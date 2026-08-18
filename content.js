@@ -17,21 +17,19 @@ window.TRAVEL_DIARY = {
     {
       id:"perth-to-melbourne", date:"27 JULY", title:"Perth → Melbourne", location:"Perth · overnight flight",
       paragraphs:[
-        "The trip started with a completely normal Monday at work, followed by a last round of packing and then 19 km out to Perth Airport.",
-        "The overnight flight left at 11:19 pm. Four hours and sixteen minutes later, after 2,704 km across Australia, Melbourne appeared at 5:35 the next morning."
+        "The trip started after a completely normal Monday at work, followed by a last round of packing and the overnight flight to Melbourne.",
+        "It was not the glamorous part of the holiday, but waking up on the other side of Australia felt like a fairly definite beginning."
       ],
-      note:"Timeline gives this one cleanly: airport at 10:25 pm, flight at 11:19 pm and Melbourne at 5:35 am.",
       photos:[]
     },
     {
       id:"melbourne-to-apollo-bay", date:"28 JULY", title:"Melbourne → Apollo Bay",
       location:"Melbourne Airport · Ringwood · Torquay · Lorne · Apollo Bay",
       paragraphs:[
-        "The flight landed at 5:35 am. The morning was errands, collecting the motorhome and a stop in Ringwood before the road trip started properly.",
-        "By 3:50 pm Prince and I were at Thelo Gyros in Torquay. The next Timeline stop is unnamed, but the photos make a good case for Point Danger: coffee on the wet deck and a full double rainbow over the water.",
-        "Then it was west through the weather, fuel in Lorne at 6:23 pm and the final 40 km to BIG4 Apollo Bay Pisces Holiday Park. We arrived at 7:28 pm with the camper already acting as transport, kitchen, lounge room and bedroom."
+        "Melbourne began with the usual travel admin: land too early, kill some time, collect something much larger than expected and work out how to get it through the city.",
+        "Torquay gave us gyros, coffee by the water and a full double rainbow over the ocean. A strong opening effort from the coast.",
+        "From there Prince and I followed the Great Ocean Road through Lorne to Apollo Bay. By the time we parked up, the camper was already transport, kitchen, lounge room and bedroom."
       ],
-      note:"Timeline records 229 km of driving and the 7:28 pm arrival in Apollo Bay; Point Danger is placed from the photos rather than a named Timeline stop.",
       photos:[
         ["assets/great-ocean-melbourne-departure.jpg","Getting the motorhome through central Melbourne was the first challenge."],
         ["assets/great-ocean-campervan-driving.jpg","Me, the camper and another few hours of road."],
@@ -46,12 +44,11 @@ window.TRAVEL_DIARY = {
       id:"apollo-bay-to-port-campbell", date:"29 JULY", title:"Apollo Bay → Port Campbell",
       location:"Apollo Bay · Maits Rest · Twelve Apostles · Port Campbell",
       paragraphs:[
-        "We left the BIG4 at 9:49 am and were at Apollo Bay Bakery twelve minutes later. A short walk through town took us past the Great Ocean Road Brewhouse before the road pulled us back into the Otways.",
-        "Maits Rest ran from 11:02 to 11:30: damp air, giant tree ferns and a boardwalk disappearing into the forest.",
-        "After another 52 km the Timeline records a 2 km walk from 12:49 to 1:25. That lines up with the Twelve Apostles photos, followed by Tom and Eva on the way to Port Campbell.",
-        "By 2:11 pm we were at 12 Rocks Beach Bar Cafe, and by 3:13 the camper was parked at Port Campbell Recreation Reserve."
+        "After a bakery stop in Apollo Bay, the road pulled us into the Otways and Maits Rest.",
+        "Maits Rest felt completely different to the coast: damp air, giant tree ferns and a boardwalk disappearing into the forest.",
+        "Then it was back to limestone cliffs, rough water and the Twelve Apostles, followed by Tom and Eva taking the full force of the Southern Ocean.",
+        "We finished with lunch at 12 Rocks and parked up in Port Campbell with enough day left to do very little."
       ],
-      note:"Timeline records 78 km driven, 2 km walked and five visits. The Twelve Apostles placement is supported by the route and photos.",
       photos:[
         ["assets/great-ocean-apollo-bay-brewhouse.jpg","The Great Ocean Road Brewhouse making a fairly specific claim."],
         ["assets/great-ocean-maits-rest-boardwalk.jpg","Maits Rest felt prehistoric in the best way."],
@@ -65,9 +62,9 @@ window.TRAVEL_DIARY = {
       id:"warrnambool-to-halls-gap", date:"30 JULY", title:"Warrnambool → Halls Gap",
       location:"Warrnambool · Deep Blue Hot Springs · Dunkeld · Halls Gap",
       paragraphs:[
-        "The coast leg finished with a morning in Warrnambool: fuel, a quick McDonald’s and then just over two hours at Deep Blue Hot Springs from 11:26 am to 1:40 pm.",
-        "From there the route turned inland to Dunkeld. Grampians Providore became a two-minute stop; Izzy’s Cafe lasted 34 minutes, which feels like the more honest result.",
-        "The final 69 km to Halls Gap took just over an hour. We reached Halls Gap Lakeside Tourist Park at 4:45 pm, with the Grampians waiting for the next day."
+        "Warrnambool started with fuel, McDonald’s and a couple of hours at Deep Blue Hot Springs. An odd combination, but an effective one.",
+        "From there we turned inland, stopped in Dunkeld for lunch and kept going toward the Grampians.",
+        "We reached Halls Gap late in the afternoon, parked beside the ranges and saved the hiking for the morning."
       ],
       photos:[]
     },
@@ -157,13 +154,12 @@ window.TRAVEL_DIARY = {
     {
       id:"queenstown-rhythm", date:"9–12 AUGUST", title:"Finding the Queenstown rhythm", location:"Queenstown · early ski days",
       paragraphs:[
-        "I don’t have enough reliable data to split these days perfectly, but the rhythm is pretty obvious from the photos.",
+        "These few days blurred into the same very good routine.",
         "Breakfast with the crew, sort the gear, get up the mountain, ski, eat a lot, walk around Queenstown and recover enough to do it again.",
         "A big part of this stretch was getting to know Daniel and Casey properly. We ended up spending a lot of time together, learning from each other and becoming genuinely close friends over the course of the trip.",
         "Daniel and I also somehow turned our ridiculous discussion about who would win in a fight between Steve Irwin and Jason Momoa into something productive. He took the idea and made a game inspired by it, which is exactly the kind of strange little memory I want this diary to keep.",
         "One ski day was full storm mode — visibility basically gone, but fresh snow under the skis. Another had us above the cloud with the valley disappearing below."
       ],
-      note:"9–12 August stays grouped rather than forcing activities onto exact dates I can’t properly prove.",
       photos:[
         ["assets/elliott-casey-daniel.jpg","Me, Casey and Daniel in Queenstown."],
         ["assets/daniel-queenstown-night.jpg","Daniel by Lake Wakatipu at night."],
@@ -174,8 +170,8 @@ window.TRAVEL_DIARY = {
     {
       id:"cardrona", date:"AROUND 13 AUGUST", title:"Cardrona", location:"Cardrona Alpine Resort",
       paragraphs:[
-        "Maps strongly places us at Cardrona around here.",
-        "This was one of the proper group ski days with Harshil and Daniel. The chairlift photo is probably one of the best shots from the trip — three of us packed onto the lift, skis hanging underneath and a ridiculous mountain backdrop.",
+        "Cardrona was one of the proper group ski days with Harshil and Daniel.",
+        "The chairlift photo is probably one of the best shots from the trip — three of us packed onto the lift, skis hanging underneath and a ridiculous mountain backdrop.",
         "By now the routine was established: ski all day, come back wrecked, eat, then somehow decide going out was still sensible."
       ],
       photos:[
@@ -202,7 +198,7 @@ window.TRAVEL_DIARY = {
     {
       id:"final-ski-days", date:"AROUND 15–16 AUGUST", title:"Coronet Peak & The Remarkables", location:"Queenstown ski fields",
       paragraphs:[
-        "Maps puts Coronet Peak around 15 August and The Remarkables around 16 August. I’m keeping those approximate because the Maps labels were relative rather than exact timestamps.",
+        "The last few ski days were split between Coronet Peak and The Remarkables.",
         "Coronet gave us those strange above-the-weather views with cloud sitting below parts of the mountain.",
         "The Remarkables was probably the visual high point: blue sky, bright snow and the Southern Alps across the entire horizon. I kept stopping just to look around."
       ],
