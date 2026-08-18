@@ -15,35 +15,74 @@ window.TRAVEL_DIARY = {
   route: "Perth → Melbourne → Torquay → Apollo Bay → Port Campbell → Warrnambool → Grampians → Bendigo → Echuca → Melbourne → Queenstown",
   entries: [
     {
-      id:"great-ocean-road", date:"27–31 JULY", title:"Great Ocean Road → Grampians",
-      location:"Melbourne · Torquay · Apollo Bay · Port Campbell · Warrnambool · Halls Gap",
+      id:"great-ocean-road", date:"27–29 JULY", title:"Great Ocean Road",
+      location:"Melbourne · Torquay · Lorne · Apollo Bay · Maits Rest · Twelve Apostles · Port Campbell · Warrnambool",
       paragraphs:[
-        "The first few days were the organised bit: collect the motorhome, point it toward the coast and start working west.",
-        "Maps brings back the little things I would otherwise forget — Thelo Gyros in Torquay, fuel in Lorne, Apollo Bay Bakery, Maits Rest rainforest walk, 12 Rocks in Port Campbell and Deep Blue Hot Springs in Warrnambool.",
-        "By the time we reached the Grampians, the original plan was already becoming more of a suggestion."
+        "The first few days were the organised bit: collect the motorhome, negotiate Melbourne traffic in something much larger than either of us was used to, then point it toward the coast.",
+        "Prince and I took turns at the wheel. By Torquay the city had dropped away and the first proper meal was Thelo Gyros — exactly the sort of warm, excessive lunch the weather called for.",
+        "The camper became transport, kitchen, lounge room and bedroom all at once. Rain on the windows mattered less when the ocean was sitting directly outside them, and coffee on the deck counted as a fairly convincing morning routine.",
+        "Maps brings back the little things I would otherwise forget — fuel in Lorne, Apollo Bay Bakery, the Great Ocean Road Brewhouse, Maits Rest rainforest walk, 12 Rocks in Port Campbell and Deep Blue Hot Springs in Warrnambool.",
+        "Maits Rest was the complete change of atmosphere: damp air, giant tree ferns and a boardwalk disappearing into the forest. Back on the coast, the Twelve Apostles were all wind, white water and limestone stacks taking the full force of the Southern Ocean.",
+        "Somewhere along that stretch the rain and sun lined up perfectly and threw a full double rainbow across the water. It felt almost too neat for the travel diary, but there it was."
       ],
-      note:"I don’t have enough of the Great Ocean Road photos in the current set to properly split these days up. I’d rather leave that honest than invent a neat story.",
-      photos:[]
+      note:"The route is now well covered, but 27–29 July stays grouped until I can reliably place each stop on its exact day.",
+      photos:[
+        ["assets/great-ocean-campervan-driving.jpg","Me, the camper and another few hours of road."],
+        ["assets/great-ocean-melbourne-departure.jpg","Getting the motorhome through central Melbourne was the first challenge."],
+        ["assets/great-ocean-prince-driving.jpg","Prince taking a turn at the wheel."],
+        ["assets/great-ocean-thelo-gyros.jpg","Thelo Gyros in Torquay. Exactly what the weather called for."],
+        ["assets/great-ocean-apollo-bay-brewhouse.jpg","The Great Ocean Road Brewhouse making a fairly specific claim."],
+        ["assets/great-ocean-rainy-camper-view.jpg","Rain on the windows, ocean out the back. Could have been worse."],
+        ["assets/great-ocean-morning-coffee-coast.jpg","A hot mug at Point Danger while Torquay’s weather worked itself out."],
+        ["assets/great-ocean-double-rainbow.jpg","A full double rainbow over the ocean. Bit hard to improve on that."],
+        ["assets/great-ocean-maits-rest-boardwalk.jpg","Maits Rest felt prehistoric in the best way."],
+        ["assets/great-ocean-maits-rest-forest.jpg","Wet timber, ferns and that deep Otways quiet."],
+        ["assets/great-ocean-twelve-apostles-selfie.jpg","The Twelve Apostles, with the wind making sure I didn’t linger."],
+        ["assets/great-ocean-twelve-apostles-coast.jpg","One of those views that refuses to fit properly into a photo."],
+        ["assets/great-ocean-tom-and-eva.jpg","Tom and Eva taking the full force of the Southern Ocean."]
+      ]
     },
     {
-      id:"grampians", date:"1 AUGUST", title:"Hollow Mountain", location:"The Grampians",
+      id:"the-balconies", date:"30 JULY", title:"The Balconies", location:"Grampians National Park · Halls Gap",
       paragraphs:[
-        "One of the best Victorian days. Big sandstone ranges, forest in every direction and a proper hike around Hollow Mountain.",
-        "The photos make one thing very clear: pink floral shorts were apparently the correct winter hiking choice. No regrets."
+        "The Grampians arrived with exactly the sort of scale the coast had been building toward: sandstone edges, long ridgelines and forest running all the way to the horizon.",
+        "The Balconies gave us the first proper look across it. Prince had the sensible winter coat; I had pink floral shorts. Both choices made it into the diary.",
+        "By evening we were back beside the camper with a fire going, which felt like the right ending to a cold day in the ranges."
       ],
-      photos:[["assets/grampians.jpg","Hollow Mountain. Strong hiking wardrobe."]]
+      photos:[
+        ["assets/grampians.jpg","Me at The Balconies. The floral shorts remain a strong decision."],
+        ["assets/grampians-prince-balconies.jpg","Prince at The Balconies."],
+        ["assets/grampians-balconies-rock.jpg","Sandstone edges around the lookout."],
+        ["assets/grampians-balconies-view.jpg","The ranges opening out from The Balconies."],
+        ["assets/grampians-campfire.jpg","A cold evening solved with a proper fire beside the camper."]
+      ]
+    },
+    {
+      id:"hollow-mountain", date:"31 JULY", title:"Hollow Mountain", location:"Grampians National Park · Wimmera plains",
+      paragraphs:[
+        "Hollow Mountain was the day that felt like a proper hike: scrambling through warm-coloured sandstone, ducking into rock shelters and then looking out over the flat green country beyond the ranges.",
+        "The best spot was the natural stone window near the top. It turned the whole Wimmera plain into a framed picture and made it almost impossible to take a bad photo.",
+        "There was also a brief attempt to look much better at rock climbing than I actually am. The Live Photo kept the evidence."
+      ],
+      photos:[
+        ["assets/hollow-window-profile.jpg","A quiet pause inside Hollow Mountain."],
+        ["assets/hollow-window-wide.jpg","Looking out from the cave at Hollow Mountain."],
+        ["assets/hollow-rock-hang.mp4","A very brief career in rock climbing.","assets/hollow-rock-hang.jpg"],
+        ["assets/hollow-view.jpg","Looking out across the plains from the Grampians."]
+      ]
     },
     {
       id:"bendigo", date:"2–4 AUGUST", title:"The detour that became Bendigo", location:"Halls Gap · Avoca · Marong · Bendigo",
       paragraphs:[
         "The campervan was meant to be heading back, but I extended it instead. That took the pressure off and let us head through Avoca to Bendigo.",
-        "Bendigo ended up being much more than a quick stop: Rosalind Park, the Central Deborah Gold Mine, the Great Stupa and a winery stop around the same stretch.",
+        "Bendigo ended up being much more than a quick stop: Rosalind Park, the Central Deborah Gold Mine, the Great Stupa and a sunny stop at Sandhurst Ridge.",
         "Going from underground mining machinery to a huge Buddhist temple on the same day was a pretty good contrast."
       ],
       photos:[
         ["assets/bendigo.jpg","Obligatory Bendigo photo."],
         ["assets/prince-mine.jpg","Prince at Central Deborah Gold Mine."],
-        ["assets/stupa.jpg","Inside the Great Stupa."]
+        ["assets/stupa.jpg","Inside the Great Stupa."],
+        ["assets/sandhurst-ridge.jpg","Wine in the sun at Sandhurst Ridge. Extending the campervan was paying for itself."]
       ]
     },
     {
@@ -158,7 +197,7 @@ window.TRAVEL_DIARY = {
   ],
   reflection:[
     "The numbers are good — 1,834 km driven, 224 km skied and 46 km walked — but they aren’t really the trip.",
-    "I’ll remember the Great Ocean Road through the campervan windscreen. Another bakery stop. Hollow Mountain in floral shorts. Going underground in Bendigo. The Great Stupa. Watching a century-old steam engine work on the Murray. Trees full of bats. A campfire beside the camper. Melbourne in the rain. The flight map creeping toward Queenstown.",
+    "I’ll remember the Great Ocean Road through the campervan windscreen. Maits Rest under the tree ferns. The Twelve Apostles in rough water. A full double rainbow over the coast. Another bakery stop. The Balconies in floral shorts. Hollow Mountain framed in sandstone. Going underground in Bendigo. The Great Stupa. Watching a century-old steam engine work on the Murray. Trees full of bats. A campfire beside the camper. Melbourne in the rain. The flight map creeping toward Queenstown.",
     "Then breakfast with the crew. Fresh snow. Skis disappearing into powder. Chairlifts. Bluebird days. Cowboys. Winnies late at night. The silent disco. Becoming close with Casey and Daniel, learning from each other, and somehow having a Steve Irwin versus Jason Momoa argument turn into a game Daniel actually made. Standing beside Lake Wakatipu with the town reflected across the water. And being completely cooked by the end of it.",
     "Three weeks ago none of this had happened yet. Now it is already turning into memory. That’s basically the reason for making this."
   ]

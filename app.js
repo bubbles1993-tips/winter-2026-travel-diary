@@ -1,7 +1,13 @@
 
 const D = window.TRAVEL_DIARY;
 const esc = s => String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
-function photo([src,caption]){return `<figure class="photo"><img src="${src}" alt="${esc(caption)}" loading="lazy"><figcaption>${esc(caption)}</figcaption></figure>`}
+function photo([src,caption,poster]){
+  const posterAttr=poster?` poster="${esc(poster)}"`:'';
+  const media=/\.mp4(?:$|\?)/i.test(src)
+    ?`<video src="${esc(src)}" controls muted playsinline preload="metadata"${posterAttr} aria-label="${esc(caption)}"></video>`
+    :`<img src="${esc(src)}" alt="${esc(caption)}" loading="lazy">`;
+  return `<figure class="photo">${media}<figcaption>${esc(caption)}</figcaption></figure>`
+}
 function entry(e){
   const photos=e.photos?.length?`<div class="gallery ${e.photos.length>2?'many':''}">${e.photos.map(photo).join('')}</div>`:'';
   return `<section class="entry ${e.dark?'dark':''}" id="${e.id}">
