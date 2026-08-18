@@ -1,7 +1,7 @@
 window.TRAVEL_DIARY = {
   title: "Winter 2026",
   subtitle: "Victoria to Queenstown",
-  dates: "27 July – 17 August 2026",
+  dates: "27 July – 18 August 2026",
   heroImage: "assets/hero.jpg",
   heroAlt: "Lake Wakatipu and the mountains around Queenstown in winter.",
   intro: [
@@ -370,12 +370,32 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/queenstown-night.jpg", alt: "Colourful lights from Queenstown reflected across Lake Wakatipu at night.", caption: "Queenstown reflected across Lake Wakatipu." },
         { type: "image", src: "assets/cooked.jpg", alt: "Elliot completely exhausted after a full day of skiing.", caption: "The less glamorous side of a ski trip: completely cooked." }
       ]
+    },
+    {
+      id: "brazz-and-gondola",
+      navTitle: "Gondola hike",
+      date: "18 AUGUST",
+      title: "Brazz, browser tabs & the gondola",
+      location: "Brazz · Queenstown Hill · Skyline",
+      paragraphs: [
+        "Daniel and I started with breakfast at Brazz, then spent most of the day vibe coding and making upgrades to this website. Slightly strange to spend the day building the diary and then immediately create another day worth adding to it.",
+        "Later we traded the laptops for the hike up to the top of the gondola. It was properly tiring, but the Remarkables turning pink behind Queenstown made the climb feel worthwhile before we had even reached the top.",
+        "By the time we arrived, the town was lit up below us and the beer felt very well earned. Tiring, but absolutely worth it."
+      ],
+      media: [
+        { type: "image", src: "assets/aug18-gondola-approach.jpg", alt: "Daniel walking toward the base of the Queenstown gondola with the station visible above.", caption: "Heading toward the climb, with the gondola station waiting above." },
+        { type: "image", src: "assets/aug18-remarkables-sunset.jpg", alt: "The Remarkables glowing pink at sunset above Queenstown Cemetery.", caption: "The Remarkables catching the last pink light on the way up." },
+        { type: "image", src: "assets/aug18-forest-climb.jpg", alt: "A steep forest track through tall trees on the walk up Queenstown Hill.", caption: "The steep forest track doing a good job of making us earn the view." },
+        { type: "image", src: "assets/aug18-skyline-beer.jpg", alt: "A glass of beer beside the Skyline Cafe and Bar menu.", caption: "A very well-earned beer at Skyline Cafe & Bar." },
+        { type: "image", src: "assets/aug18-queenstown-night.jpg", alt: "Queenstown illuminated at night beside Lake Wakatipu, viewed from Skyline.", caption: "Queenstown glowing below us after dark." },
+        { type: "image", src: "assets/aug18-beer-and-view.jpg", alt: "A beer on the table with Queenstown and Lake Wakatipu lit up below.", caption: "A beer, the lights of town and Lake Wakatipu below." }
+      ]
     }
   ],
   reflection: [
     "The numbers are fine — 1,834 km driven, 224 km skied and 46 km walked — but they aren’t really the trip.",
     "I’ll remember the campervan feeling far too large until it suddenly didn’t. Rain on the coast. Another bakery stop. The floral shorts at The Balconies. Hollow Mountain. Going underground in Bendigo, then walking into the Great Stupa. A steam engine working on the Murray. Trees full of bats. Melbourne in the rain.",
-    "Then $10 breakfast at Brazz's with Daniel and Casey. Fresh snow. Chairlifts. Bluebird days. Cowboys. Winnies. The silent disco. Daniel actually making a game from our stupid argument. Standing beside Lake Wakatipu after another full day, then getting up to do it again.",
+    "Then $10 breakfast at Brazz's with Daniel and Casey. Fresh snow. Chairlifts. Bluebird days. Cowboys. Winnies. The silent disco. Daniel actually making a game from our stupid argument. Standing beside Lake Wakatipu after another full day. Vibe coding with Daniel, climbing the gondola track and earning a beer while Queenstown lit up below us. Then getting up to do it again.",
     "Three weeks earlier none of it had happened. Now it is already turning into memory. That is basically the reason for making this."
   ]
 };
