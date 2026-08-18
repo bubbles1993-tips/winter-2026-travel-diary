@@ -38,7 +38,7 @@ function entry(item) {
   const paragraphs = item.paragraphs
     .map(paragraph => `<p>${esc(paragraph)}</p>`)
     .join("");
-  const song = item.song ? `<section class="song-card"><span>Song of the day</span><strong>${esc(item.song.title)} — ${esc(item.song.artist)}</strong><iframe src="https://open.spotify.com/embed/track/${esc(item.song.url.split('/').pop())}" title="Spotify: ${esc(item.song.title)} by ${esc(item.song.artist)}" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></section>` : "";
+  const song = item.song ? `<section class="song-card"><span>Song of the day</span><strong>${esc(item.song.title)} — ${esc(item.song.artist)}</strong><iframe src="https://open.spotify.com/embed/track/${esc(item.song.url.split('/').pop())}?utm_source=travel-diary" title="Spotify: ${esc(item.song.title)} by ${esc(item.song.artist)}" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></section>` : "";
 
   return `<section class="entry ${item.dark ? "dark" : ""}" id="${esc(item.id)}">
     <div class="entry-head">
