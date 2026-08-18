@@ -377,7 +377,7 @@ window.TRAVEL_DIARY = {
       date: "18 AUGUST",
       title: "Brazz, browser tabs & the gondola",
       location: "Brazz · Queenstown Hill · Skyline",
-      song: { url: "https://open.spotify.com/track/5yVIlYEHZxQVLyInCdldoS", title: "3AM", artist: "Matchbox Twenty" },
+      song: { url: "https://open.spotify.com/track/3lQcpt5mrTLXK1k4oUMa2P", title: "3AM", artist: "Matchbox Twenty" },
       paragraphs: [
         "Daniel and I started with breakfast at Brazz, then spent most of the day vibe coding and making upgrades to this website. Slightly strange to spend the day building the diary and then immediately create another day worth adding to it.",
         "Later we traded the laptops for the hike up to the top of the gondola. It was properly tiring, but the Remarkables turning pink behind Queenstown made the climb feel worthwhile before we had even reached the top.",
