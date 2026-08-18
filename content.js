@@ -15,26 +15,45 @@ window.TRAVEL_DIARY = {
   route: "Perth → Melbourne → Torquay → Apollo Bay → Port Campbell → Warrnambool → Grampians → Bendigo → Echuca → Melbourne → Queenstown",
   entries: [
     {
-      id:"great-ocean-road", date:"27–29 JULY", title:"Great Ocean Road",
-      location:"Melbourne · Torquay · Lorne · Apollo Bay · Maits Rest · Twelve Apostles · Port Campbell · Warrnambool",
+      id:"perth-to-melbourne", date:"27 JULY", title:"Perth → Melbourne", location:"Perth · overnight flight",
       paragraphs:[
-        "The first few days were the organised bit: collect the motorhome, negotiate Melbourne traffic in something much larger than either of us was used to, then point it toward the coast.",
-        "Prince and I took turns at the wheel. By Torquay the city had dropped away and the first proper meal was Thelo Gyros — exactly the sort of warm, excessive lunch the weather called for.",
-        "The camper became transport, kitchen, lounge room and bedroom all at once. Rain on the windows mattered less when the ocean was sitting directly outside them, and coffee on the deck counted as a fairly convincing morning routine.",
-        "Maps brings back the little things I would otherwise forget — fuel in Lorne, Apollo Bay Bakery, the Great Ocean Road Brewhouse, Maits Rest rainforest walk, 12 Rocks in Port Campbell and Deep Blue Hot Springs in Warrnambool.",
-        "Maits Rest was the complete change of atmosphere: damp air, giant tree ferns and a boardwalk disappearing into the forest. Back on the coast, the Twelve Apostles were all wind, white water and limestone stacks taking the full force of the Southern Ocean.",
-        "Somewhere along that stretch the rain and sun lined up perfectly and threw a full double rainbow across the water. It felt almost too neat for the travel diary, but there it was."
+        "The trip started with a completely normal Monday at work, followed by a last round of packing and then 19 km out to Perth Airport.",
+        "The overnight flight left at 11:19 pm. Four hours and sixteen minutes later, after 2,704 km across Australia, Melbourne appeared at 5:35 the next morning."
       ],
-      note:"The route is now well covered, but 27–29 July stays grouped until I can reliably place each stop on its exact day.",
+      note:"Timeline gives this one cleanly: airport at 10:25 pm, flight at 11:19 pm and Melbourne at 5:35 am.",
+      photos:[]
+    },
+    {
+      id:"melbourne-to-apollo-bay", date:"28 JULY", title:"Melbourne → Apollo Bay",
+      location:"Melbourne Airport · Ringwood · Torquay · Lorne · Apollo Bay",
+      paragraphs:[
+        "The flight landed at 5:35 am. The morning was errands, collecting the motorhome and a stop in Ringwood before the road trip started properly.",
+        "By 3:50 pm Prince and I were at Thelo Gyros in Torquay. The next Timeline stop is unnamed, but the photos make a good case for Point Danger: coffee on the wet deck and a full double rainbow over the water.",
+        "Then it was west through the weather, fuel in Lorne at 6:23 pm and the final 40 km to BIG4 Apollo Bay Pisces Holiday Park. We arrived at 7:28 pm with the camper already acting as transport, kitchen, lounge room and bedroom."
+      ],
+      note:"Timeline records 229 km of driving and the 7:28 pm arrival in Apollo Bay; Point Danger is placed from the photos rather than a named Timeline stop.",
       photos:[
-        ["assets/great-ocean-campervan-driving.jpg","Me, the camper and another few hours of road."],
         ["assets/great-ocean-melbourne-departure.jpg","Getting the motorhome through central Melbourne was the first challenge."],
+        ["assets/great-ocean-campervan-driving.jpg","Me, the camper and another few hours of road."],
         ["assets/great-ocean-prince-driving.jpg","Prince taking a turn at the wheel."],
         ["assets/great-ocean-thelo-gyros.jpg","Thelo Gyros in Torquay. Exactly what the weather called for."],
-        ["assets/great-ocean-apollo-bay-brewhouse.jpg","The Great Ocean Road Brewhouse making a fairly specific claim."],
-        ["assets/great-ocean-rainy-camper-view.jpg","Rain on the windows, ocean out the back. Could have been worse."],
         ["assets/great-ocean-morning-coffee-coast.jpg","A hot mug at Point Danger while Torquay’s weather worked itself out."],
         ["assets/great-ocean-double-rainbow.jpg","A full double rainbow over the ocean. Bit hard to improve on that."],
+        ["assets/great-ocean-rainy-camper-view.jpg","Rain on the windows, ocean out the back. Could have been worse."]
+      ]
+    },
+    {
+      id:"apollo-bay-to-port-campbell", date:"29 JULY", title:"Apollo Bay → Port Campbell",
+      location:"Apollo Bay · Maits Rest · Twelve Apostles · Port Campbell",
+      paragraphs:[
+        "We left the BIG4 at 9:49 am and were at Apollo Bay Bakery twelve minutes later. A short walk through town took us past the Great Ocean Road Brewhouse before the road pulled us back into the Otways.",
+        "Maits Rest ran from 11:02 to 11:30: damp air, giant tree ferns and a boardwalk disappearing into the forest.",
+        "After another 52 km the Timeline records a 2 km walk from 12:49 to 1:25. That lines up with the Twelve Apostles photos, followed by Tom and Eva on the way to Port Campbell.",
+        "By 2:11 pm we were at 12 Rocks Beach Bar Cafe, and by 3:13 the camper was parked at Port Campbell Recreation Reserve."
+      ],
+      note:"Timeline records 78 km driven, 2 km walked and five visits. The Twelve Apostles placement is supported by the route and photos.",
+      photos:[
+        ["assets/great-ocean-apollo-bay-brewhouse.jpg","The Great Ocean Road Brewhouse making a fairly specific claim."],
         ["assets/great-ocean-maits-rest-boardwalk.jpg","Maits Rest felt prehistoric in the best way."],
         ["assets/great-ocean-maits-rest-forest.jpg","Wet timber, ferns and that deep Otways quiet."],
         ["assets/great-ocean-twelve-apostles-selfie.jpg","The Twelve Apostles, with the wind making sure I didn’t linger."],
@@ -43,19 +62,14 @@ window.TRAVEL_DIARY = {
       ]
     },
     {
-      id:"the-balconies", date:"30 JULY", title:"The Balconies", location:"Grampians National Park · Halls Gap",
+      id:"warrnambool-to-halls-gap", date:"30 JULY", title:"Warrnambool → Halls Gap",
+      location:"Warrnambool · Deep Blue Hot Springs · Dunkeld · Halls Gap",
       paragraphs:[
-        "The Grampians arrived with exactly the sort of scale the coast had been building toward: sandstone edges, long ridgelines and forest running all the way to the horizon.",
-        "The Balconies gave us the first proper look across it. Prince had the sensible winter coat; I had pink floral shorts. Both choices made it into the diary.",
-        "By evening we were back beside the camper with a fire going, which felt like the right ending to a cold day in the ranges."
+        "The coast leg finished with a morning in Warrnambool: fuel, a quick McDonald’s and then just over two hours at Deep Blue Hot Springs from 11:26 am to 1:40 pm.",
+        "From there the route turned inland to Dunkeld. Grampians Providore became a two-minute stop; Izzy’s Cafe lasted 34 minutes, which feels like the more honest result.",
+        "The final 69 km to Halls Gap took just over an hour. We reached Halls Gap Lakeside Tourist Park at 4:45 pm, with the Grampians waiting for the next day."
       ],
-      photos:[
-        ["assets/grampians.jpg","Me at The Balconies. The floral shorts remain a strong decision."],
-        ["assets/grampians-prince-balconies.jpg","Prince at The Balconies."],
-        ["assets/grampians-balconies-rock.jpg","Sandstone edges around the lookout."],
-        ["assets/grampians-balconies-view.jpg","The ranges opening out from The Balconies."],
-        ["assets/grampians-campfire.jpg","A cold evening solved with a proper fire beside the camper."]
-      ]
+      photos:[]
     },
     {
       id:"hollow-mountain", date:"31 JULY", title:"Hollow Mountain", location:"Grampians National Park · Wimmera plains",
@@ -69,6 +83,21 @@ window.TRAVEL_DIARY = {
         ["assets/hollow-window-wide.jpg","Looking out from the cave at Hollow Mountain."],
         ["assets/hollow-rock-hang.mp4","A very brief career in rock climbing.","assets/hollow-rock-hang.jpg"],
         ["assets/hollow-view.jpg","Looking out across the plains from the Grampians."]
+      ]
+    },
+    {
+      id:"the-balconies", date:"1 AUGUST", title:"The Balconies", location:"Grampians National Park · Halls Gap",
+      paragraphs:[
+        "The Balconies gave us the wide-angle version of the Grampians: sandstone edges, long ridgelines and forest running all the way to the horizon.",
+        "Prince had the sensible winter coat; I had pink floral shorts. Both choices made it into the diary.",
+        "By evening we were back beside the camper with a fire going, which felt like the right ending to a cold day in the ranges."
+      ],
+      photos:[
+        ["assets/grampians.jpg","Me at The Balconies. The floral shorts remain a strong decision."],
+        ["assets/grampians-prince-balconies.jpg","Prince at The Balconies."],
+        ["assets/grampians-balconies-rock.jpg","Sandstone edges around the lookout."],
+        ["assets/grampians-balconies-view.jpg","The ranges opening out from The Balconies."],
+        ["assets/grampians-campfire.jpg","A cold evening solved with a proper fire beside the camper."]
       ]
     },
     {
@@ -146,11 +175,11 @@ window.TRAVEL_DIARY = {
       id:"cardrona", date:"AROUND 13 AUGUST", title:"Cardrona", location:"Cardrona Alpine Resort",
       paragraphs:[
         "Maps strongly places us at Cardrona around here.",
-        "This was one of the proper group ski days with Casey and Daniel. The chairlift photo is probably one of the best shots from the trip — three of us packed onto the lift, skis hanging underneath and a ridiculous mountain backdrop.",
+        "This was one of the proper group ski days with Harshil and Daniel. The chairlift photo is probably one of the best shots from the trip — three of us packed onto the lift, skis hanging underneath and a ridiculous mountain backdrop.",
         "By now the routine was established: ski all day, come back wrecked, eat, then somehow decide going out was still sensible."
       ],
       photos:[
-        ["assets/chairlift.jpg","Cardrona with the crew."],
+        ["assets/chairlift.jpg","Cardrona with Harshil and Daniel."],
         ["assets/ski-group.jpg","Another good one from the mountain."]
       ]
     },
