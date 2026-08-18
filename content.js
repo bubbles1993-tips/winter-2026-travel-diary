@@ -1,6 +1,6 @@
 window.TRAVEL_DIARY = {
-  title: "Winter 2026",
-  subtitle: "Victoria to Queenstown",
+  title: "Rain, road, fresh snow",
+  subtitle: "Victoria first. Queenstown later.",
   dates: "27 July – 18 August 2026",
   heroImage: "assets/hero.jpg",
   heroAlt: "Lake Wakatipu and the mountains around Queenstown in winter.",
