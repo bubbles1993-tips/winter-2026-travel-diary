@@ -297,7 +297,7 @@ window.TRAVEL_DIARY = {
         "One ski day was full storm mode — visibility basically gone, but fresh snow under the skis. Another had us above the cloud with the valley disappearing below."
       ],
       media: [
-        { type: "image", src: "assets/breakfast.jpg", alt: "Elliot, Harshil and Daniel seated around a breakfast table in Queenstown.", caption: "Breakfast with Harshil and Daniel. An important part of the routine." },
+        { type: "image", src: "assets/breakfast.jpg", alt: "Elliot, Daniel and Casey seated around a table at Brazz's for breakfast.", caption: "$10 breakfast at Brazz's with Daniel and Casey." },
         { type: "image", src: "assets/daniel-queenstown-night.jpg", alt: "Daniel standing beside Lake Wakatipu at night.", caption: "Daniel by Lake Wakatipu at night." },
         { type: "image", src: "assets/powder.jpg", alt: "Skiers moving through fresh snow in very low visibility.", caption: "Fresh snow. Visibility optional." },
         { type: "image", src: "assets/clouds.jpg", alt: "A ski field above a layer of cloud covering the valley.", caption: "Skiing above the cloud layer." }
