@@ -291,7 +291,7 @@ window.TRAVEL_DIARY = {
       location: "Queenstown · early ski days",
       paragraphs: [
         "The days start to blur here, which feels about right.",
-        "Breakfast with Harshil and Daniel, sort the gear, get up the mountain, ski most of the day, eat a lot, and recover enough to do it again.",
+        "$10 breakfast at Brazz's with Daniel and Casey. Then it was sort the gear, get up the mountain, ski most of the day, eat a lot, and recover enough to do it again.",
         "Harshil and Daniel went from people I met in Queenstown to proper friends very quickly. We spent a lot of time together, learned from each other and made the whole stretch much better.",
         "Daniel and I also turned a ridiculous Steve Irwin versus Jason Momoa argument into a game idea. He actually built it. A productive use of a ski trip.",
         "One ski day was full storm mode — visibility basically gone, but fresh snow under the skis. Another had us above the cloud with the valley disappearing below."
@@ -375,7 +375,7 @@ window.TRAVEL_DIARY = {
   reflection: [
     "The numbers are fine — 1,834 km driven, 224 km skied and 46 km walked — but they aren’t really the trip.",
     "I’ll remember the campervan feeling far too large until it suddenly didn’t. Rain on the coast. Another bakery stop. The floral shorts at The Balconies. Hollow Mountain. Going underground in Bendigo, then walking into the Great Stupa. A steam engine working on the Murray. Trees full of bats. Melbourne in the rain.",
-    "Then breakfast with Harshil and Daniel. Fresh snow. Chairlifts. Bluebird days. Cowboys. Winnies. The silent disco. Daniel actually making a game from our stupid argument. Standing beside Lake Wakatipu after another full day, then getting up to do it again.",
+    "Then $10 breakfast at Brazz's with Daniel and Casey. Fresh snow. Chairlifts. Bluebird days. Cowboys. Winnies. The silent disco. Daniel actually making a game from our stupid argument. Standing beside Lake Wakatipu after another full day, then getting up to do it again.",
     "Three weeks earlier none of it had happened. Now it is already turning into memory. That is basically the reason for making this."
   ]
 };
