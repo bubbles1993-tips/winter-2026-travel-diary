@@ -141,6 +141,7 @@ window.TRAVEL_DIARY = {
       location: "The Grampians",
       paragraphs: [
         "The Balconies was the first proper Grampians view: sandstone ranges, forest forever and a very convenient place to stop for a photo.",
+        "On the way there we picked up two hitchhikers who had just finished a 12-day hike with just their backpacks. They were really cool, and because we were already heading to The Balconies, they came with us.",
         "The landscape was doing most of the work. The pink floral shorts were doing the rest."
       ],
       media: [
@@ -173,6 +174,12 @@ window.TRAVEL_DIARY = {
           src: "assets/grampians-campfire.jpg",
           alt: "A campfire burning beside the campervan in the Grampians.",
           caption: "A cold evening solved with a proper fire beside the camper."
+        },
+        {
+          type: "image",
+          src: "assets/balconies-hitchhikers.jpg",
+          alt: "Elliot, Prince and two Tasmanian hikers smiling together at a lookout in the Grampians.",
+          caption: "The Balconies with two Tasmanian hitchhikers after their 12-day hike."
         }
       ]
     },
@@ -183,8 +190,8 @@ window.TRAVEL_DIARY = {
       title: "Hollow Mountain",
       location: "The Grampians",
       paragraphs: [
-        "Hollow Mountain was the proper hike. Big sandstone ranges, forest in every direction and enough climbing to earn the view.",
-        "One of the best Victorian days. No clever summary needed."
+        "Hollow Mountain was the proper hike. Once we were above the canopy, the Grampians opened out in every direction and it felt properly high.",
+        "We could even see the campervan from the top, which made it look very small. Stunning view. One of the best Victorian days."
       ],
       media: [
         {
@@ -211,6 +218,12 @@ window.TRAVEL_DIARY = {
           src: "assets/hollow-view.jpg",
           alt: "A wide view across the plains from Hollow Mountain.",
           caption: "Looking out across the plains from the Grampians."
+        },
+        {
+          type: "image",
+          src: "assets/hollow-mountain-summit-selfie.jpg",
+          alt: "Elliot taking a selfie with Prince on rocky ground above the Grampians.",
+          caption: "Prince and me, high enough above the trees to spot the campervan below."
         }
       ]
     },
@@ -265,7 +278,9 @@ window.TRAVEL_DIARY = {
       ],
       media: [
         { type: "image", src: "assets/parliament.jpg", alt: "Parliament House in Melbourne reflected on a rain-soaked street.", caption: "Parliament House in the rain." },
-        { type: "image", src: "assets/cathedral.jpg", alt: "St Patrick’s Cathedral lit against the night sky in Melbourne.", caption: "St Patrick’s Cathedral at night." }
+        { type: "image", src: "assets/cathedral.jpg", alt: "St Patrick’s Cathedral lit against the night sky in Melbourne.", caption: "St Patrick’s Cathedral at night." },
+        { type: "image", src: "assets/melbourne-rain-break.jpg", alt: "Elliot and Prince beneath an umbrella on a wet Melbourne street.", caption: "Waiting out another Melbourne shower." },
+        { type: "image", src: "assets/melbourne-imax.jpg", alt: "A large IMAX screen displaying an image for The Odyssey.", caption: "The IMAX screen, not exactly subtle." }
       ]
     },
     {
@@ -346,9 +361,10 @@ window.TRAVEL_DIARY = {
       title: "Coronet Peak & The Remarkables",
       location: "Queenstown ski fields",
       paragraphs: [
-        "The last ski days blur together a bit, but the contrast between them does not.",
-        "Coronet gave us those strange above-the-weather views with cloud sitting below parts of the mountain.",
-        "The Remarkables was probably the visual high point: blue sky, bright snow and the Southern Alps across the entire horizon. I kept stopping just to look around."
+        "The last ski days blur together a bit, but the contrast between the two mountains does not.",
+        "Coronet Peak gave us those strange above-the-weather views, with cloud sitting below parts of the mountain. It was especially good on the bluebird days after fresh snow.",
+        "The Remarkables is probably my favourite of the two. It is where I skied the most, the off-piste stuff was better, and the runs off Shadow Chairlift were very good fun.",
+        "Both mountains were great, but The Remarkables is the one I kept wanting to go back to."
       ],
       media: [
         { type: "image", src: "assets/remarkables.jpg", alt: "A wide view across the snowy Remarkables under a clear blue sky.", caption: "The Remarkables on a bluebird day." },
