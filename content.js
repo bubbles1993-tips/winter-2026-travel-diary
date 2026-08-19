@@ -414,14 +414,24 @@ window.TRAVEL_DIARY = {
       date: "19 AUGUST",
       title: "The Remarkables again",
       location: "The Remarkables",
+      song: {
+        url: "https://open.spotify.com/track/2N5zMZX7YeL1tico8oQxa9",
+        title: "Crazy",
+        artist: "Gnarls Barkley"
+      },
       paragraphs: [
         "Back to The Remarkables. Sunny weather, good snow and a decent amount of runs with music on most of the way.",
-        "Slopes counted 14 runs and 22.9 km. I was home by 3:30 for a snooze. Pretty ideal."
+        "Slopes counted 14 runs and 22.9 km. I was home by 3:30 for a snooze. Pretty ideal.",
+        "Later the fire alarm went off and everyone ended up outside for a while. A fairly loud reset after the afternoon snooze.",
+        "After that it was drinks at Sundeck rooftop bar, with the fire going and the mountains still visible beyond the terrace. Much better."
       ],
       media: [
         { type: "image", src: "assets/remarkables-sunny-basin.jpg", alt: "A wide view across snowy runs, chairlifts and the mountains beyond The Remarkables.", caption: "Sunny, clear and not much to complain about." },
         { type: "image", src: "assets/remarkables-sunny-runs.jpg", alt: "The sun and a white contrail above snowy ski runs at The Remarkables.", caption: "Music on and another run." },
-        { type: "image", src: "assets/remarkables-chairlift-selfie.jpg", alt: "Elliot taking a selfie in ski gear on a chairlift with the snowy valley behind him.", caption: "Last few runs before the very important 3:30 snooze." }
+        { type: "image", src: "assets/remarkables-chairlift-selfie.jpg", alt: "Elliot taking a selfie in ski gear on a chairlift with the snowy valley behind him.", caption: "Last few runs before the very important 3:30 snooze." },
+        { type: "image", src: "assets/remarkables-fire-alarm.jpg", alt: "A crowd gathered outside Nomads at night.", caption: "Everyone outside while the fire alarm did its thing." },
+        { type: "image", src: "assets/sundeck-firepit.jpg", alt: "A firepit burning beside the bar at Sundeck.", caption: "A quieter kind of fire at Sundeck." },
+        { type: "image", src: "assets/sundeck-rooftop.jpg", alt: "Rooftop seating at Sundeck with the mountains visible beyond the terrace.", caption: "Drinks on the roof with the mountains still hanging around." }
       ]
     }
   ],
