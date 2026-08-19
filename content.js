@@ -1,7 +1,7 @@
 window.TRAVEL_DIARY = {
   title: "Rain, road, fresh snow",
   subtitle: "Victoria first. Queenstown later.",
-  dates: "27 July – 18 August 2026",
+  dates: "27 July – 19 August 2026",
   heroImage: "assets/hero.jpg",
   heroAlt: "Lake Wakatipu and the mountains around Queenstown in winter.",
   intro: [
@@ -406,6 +406,22 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/aug18-skyline-beer.jpg", alt: "A glass of beer beside the Skyline Cafe and Bar menu.", caption: "A very well-earned beer at Skyline Cafe & Bar." },
         { type: "image", src: "assets/aug18-queenstown-night.jpg", alt: "Queenstown illuminated at night beside Lake Wakatipu, viewed from Skyline.", caption: "Queenstown glowing below us after dark." },
         { type: "image", src: "assets/aug18-beer-and-view.jpg", alt: "A beer on the table with Queenstown and Lake Wakatipu lit up below.", caption: "A beer, the lights of town and Lake Wakatipu below." }
+      ]
+    },
+    {
+      id: "remarkables-again",
+      navTitle: "Remarkables again",
+      date: "19 AUGUST",
+      title: "The Remarkables again",
+      location: "The Remarkables",
+      paragraphs: [
+        "Back to The Remarkables. Sunny weather, good snow and a decent amount of runs with music on most of the way.",
+        "Slopes counted 14 runs and 22.9 km. I was home by 3:30 for a snooze. Pretty ideal."
+      ],
+      media: [
+        { type: "image", src: "assets/remarkables-sunny-basin.jpg", alt: "A wide view across snowy runs, chairlifts and the mountains beyond The Remarkables.", caption: "Sunny, clear and not much to complain about." },
+        { type: "image", src: "assets/remarkables-sunny-runs.jpg", alt: "The sun and a white contrail above snowy ski runs at The Remarkables.", caption: "Music on and another run." },
+        { type: "image", src: "assets/remarkables-chairlift-selfie.jpg", alt: "Elliot taking a selfie in ski gear on a chairlift with the snowy valley behind him.", caption: "Last few runs before the very important 3:30 snooze." }
       ]
     }
   ],
