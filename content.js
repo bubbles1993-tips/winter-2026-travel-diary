@@ -412,7 +412,7 @@ window.TRAVEL_DIARY = {
       id: "remarkables-again",
       navTitle: "Remarkables again",
       date: "19 AUGUST",
-      title: "The Remarkables again",
+      title: "Remarks",
       location: "The Remarkables",
       song: {
         url: "https://open.spotify.com/track/2N5zMZX7YeL1tico8oQxa9",
@@ -422,8 +422,8 @@ window.TRAVEL_DIARY = {
       paragraphs: [
         "Back to The Remarkables. Sunny weather, good snow and a decent amount of runs with music on most of the way.",
         "Slopes counted 14 runs and 22.9 km. I was home by 3:30 for a snooze. Pretty ideal.",
-        "Later the fire alarm went off and everyone ended up outside for a while. A fairly loud reset after the afternoon snooze.",
-        "After that it was drinks at Sundeck rooftop bar, with the fire going and the mountains still visible beyond the terrace. Much better."
+        "Later it was drinks at Sundeck rooftop bar for sunset, with the fire going and the mountains beyond the terrace. Pretty decent.",
+        "Then once it was dark, the fire alarm went off and everyone ended up outside for a while. Had no idea this many people stay here..."
       ],
       media: [
         { type: "image", src: "assets/remarkables-sunny-basin.jpg", alt: "A wide view across snowy runs, chairlifts and the mountains beyond The Remarkables.", caption: "Sunny, clear and not much to complain about." },
@@ -438,7 +438,7 @@ window.TRAVEL_DIARY = {
   reflection: [
     "The numbers are fine — 1,834 km driven, 224 km skied and 46 km walked — but they aren’t really the trip.",
     "I’ll remember the campervan feeling far too large until it suddenly didn’t. Rain on the coast. Another bakery stop. The floral shorts at The Balconies. Hollow Mountain. Going underground in Bendigo, then walking into the Great Stupa. A steam engine working on the Murray. Trees full of bats. Melbourne in the rain.",
-    "Then $10 breakfast at Brazz's with Daniel and Casey. Fresh snow. Chairlifts. Bluebird days. Cowboys. Winnies. The silent disco. Daniel actually making a game from our stupid argument. Standing beside Lake Wakatipu after another full day. Vibe coding with Daniel, climbing the gondola track and earning a beer while Queenstown lit up below us. Then getting up to do it again.",
+    "Then $10 breakfast at Brazz. Fever dream Casey. Fresh snow. Chairlifts. Bluebird days. Cowboys. Winnies. The silent disco. Making a game featuring Steve Irwin versus Jason Mamoa. Standing beside Lake Wakatipu after another full day. Vibe coding with Daniel, climbing the gondola track and earning a beer while Queenstown lit up below us. Then getting up to do it again.",
     "Three weeks earlier none of it had happened. Now it is already turning into memory. That is basically the reason for making this."
   ]
 };
