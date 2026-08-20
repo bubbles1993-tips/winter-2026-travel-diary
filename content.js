@@ -1,7 +1,7 @@
 window.TRAVEL_DIARY = {
   title: "Rain, road, fresh snow",
   subtitle: "Victoria first. Queenstown later.",
-  dates: "27 July – 19 August 2026",
+  dates: "27 July – 20 August 2026",
   heroImage: "assets/hero.jpg",
   heroAlt: "Lake Wakatipu and the mountains around Queenstown in winter.",
   intro: [
@@ -432,6 +432,28 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/remarkables-fire-alarm.jpg", alt: "A crowd gathered outside Nomads at night.", caption: "Everyone outside while the fire alarm did its thing." },
         { type: "image", src: "assets/sundeck-firepit.jpg", alt: "A firepit burning beside the bar at Sundeck.", caption: "A quieter kind of fire at Sundeck." },
         { type: "image", src: "assets/sundeck-rooftop.jpg", alt: "Rooftop seating at Sundeck with the mountains visible beyond the terrace.", caption: "Drinks on the roof with the mountains still hanging around." }
+      ]
+    },
+    {
+      id: "reset-day",
+      navTitle: "Reset day",
+      date: "20 AUGUST",
+      title: "A reset day",
+      location: "Queenstown · Nomads",
+      paragraphs: [
+        "Woke up feeling properly sick, which ruled out another ski day fairly quickly.",
+        "Most of today was laundry, staying close to Nomads and trying to reset. Not the most glamorous entry in the diary, but after three weeks of moving around, a quiet day was probably overdue.",
+        "Somewhere between loads I turned this website into a short animated film. Rain on the coast, the Otways, a Grampians campfire, Melbourne at night, fresh snow and the Queenstown lights — the trip condensed into 43 seconds with its own soundtrack.",
+        "A very low-key day, but a decent way to stop and look back at everything."
+      ],
+      media: [
+        {
+          type: "video",
+          src: "assets/aug20-rain-road-fresh-snow.mp4",
+          poster: "assets/aug20-rain-road-fresh-snow-poster.jpg",
+          alt: "A 43-second hand-painted animated short revisiting the Victorian road trip and Queenstown ski days.",
+          caption: "Sick day, laundry day, somehow also short-film day."
+        }
       ]
     }
   ],
