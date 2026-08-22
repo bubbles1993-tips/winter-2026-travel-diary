@@ -1,7 +1,7 @@
 window.TRAVEL_DIARY = {
   title: "Rain, road, fresh snow",
   subtitle: "Victoria first. Queenstown later.",
-  dates: "27 July – 20 August 2026",
+  dates: "27 July – 21 August 2026",
   heroImage: "assets/hero.jpg",
   heroAlt: "Lake Wakatipu and the mountains around Queenstown in winter.",
   intro: [
@@ -449,6 +449,23 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/queenstown-rest-day-sunset-1.jpg", alt: "A person by a stone wall beside a lake and mountains in sunset light.", caption: "Sunset doing most of the work." },
         { type: "image", src: "assets/queenstown-rest-day-sunset-2.jpg", alt: "A person standing by a lakeshore with mountains lit by the setting sun.", caption: "A brief outing." },
         { type: "image", src: "assets/queenstown-rest-day-meal.jpg", alt: "Two people seated at a table with meals and drinks." }
+      ]
+    },
+    {
+      id: "skiing-and-spice-bag",
+      navTitle: "21 August",
+      date: "21 AUGUST",
+      title: "A very sensible recovery plan",
+      location: "Queenstown · Poges Irish Pub",
+      paragraphs: [
+        "21 August was back to skiing, which was probably ambitious given I had spent the day before sick at home. I still went out drinking afterwards and ended up at Poges Irish Pub for a spice bag.",
+        "That all seemed reasonable at the time. I woke up properly sick on the 22nd, so apparently not."
+      ],
+      media: [
+        { type: "image", src: "assets/aug21-lake-view.jpg", alt: "A lake with mountains beyond it in late-day light.", caption: "A decent view on the way through the day." },
+        { type: "image", src: "assets/aug21-lakeside.jpg", alt: "A person standing on rocks beside a lake with mountains beyond.", caption: "A brief stop by the water." },
+        { type: "image", src: "assets/aug21-ski-base.jpg", alt: "Skiers gathered around outdoor tables beneath a snow-covered slope.", caption: "Back on the snow." },
+        { type: "image", src: "assets/aug21-ski-layers.jpg", alt: "A person wearing ski layers and an orange face covering taking a mirror photo.", caption: "Ski gear assembled." }
       ]
     }
   ],
