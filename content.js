@@ -1,7 +1,7 @@
 window.TRAVEL_DIARY = {
   title: "Rain, road, fresh snow",
   subtitle: "Victoria first. Queenstown later.",
-  dates: "27 July – 21 August 2026",
+  dates: "27 July – 22 August 2026",
   heroImage: "assets/hero.jpg",
   heroAlt: "Lake Wakatipu and the mountains around Queenstown in winter.",
   intro: [
@@ -453,13 +453,14 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "skiing-and-spice-bag",
-      navTitle: "21 August",
-      date: "21 AUGUST",
+      navTitle: "21–22 August",
+      date: "21–22 AUGUST",
       title: "A very sensible recovery plan",
       location: "Queenstown · Poges Irish Pub",
       paragraphs: [
         "21 August was back to skiing, which was probably ambitious given I had spent the day before sick at home. I still went out drinking afterwards and ended up at Poges Irish Pub for a spice bag.",
-        "That all seemed reasonable at the time. I woke up properly sick on the 22nd, so apparently not."
+        "That all seemed reasonable at the time. I woke up properly sick on the 22nd, so apparently not.",
+        "By the 22nd I was getting worse. Influenza A, a hostel room, Panadol, hand sanitiser and three hot showers a day. Hostels are apparently not where you go to stay well. Who knew."
       ],
       media: [
         { type: "image", src: "assets/aug21-lake-view.jpg", alt: "A lake with mountains beyond it in late-day light.", caption: "A decent view on the way through the day." },
