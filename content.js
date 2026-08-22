@@ -434,26 +434,21 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/sundeck-rooftop.jpg", alt: "Rooftop seating at Sundeck with the mountains visible beyond the terrace.", caption: "Drinks on the roof with the mountains still hanging around." }
       ]
     },
+
     {
-      id: "reset-day",
-      navTitle: "Reset day",
+      id: "rest-day",
+      navTitle: "20 August",
       date: "20 AUGUST",
-      title: "A reset day",
-      location: "Queenstown · Nomads",
+      title: "A quieter day",
+      location: "Home · sunset walk",
       paragraphs: [
-        "Woke up feeling properly sick, which ruled out another ski day fairly quickly.",
-        "Most of today was laundry, staying close to Nomads and trying to reset. Not the most glamorous entry in the diary, but after three weeks of moving around, a quiet day was probably overdue.",
-        "Somewhere between loads I turned this website into a short animated film. Rain on the coast, the Otways, a Grampians campfire, Melbourne at night, fresh snow and the Queenstown lights — the trip condensed into 43 seconds with its own soundtrack.",
-        "A very low-key day, but a decent way to stop and look back at everything."
+        "20 August was mostly a day at home. I was still sick, so that was about the right level of ambition.",
+        "I did make it out for a walk at sunset. The light made a decent case for leaving the house, then it was back inside. That was plenty."
       ],
       media: [
-        {
-          type: "video",
-          src: "assets/aug20-rain-road-fresh-snow.mp4",
-          poster: "assets/aug20-rain-road-fresh-snow-poster.jpg",
-          alt: "A 43-second hand-painted animated short revisiting the Victorian road trip and Queenstown ski days.",
-          caption: "Sick day, laundry day, somehow also short-film day."
-        }
+        { type: "image", src: "assets/queenstown-rest-day-sunset-1.jpg", alt: "A person by a stone wall beside a lake and mountains in sunset light.", caption: "Sunset doing most of the work." },
+        { type: "image", src: "assets/queenstown-rest-day-sunset-2.jpg", alt: "A person standing by a lakeshore with mountains lit by the setting sun.", caption: "A brief outing." },
+        { type: "image", src: "assets/queenstown-rest-day-meal.jpg", alt: "Two people seated at a table with meals and drinks." }
       ]
     }
   ],
