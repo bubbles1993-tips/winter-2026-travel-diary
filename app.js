@@ -1,4 +1,5 @@
 const D = window.TRAVEL_DIARY;
+const entries = [...D.entries].reverse();
 const esc = value => String(value).replace(/[&<>"']/g, character => ({
   "&": "&amp;",
   "<": "&lt;",
@@ -66,8 +67,8 @@ document.getElementById("intro-copy").innerHTML = D.intro
   .map(paragraph => `<p>${esc(paragraph)}</p>`)
   .join("");
 document.getElementById("route").textContent = D.route;
-document.getElementById("entries").innerHTML = D.entries.map(entry).join("");
-document.getElementById("nav").innerHTML = D.entries
+document.getElementById("entries").innerHTML = entries.map(entry).join("");
+document.getElementById("nav").innerHTML = entries
   .map(item => `<a href="#${esc(item.id)}">${esc(item.navTitle || item.title)}</a>`)
   .join("");
 document.getElementById("reflection-copy").innerHTML = D.reflection

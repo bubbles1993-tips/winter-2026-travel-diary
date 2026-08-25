@@ -1,7 +1,7 @@
 window.TRAVEL_DIARY = {
   title: "Rain, road, fresh snow",
   subtitle: "Victoria first. Queenstown later.",
-  dates: "27 July – 22 August 2026",
+  dates: "27 July – 25 August 2026",
   heroImage: "assets/hero.jpg",
   heroAlt: "Lake Wakatipu and the mountains around Queenstown in winter.",
   intro: [
@@ -467,6 +467,23 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/aug21-lakeside.jpg", alt: "A person standing on rocks beside a lake with mountains beyond.", caption: "A brief stop by the water." },
         { type: "image", src: "assets/aug21-ski-base.jpg", alt: "Skiers gathered around outdoor tables beneath a snow-covered slope.", caption: "Back on the snow." },
         { type: "image", src: "assets/aug21-ski-layers.jpg", alt: "A person wearing ski layers and an orange face covering taking a mirror photo.", caption: "Ski gear assembled." }
+      ]
+    },
+    {
+      id: "coronet-peak-return",
+      navTitle: "25 August",
+      date: "25 AUGUST",
+      title: "Back on the slopes",
+      location: "Coronet Peak",
+      paragraphs: [
+        "Feeling much better today, I ventured back to the slopes and got a few good runs in at Coronet Peak."
+      ],
+      media: [
+        { type: "image", src: "assets/aug25-coronet-base.jpg", alt: "Skiers gathered at the Coronet Peak base area beneath a large cloud.", caption: "Back at Coronet Peak, with a pretty dramatic cloud overhead." },
+        { type: "image", src: "assets/aug25-coronet-ski-view.jpg", alt: "Ski tips and poles resting on the snow above the Wakatipu Basin and surrounding mountains.", caption: "A pause between runs to take in the view." },
+        { type: "image", src: "assets/aug25-coronet-selfie.jpg", alt: "Elliot in ski gear on a Coronet Peak slope with the basin, lake and mountains behind him.", caption: "Feeling much better and very glad to be back on the slopes." },
+        { type: "image", src: "assets/aug25-coronet-panorama.jpg", alt: "A wide view from Coronet Peak across snowy runs, rugged ridges and the Wakatipu Basin.", caption: "Coronet Peak opening out across the basin." },
+        { type: "image", src: "assets/aug25-wakatipu-basin.jpg", alt: "A broad view across the Wakatipu Basin toward snow-capped mountains beneath blue sky and clouds.", caption: "The Wakatipu Basin and snow-capped ranges beyond." }
       ]
     }
   ],
