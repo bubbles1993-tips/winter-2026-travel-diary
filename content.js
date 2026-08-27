@@ -1,7 +1,7 @@
 window.TRAVEL_DIARY = {
   title: "Rain, road, fresh snow",
   subtitle: "Victoria first. Queenstown later.",
-  dates: "27 July – 25 August 2026",
+  dates: "27 July – 28 August 2026",
   heroImage: "assets/hero.jpg",
   heroAlt: "Lake Wakatipu and the mountains around Queenstown in winter.",
   intro: [
@@ -484,6 +484,27 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/aug25-coronet-selfie.jpg", alt: "Elliot in ski gear on a Coronet Peak slope with the basin, lake and mountains behind him.", caption: "Feeling much better and very glad to be back on the slopes." },
         { type: "image", src: "assets/aug25-coronet-panorama.jpg", alt: "A wide view from Coronet Peak across snowy runs, rugged ridges and the Wakatipu Basin.", caption: "Coronet Peak opening out across the basin." },
         { type: "image", src: "assets/aug25-wakatipu-basin.jpg", alt: "A broad view across the Wakatipu Basin toward snow-capped mountains beneath blue sky and clouds.", caption: "The Wakatipu Basin and snow-capped ranges beyond." }
+      ]
+    },
+    {
+      id: "stormbound-road-ahead",
+      navTitle: "26–28 August",
+      date: "26–28 AUGUST",
+      title: "Stormbound & the road ahead",
+      location: "Queenstown · Coronet Peak · the next leg",
+      paragraphs: [
+        "The last couple of days have been stormy and wet in town, while up on the mountains it has been dumping snow. That should be a good thing, except the roads have been closing and buses have been stopped when the visibility gets too bad.",
+        "That kept me home yesterday. Today, 28 August, the road up to The Remarkables is closed, so I’m heading back to Coronet Peak instead. Disappointing, but Mother Nature is a cruel mistress at times.",
+        "At least being weathered in left time to hang out with some good people and watch the Broncos v Storm.",
+        "Meanwhile, the next — and last — leg of the holiday is now booked. Dan and I are picking up a JUCY Chaser on Sunday the 30th for a two-week campervan road trip.",
+        "We have a few loose ideas about where we might go, but nothing is set in stone. For now, that is the plan: a van, two weeks and enough flexibility to let the road decide the rest."
+      ],
+      media: [
+        { type: "image", src: "assets/aug28-storm-day-selfie.jpg", alt: "Three friends smiling together in their Queenstown hostel room.", caption: "The storm-day crew, still smiling." },
+        { type: "image", src: "assets/aug28-hostel-room.jpg", alt: "Three friends standing together between the bunks in their hostel room.", caption: "Not exactly ski-field conditions, but good company." },
+        { type: "image", src: "assets/aug28-storm-day-faces.jpg", alt: "Three friends pulling faces for a selfie in their hostel room.", caption: "Weathered in, morale intact." },
+        { type: "image", src: "assets/aug28-broncos-storm.jpg", alt: "Three friends at a pub table beneath a screen advertising Broncos versus Storm.", caption: "Broncos v Storm and somewhere dry while the weather did its worst." },
+        { type: "image", src: "assets/aug28-jucy-chaser.jpg", alt: "A green JUCY Chaser campervan parked beside a beach in New Zealand.", caption: "The next home on wheels: a JUCY Chaser. Promotional image courtesy of JUCY." }
       ]
     }
   ],
