@@ -493,17 +493,18 @@ window.TRAVEL_DIARY = {
       title: "Stormbound & the road ahead",
       location: "Queenstown · Coronet Peak · the next leg",
       paragraphs: [
+        "Wednesday started with a catch-up with Casey and Daniel over a few beers and burgers. After that we headed out dancing at my favourite Queenstown event: the silent disco at The World Bar.",
+        "Being able to change the DJ and set your own volume is peak. The option of listening to mostly drum and bass all night works for me. Fun night, big vibes — but I definitely woke up pretty dusty on Thursday.",
         "The last couple of days have been stormy and wet in town, while up on the mountains it has been dumping snow. That should be a good thing, except the roads have been closing and buses have been stopped when the visibility gets too bad.",
-        "That kept me home yesterday. Today, 28 August, the road up to The Remarkables is closed, so I’m heading back to Coronet Peak instead. Disappointing, but Mother Nature is a cruel mistress at times.",
-        "At least being weathered in left time to hang out with some good people and watch the Broncos v Storm.",
+        "That kept me home on Thursday. Today, 28 August, the road up to The Remarkables is closed, so I’m heading back to Coronet Peak instead. Disappointing, but Mother Nature is a cruel mistress at times.",
         "Meanwhile, the next — and last — leg of the holiday is now booked. Dan and I are picking up a JUCY Chaser on Sunday the 30th for a two-week campervan road trip.",
         "We have a few loose ideas about where we might go, but nothing is set in stone. For now, that is the plan: a van, two weeks and enough flexibility to let the road decide the rest."
       ],
       media: [
-        { type: "image", src: "assets/aug28-storm-day-selfie.jpg", alt: "Three friends smiling together in their Queenstown hostel room.", caption: "The storm-day crew, still smiling." },
-        { type: "image", src: "assets/aug28-hostel-room.jpg", alt: "Three friends standing together between the bunks in their hostel room.", caption: "Not exactly ski-field conditions, but good company." },
-        { type: "image", src: "assets/aug28-storm-day-faces.jpg", alt: "Three friends pulling faces for a selfie in their hostel room.", caption: "Weathered in, morale intact." },
-        { type: "image", src: "assets/aug28-broncos-storm.jpg", alt: "Three friends at a pub table beneath a screen advertising Broncos versus Storm.", caption: "Broncos v Storm and somewhere dry while the weather did its worst." },
+        { type: "image", src: "assets/aug28-storm-day-selfie.jpg", alt: "Three friends smiling together in their Queenstown hostel room.", caption: "Casey, Daniel and me after beers and burgers, before we went dancing." },
+        { type: "image", src: "assets/aug28-hostel-room.jpg", alt: "Three friends standing together between the bunks in their hostel room.", caption: "One more hostel-room photo before The World Bar." },
+        { type: "image", src: "assets/aug28-storm-day-faces.jpg", alt: "Three friends pulling faces for a selfie in their hostel room.", caption: "Big vibes before the silent disco had even started." },
+        { type: "image", src: "assets/aug28-beers-and-burgers.jpg", alt: "Three friends with burgers and drinks at a pub table before heading out dancing.", caption: "Wednesday catch-up: a few beers and burgers before the night moved on." },
         { type: "image", src: "assets/aug28-jucy-chaser.jpg", alt: "A green JUCY Chaser campervan parked beside a beach in New Zealand.", caption: "The next home on wheels: a JUCY Chaser. Promotional image courtesy of JUCY." }
       ]
     }
