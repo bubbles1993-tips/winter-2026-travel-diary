@@ -1,7 +1,7 @@
 window.TRAVEL_DIARY = {
   title: "Rain, road, fresh snow",
   subtitle: "Victoria first. Queenstown later.",
-  dates: "27 July – 28 August 2026",
+  dates: "27 July – 30 August 2026",
   heroImage: "assets/hero.jpg",
   heroAlt: "Lake Wakatipu and the mountains around Queenstown in winter.",
   intro: [
@@ -13,7 +13,7 @@ window.TRAVEL_DIARY = {
     ["224 km", "skied"],
     ["46 km", "walked"]
   ],
-  route: "Perth → Melbourne → Torquay → Apollo Bay → Port Campbell → Warrnambool → Grampians → Bendigo → Echuca → Melbourne → Queenstown",
+  route: "Perth → Melbourne → Torquay → Apollo Bay → Port Campbell → Warrnambool → Grampians → Bendigo → Echuca → Melbourne → Queenstown → Milford Sound",
   entries: [
     {
       id: "campervan-start",
@@ -506,6 +506,26 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/aug28-storm-day-faces.jpg", alt: "Three friends pulling faces for a selfie in their hostel room.", caption: "Big vibes before the silent disco had even started." },
         { type: "image", src: "assets/aug28-beers-and-burgers.jpg", alt: "Three friends with burgers and drinks at a pub table before heading out dancing.", caption: "Wednesday catch-up: a few beers and burgers before the night moved on." },
         { type: "image", src: "assets/aug28-jucy-chaser.jpg", alt: "A green JUCY Chaser campervan parked beside a beach in New Zealand.", caption: "The next home on wheels: a JUCY Chaser. Promotional image courtesy of JUCY." }
+      ]
+    },
+    {
+      id: "on-the-road-again",
+      navTitle: "30 August",
+      date: "30 AUGUST",
+      title: "On the road again",
+      location: "Queenstown → Milford Sound",
+      paragraphs: [
+        "Today Daniel and I checked out of Nomads, picked up the JUCY Chaser and hit the road.",
+        "Four hours from Queenstown to Milford Sound. We drove through farmland, past waterfalls, forests and mountains — and, at one point, straight through one.",
+        "The drive shifted from bright open country to rain-soaked valleys and sheer rock walls, with snow still hanging on the peaks. Every bend seemed to make the road feel a little wilder.",
+        "Milford Sound is an incredible spot. A pretty strong start to the last leg of the trip."
+      ],
+      media: [
+        { type: "image", src: "assets/aug30-milford-rainy-road.jpg", alt: "A wet road winding between steep, misty mountains on the approach to Milford Sound.", caption: "Rain on the windscreen and mountains closing in." },
+        { type: "image", src: "assets/aug30-fiordland-farmland.jpg", alt: "The road stretching through farmland toward distant snowy mountain ranges.", caption: "Open farmland before the landscape turned vertical." },
+        { type: "image", src: "assets/aug30-road-light.jpg", alt: "Sunlight reflecting from a wet road with fields and mountains beyond.", caption: "A brief bit of light on the four-hour drive." },
+        { type: "image", src: "assets/aug30-snowy-ranges.jpg", alt: "Golden tussock and scrub beside brown hills with a snow-covered peak beyond.", caption: "Forests, tussock and snow on the same road." },
+        { type: "image", src: "assets/aug30-milford-mountain-road.jpg", alt: "A rain-streaked mountain road through a steep valley on the way to Milford Sound.", caption: "The last stretch into Milford Sound. Incredible road, incredible spot." }
       ]
     }
   ],
