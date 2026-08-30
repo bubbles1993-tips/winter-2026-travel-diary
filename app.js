@@ -35,7 +35,7 @@ function mediaItem(item) {
 function entry(item) {
   const mediaItems = item.media || [];
   const media = mediaItems.length
-    ? `<div class="gallery" data-count="${mediaItems.length}">${mediaItems.map(mediaItem).join("")}</div>`
+    ? `<div class="gallery" data-count="${mediaItems.length}" role="region" aria-label="${esc(item.title)} photo gallery" tabindex="0">${mediaItems.map(mediaItem).join("")}</div>`
     : "";
   const paragraphs = item.paragraphs
     .map(paragraph => `<p>${esc(paragraph)}</p>`)

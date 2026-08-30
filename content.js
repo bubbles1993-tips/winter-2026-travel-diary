@@ -518,14 +518,21 @@ window.TRAVEL_DIARY = {
         "Today Daniel and I checked out of Nomads, picked up the JUCY Chaser and hit the road.",
         "Four hours from Queenstown to Milford Sound. We drove through farmland, past waterfalls, forests and mountains — and, at one point, straight through one.",
         "The drive shifted from bright open country to rain-soaked valleys and sheer rock walls, with snow still hanging on the peaks. Every bend seemed to make the road feel a little wilder.",
-        "Milford Sound is an incredible spot. A pretty strong start to the last leg of the trip."
+        "Milford Sound is an incredible spot. A pretty strong start to the last leg of the trip.",
+        "That evening we had a very nice meal at the only restaurant in Milford Sound, which happened to be connected to our campsite at Milford Sound Lodge. About as convenient as dinner gets.",
+        "We met a lovely Irish couple while we were there and ended up having a great conversation over dinner. One of those easy travel encounters that makes a place even more memorable."
       ],
       media: [
         { type: "image", src: "assets/aug30-milford-rainy-road.jpg", alt: "A wet road winding between steep, misty mountains on the approach to Milford Sound.", caption: "Rain on the windscreen and mountains closing in." },
         { type: "image", src: "assets/aug30-fiordland-farmland.jpg", alt: "The road stretching through farmland toward distant snowy mountain ranges.", caption: "Open farmland before the landscape turned vertical." },
         { type: "image", src: "assets/aug30-road-light.jpg", alt: "Sunlight reflecting from a wet road with fields and mountains beyond.", caption: "A brief bit of light on the four-hour drive." },
         { type: "image", src: "assets/aug30-snowy-ranges.jpg", alt: "Golden tussock and scrub beside brown hills with a snow-covered peak beyond.", caption: "Forests, tussock and snow on the same road." },
-        { type: "image", src: "assets/aug30-milford-mountain-road.jpg", alt: "A rain-streaked mountain road through a steep valley on the way to Milford Sound.", caption: "The last stretch into Milford Sound. Incredible road, incredible spot." }
+        { type: "image", src: "assets/aug30-milford-mountain-road.jpg", alt: "A rain-streaked mountain road through a steep valley on the way to Milford Sound.", caption: "The last stretch into Milford Sound. Incredible road, incredible spot." },
+        { type: "image", src: "assets/aug30-jucy-mountain-stop.jpg", alt: "The green JUCY Chaser parked in a broad valley beneath snow-covered mountains.", caption: "The JUCY Chaser looking very at home on the Milford Road." },
+        { type: "image", src: "assets/aug30-milford-lodge.jpg", alt: "Daniel standing outside Milford Sound Lodge with steep mountains and waterfalls behind the building.", caption: "Milford Sound Lodge, with the mountains doing their usual thing behind it." },
+        { type: "image", src: "assets/aug30-irish-dinner-friend.jpg", alt: "Elliot smiling beside an Irish man they met over dinner at Milford Sound Lodge.", caption: "One half of the lovely Irish couple we met over dinner — great company and a great conversation." },
+        { type: "image", src: "assets/aug30-lodge-dinner.jpg", alt: "Two plated mains with vegetables, glasses of red wine and a bottle of wine on a restaurant table.", caption: "A very nice meal at the only restaurant in Milford Sound." },
+        { type: "image", src: "assets/aug30-dinner-with-daniel.jpg", alt: "Daniel seated behind a plated meal with glasses of red wine at Milford Sound Lodge.", caption: "Dinner with Daniel at Milford Sound Lodge. Pretty hard to complain." }
       ]
     }
   ],

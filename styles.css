@@ -991,3 +991,78 @@ footer {
   position: absolute;
   inset: 0;
 }
+
+/* Compact, horizontally scrollable photo rails. */
+.gallery {
+  display: flex;
+  align-items: stretch;
+  gap: clamp(14px, 1.5vw, 22px);
+  max-width: 100%;
+  margin-top: clamp(28px, 4vw, 46px);
+  padding: 4px 2px 16px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-inline: contain;
+  scroll-padding-inline: 2px;
+  scroll-snap-type: inline mandatory;
+  scrollbar-color: var(--accent) rgba(109, 105, 98, 0.18);
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+
+.gallery > .media-card,
+.gallery[data-count] > .media-card {
+  grid-column: auto;
+  width: clamp(280px, 38vw, 430px);
+  flex: 0 0 clamp(280px, 38vw, 430px);
+  scroll-snap-align: start;
+}
+
+.gallery[data-count="1"] {
+  max-width: 800px;
+  overflow-x: visible;
+}
+
+.gallery[data-count="1"] > .media-card {
+  width: min(100%, 800px);
+  flex-basis: min(100%, 800px);
+}
+
+.gallery:focus-visible {
+  border-radius: 12px;
+  outline: 3px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.gallery::-webkit-scrollbar {
+  height: 9px;
+}
+
+.gallery::-webkit-scrollbar-track {
+  border-radius: 999px;
+  background: rgba(109, 105, 98, 0.18);
+}
+
+.gallery::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: var(--accent);
+}
+
+@media (max-width: 700px) {
+  .gallery {
+    gap: 14px;
+    margin-top: 24px;
+    padding-bottom: 14px;
+  }
+
+  .gallery > .media-card,
+  .gallery[data-count] > .media-card {
+    width: min(82vw, 340px);
+    flex-basis: min(82vw, 340px);
+  }
+
+  .gallery[data-count="1"] > .media-card {
+    width: 100%;
+    flex-basis: 100%;
+  }
+}
