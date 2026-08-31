@@ -1,7 +1,7 @@
 window.TRAVEL_DIARY = {
   title: "Rain, road, fresh snow",
   subtitle: "Victoria first. Queenstown later.",
-  dates: "27 July – 30 August 2026",
+  dates: "27 July – 31 August 2026",
   heroImage: "assets/hero.jpg",
   heroAlt: "Lake Wakatipu and the mountains around Queenstown in winter.",
   intro: [
@@ -533,6 +533,29 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/aug30-irish-dinner-friend.jpg", alt: "Elliot smiling beside an Irish man they met over dinner at Milford Sound Lodge.", caption: "One half of the lovely Irish couple we met over dinner — great company and a great conversation." },
         { type: "image", src: "assets/aug30-lodge-dinner.jpg", alt: "Two plated mains with vegetables, glasses of red wine and a bottle of wine on a restaurant table.", caption: "A very nice meal at the only restaurant in Milford Sound." },
         { type: "image", src: "assets/aug30-dinner-with-daniel.jpg", alt: "Daniel seated behind a plated meal with glasses of red wine at Milford Sound Lodge.", caption: "Dinner with Daniel at Milford Sound Lodge. Pretty hard to complain." }
+      ]
+    },
+    {
+      id: "milford-sound-cruise",
+      navTitle: "31 August",
+      date: "31 AUGUST",
+      title: "Milford Sound, no notes",
+      location: "Milford Sound · Fiordland",
+      paragraphs: [
+        "We woke up at Milford Sound and meandered down to the boat cruise, which was stunning from start to finish. Snow on the peaks, waterfalls off the cliffs and the whole sound looking fairly ridiculous.",
+        "Afterwards we took a walk through the forest, then headed on and found a free camp in a car park for the night.",
+        "Dinner was van-cooked pasta bolognese, followed by converting the JUCY into cinema mode. Wonderful day from beginning to end. No notes."
+      ],
+      media: [
+        { type: "image", src: "assets/aug31-milford-wharf.jpg", alt: "Milford Sound from the wharf beneath cloud and snow-dusted peaks.", caption: "Not a bad view for the walk down to the boat." },
+        { type: "image", src: "assets/aug31-milford-wharf-panorama.jpg", alt: "A panoramic view across Milford Sound from the wharf.", caption: "Milford Sound looking suitably dramatic." },
+        { type: "image", src: "assets/aug31-milford-selfie.jpg", alt: "Elliot smiling in a rain jacket on the Milford Sound cruise.", caption: "Wrapped up and very pleased to be on the boat." },
+        { type: "image", src: "assets/aug31-milford-fiord.jpg", alt: "The cruise boat moving between the steep walls of Milford Sound.", caption: "Out into the sound, with the mountains doing most of the work." },
+        { type: "image", src: "assets/aug31-milford-sunlit-peak.jpg", alt: "Brief sunlight breaking through cloud above a steep Milford Sound peak.", caption: "The sun made a brief attempt over the peaks." },
+        { type: "image", src: "assets/aug31-milford-waterfall.jpg", alt: "A large waterfall dropping through forest into Milford Sound.", caption: "One of the waterfalls putting on a proper show." },
+        { type: "image", src: "assets/aug31-fiordland-forest.jpg", alt: "A moss-covered Fiordland forest beside the water.", caption: "A post-cruise wander through the mossy forest." },
+        { type: "image", src: "assets/aug31-van-bolognese.jpg", alt: "Pasta bolognese and a drink served inside the JUCY campervan.", caption: "Free camp, van-cooked bolognese and a well-earned drink." },
+        { type: "image", src: "assets/aug31-cinema-mode.jpg", alt: "A laptop playing a film inside the darkened campervan.", caption: "Cinema mode to finish. No notes." }
       ]
     }
   ],
