@@ -1,7 +1,7 @@
 window.TRAVEL_DIARY = {
   title: "Rain, road, fresh snow",
   subtitle: "Victoria first. Queenstown later.",
-  dates: "27 July – 31 August 2026",
+  dates: "27 July – 1 September 2026",
   heroImage: "assets/hero.jpg",
   heroAlt: "Lake Wakatipu and the mountains around Queenstown in winter.",
   intro: [
@@ -13,7 +13,7 @@ window.TRAVEL_DIARY = {
     ["224 km", "skied"],
     ["46 km", "walked"]
   ],
-  route: "Perth → Melbourne → Torquay → Apollo Bay → Port Campbell → Warrnambool → Grampians → Bendigo → Echuca → Melbourne → Queenstown → Milford Sound",
+  route: "Perth → Melbourne → Torquay → Apollo Bay → Port Campbell → Warrnambool → Grampians → Bendigo → Echuca → Melbourne → Queenstown → Milford Sound → Lumsden → Invercargill",
   entries: [
     {
       id: "campervan-start",
@@ -556,6 +556,24 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/aug31-fiordland-forest.jpg", alt: "A moss-covered Fiordland forest beside the water.", caption: "A post-cruise wander through the mossy forest." },
         { type: "image", src: "assets/aug31-van-bolognese.jpg", alt: "Pasta bolognese and a drink served inside the JUCY campervan.", caption: "Free camp, van-cooked bolognese and a well-earned drink." },
         { type: "image", src: "assets/aug31-cinema-mode.jpg", alt: "A laptop playing a film inside the darkened campervan.", caption: "Cinema mode to finish. No notes." }
+      ]
+    },
+    {
+      id: "lumsden-to-invercargill",
+      navTitle: "1 September",
+      date: "1 SEPTEMBER",
+      title: "Rest, recovery and actual heating",
+      location: "Lumsden → Invercargill",
+      paragraphs: [
+        "Woke up at the Lumsden freedom camping site beside the old railway hotel. Calling it a campsite might be generous — it was a car park with a toilet — but it was free and did the job.",
+        "We drove on to Invercargill, where I wandered around Queens Park, found the animals and paid a visit to Burt Munro. Beyond that, it was mostly a much-needed rest and recovery day.",
+        "Finished at a powered site in Invercargill, which meant we could finally run the heater and sleep a little warmer. Luxury, apparently."
+      ],
+      media: [
+        { type: "image", src: "assets/sep01-queens-park-garden.jpg", alt: "A low flowering tree in the gardens at Queens Park, Invercargill.", caption: "Queens Park, still flowering through the grey." },
+        { type: "image", src: "assets/sep01-burt-munro.jpg", alt: "The Burt Munro memorial sculpture and 1920 Indian Scout in Queens Park.", caption: "Burt Munro, Southland’s speed legend." },
+        { type: "image", src: "assets/sep01-queens-park-rabbits.jpg", alt: "Lop-eared rabbits in their enclosure at the Queens Park animal reserve.", caption: "The lop-eared rabbits in Queens Park." },
+        { type: "image", src: "assets/sep01-queens-park-pigs.jpg", alt: "Three pigs standing in a muddy enclosure at the Queens Park animal reserve.", caption: "Three pigs, entirely unbothered by the mud." }
       ]
     }
   ],
