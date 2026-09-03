@@ -1,7 +1,7 @@
 window.TRAVEL_DIARY = {
   title: "Rain, road, fresh snow",
   subtitle: "Victoria first. Queenstown later.",
-  dates: "27 July – 1 September 2026",
+  dates: "27 July – 2 September 2026",
   heroImage: "assets/hero.jpg",
   heroAlt: "Lake Wakatipu and the mountains around Queenstown in winter.",
   intro: [
@@ -13,7 +13,7 @@ window.TRAVEL_DIARY = {
     ["224 km", "skied"],
     ["46 km", "walked"]
   ],
-  route: "Perth → Melbourne → Torquay → Apollo Bay → Port Campbell → Warrnambool → Grampians → Bendigo → Echuca → Melbourne → Queenstown → Milford Sound → Lumsden → Invercargill",
+  route: "Perth → Melbourne → Torquay → Apollo Bay → Port Campbell → Warrnambool → Grampians → Bendigo → Echuca → Melbourne → Queenstown → Milford Sound → Lumsden → Invercargill → Bluff → Waipapa Point → Tokanui",
   entries: [
     {
       id: "campervan-start",
@@ -574,6 +574,25 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/sep01-burt-munro.jpg", alt: "The Burt Munro memorial sculpture and 1920 Indian Scout in Queens Park.", caption: "Burt Munro, Southland’s speed legend." },
         { type: "image", src: "assets/sep01-queens-park-rabbits.jpg", alt: "Lop-eared rabbits in their enclosure at the Queens Park animal reserve.", caption: "The lop-eared rabbits in Queens Park." },
         { type: "image", src: "assets/sep01-queens-park-pigs.jpg", alt: "Three pigs standing in a muddy enclosure at the Queens Park animal reserve.", caption: "Three pigs, entirely unbothered by the mud." }
+      ]
+    },
+    {
+      id: "bluff-and-waipapa-point",
+      navTitle: "2 September",
+      date: "2 SEPTEMBER",
+      title: "Bluff, sea lions and a pub car park",
+      location: "Invercargill → Bluff → Waipapa Point → Tokanui",
+      paragraphs: [
+        "We woke up at the Amble On Inn in Invercargill and headed south to Bluff. It was pretty, we walked around for about 40 minutes, and it was nice to be right at the southern end of mainland New Zealand.",
+        "From there we carried on to Waipapa Point Lighthouse. The sea lions were directly underneath it, which was amazing.",
+        "We ended the day in Tokanui and slept in the camper behind the pub. A very convenient place to free-camp. Hard to argue with that."
+      ],
+      media: [
+        { type: "image", src: "assets/sep02-bluff-bush-walk.jpg", alt: "A person walking along a narrow bush track at Bluff.", caption: "About 40 minutes walking around Bluff." },
+        { type: "image", src: "assets/sep02-bluff-coast.jpg", alt: "A coastal headland and low scrub beneath an overcast sky at Bluff.", caption: "Looking out from Bluff." },
+        { type: "image", src: "assets/sep02-waipapa-sea-lions.jpg", alt: "Several sea lions resting in grass above the coast at Waipapa Point.", caption: "Sea lions directly underneath the lighthouse." },
+        { type: "image", src: "assets/sep02-waipapa-lighthouse.jpg", alt: "Waipapa Point Lighthouse beneath an overcast sky.", caption: "Waipapa Point Lighthouse." },
+        { type: "image", src: "assets/sep02-tokanui-free-camp.jpg", alt: "A low building beside a gravel parking area under grey skies in Tokanui.", caption: "Our very convenient free camp behind the pub in Tokanui." }
       ]
     }
   ],
