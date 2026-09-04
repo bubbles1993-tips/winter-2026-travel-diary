@@ -1,7 +1,7 @@
 window.TRAVEL_DIARY = {
   title: "Rain, road, fresh snow",
   subtitle: "Victoria first. Queenstown later.",
-  dates: "27 July – 2 September 2026",
+  dates: "27 July – 3 September 2026",
   heroImage: "assets/hero.jpg",
   heroAlt: "Lake Wakatipu and the mountains around Queenstown in winter.",
   intro: [
@@ -13,7 +13,7 @@ window.TRAVEL_DIARY = {
     ["224 km", "skied"],
     ["46 km", "walked"]
   ],
-  route: "Perth → Melbourne → Torquay → Apollo Bay → Port Campbell → Warrnambool → Grampians → Bendigo → Echuca → Melbourne → Queenstown → Milford Sound → Lumsden → Invercargill → Bluff → Waipapa Point → Tokanui",
+  route: "Perth → Melbourne → Torquay → Apollo Bay → Port Campbell → Warrnambool → Grampians → Bendigo → Echuca → Melbourne → Queenstown → Milford Sound → Lumsden → Invercargill → Bluff → Waipapa Point → Tokanui → The Catlins → Kaka Point",
   entries: [
     {
       id: "campervan-start",
@@ -593,6 +593,25 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/sep02-waipapa-sea-lions.jpg", alt: "Several sea lions resting in grass above the coast at Waipapa Point.", caption: "Sea lions directly underneath the lighthouse." },
         { type: "image", src: "assets/sep02-waipapa-lighthouse.jpg", alt: "Waipapa Point Lighthouse beneath an overcast sky.", caption: "Waipapa Point Lighthouse." },
         { type: "image", src: "assets/sep02-tokanui-free-camp.jpg", alt: "A low building beside a gravel parking area under grey skies in Tokanui.", caption: "Our very convenient free camp behind the pub in Tokanui." }
+      ]
+    },
+    {
+      id: "catlins-waterfalls",
+      navTitle: "3 September",
+      date: "3 SEPTEMBER",
+      title: "Two waterfalls and some actual work",
+      location: "Tokanui → The Catlins → Kaka Point",
+      paragraphs: [
+        "Woke up behind the Tokanui Tavern, got back on the road and headed through the Catlins.",
+        "I stopped for two very good bush walks along the way, first to Koropuku Falls and then McLean Falls. Both were awesome and easily worth getting off the road for.",
+        "By the afternoon I was at the Kaka Point campsite, where I sat down and worked on my financial planning course. Plenty of bush walking and sightseeing, plus a decent amount of study. A great day all round."
+      ],
+      media: [
+        { type: "image", src: "assets/sep03-koropuku-sign.jpg", alt: "A wooden Koropuku Falls sign at the start of a wet bush track.", caption: "First stop: Koropuku Falls." },
+        { type: "image", src: "assets/sep03-koropuku-falls.jpg", alt: "Koropuku Falls dropping into a dark pool surrounded by dense green bush.", caption: "Koropuku Falls, well worth the wet track." },
+        { type: "image", src: "assets/sep03-mclean-falls.jpg", alt: "McLean Falls cascading over several rocky tiers through dense bush.", caption: "McLean Falls doing most of the work." },
+        { type: "image", src: "assets/sep03-mclean-falls-portrait.jpg", alt: "A person standing beside the cascades at McLean Falls.", caption: "One for scale at McLean Falls." },
+        { type: "image", src: "assets/sep03-kaka-point-coast.jpg", alt: "A road beside a sandy beach and rocky coastline at Kaka Point beneath a partly cloudy sky.", caption: "Kaka Point, before getting some actual work done." }
       ]
     }
   ],
