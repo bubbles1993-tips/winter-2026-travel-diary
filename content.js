@@ -13,7 +13,7 @@ window.TRAVEL_DIARY = {
     ["224 km", "skied"],
     ["46 km", "walked"]
   ],
-  route: "Perth → Melbourne → Torquay → Apollo Bay → Port Campbell → Warrnambool → Grampians → Bendigo → Echuca → Melbourne → Queenstown → Milford Sound → Lumsden → Invercargill → Bluff → Waipapa Point → Tokanui → The Catlins → Kaka Point → Dunedin → Albury",
+  route: "Perth → Melbourne → Torquay → Apollo Bay → Port Campbell → Warrnambool → Grampians → Bendigo → Echuca → Melbourne → Queenstown → Milford Sound → Lumsden → Invercargill → Bluff → Waipapa Point → Tokanui → The Catlins → Kaka Point → Tunnel Beach → Dunedin → Albury",
   entries: [
     {
       id: "campervan-start",
@@ -612,6 +612,28 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/sep03-mclean-falls.jpg", alt: "McLean Falls cascading over several rocky tiers through dense bush.", caption: "McLean Falls doing most of the work." },
         { type: "image", src: "assets/sep03-mclean-falls-portrait.jpg", alt: "A person standing beside the cascades at McLean Falls.", caption: "One for scale at McLean Falls." },
         { type: "image", src: "assets/sep03-kaka-point-coast.jpg", alt: "A road beside a sandy beach and rocky coastline at Kaka Point beneath a partly cloudy sky.", caption: "Kaka Point, before getting some actual work done." }
+      ]
+    },
+    {
+      id: "kaka-point-to-dunedin",
+      navTitle: "Prawns, pint & scooter",
+      date: "4 SEPTEMBER",
+      title: "Prawns, bouldering & a scooter home",
+      location: "Kaka Point → Tunnel Beach → Dunedin",
+      paragraphs: [
+        "Woke up at Kaka Point and started the day with a dozen prawns for breakfast. Delicious, if slightly unconventional.",
+        "Daniel and I drove on to Dunedin, stopping at picturesque Tunnel Beach before checking into Dunedin Holiday Park.",
+        "Daniel had some work to do, so I went out solo and crossed town to a bouldering gym. The climbing was pretty advanced and I did not get very far, but it was fun and still gave me a good workout.",
+        "I decided to walk back and stopped for Indian food on the way, then called into the famous Emerson’s Brewery for a pint. I also passed First Church, which looked properly gothic in the evening light.",
+        "The walk back to camp turned out to be a long one and my phone was dying, so I jumped on an e-scooter for the rest of it. Absolute vibe.",
+        "Then it was straight to bed for an early night and a great sleep."
+      ],
+      media: [
+        { type: "image", src: "assets/sep04-tunnel-beach.jpg", alt: "Rugged cliffs and rock formations along the overcast coastline at Tunnel Beach.", caption: "Tunnel Beach making the drive into Dunedin look very good." },
+        { type: "image", src: "assets/sep04-indian-dinner.jpg", alt: "The colourful interior of an Indian restaurant with patterned wallpaper and a guard statue.", caption: "A solo Indian dinner on the long walk home." },
+        { type: "image", src: "assets/sep04-emersons-pint.jpg", alt: "A golden beer in an Emerson’s glass beside a bowl of bar snacks on an outdoor wooden table.", caption: "A well-earned pint at Emerson’s. The snacks did not last long." },
+        { type: "image", src: "assets/sep04-first-church.jpg", alt: "The tall Gothic stone spire of First Church in Dunedin, framed by bare trees at dusk.", caption: "First Church looking properly gothic in the evening light." },
+        { type: "image", src: "assets/sep04-escooter.jpg", alt: "Elliot taking a night-time selfie beside a red rental e-scooter on a wooden deck.", caption: "Phone dying, camp still miles away. The e-scooter was a vibe." }
       ]
     },
     {
