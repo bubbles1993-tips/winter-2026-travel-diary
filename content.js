@@ -1,7 +1,7 @@
 window.TRAVEL_DIARY = {
   title: "Rain, road, fresh snow",
   subtitle: "Victoria first. Queenstown later.",
-  dates: "27 July – 3 September 2026",
+  dates: "27 July – 5 September 2026",
   heroImage: "assets/hero.jpg",
   heroAlt: "Lake Wakatipu and the mountains around Queenstown in winter.",
   intro: [
@@ -13,11 +13,11 @@ window.TRAVEL_DIARY = {
     ["224 km", "skied"],
     ["46 km", "walked"]
   ],
-  route: "Perth → Melbourne → Torquay → Apollo Bay → Port Campbell → Warrnambool → Grampians → Bendigo → Echuca → Melbourne → Queenstown → Milford Sound → Lumsden → Invercargill → Bluff → Waipapa Point → Tokanui → The Catlins → Kaka Point",
+  route: "Perth → Melbourne → Torquay → Apollo Bay → Port Campbell → Warrnambool → Grampians → Bendigo → Echuca → Melbourne → Queenstown → Milford Sound → Lumsden → Invercargill → Bluff → Waipapa Point → Tokanui → The Catlins → Kaka Point → Dunedin → Albury",
   entries: [
     {
       id: "campervan-start",
-      navTitle: "Campervan",
+      navTitle: "Campervan, then coast",
       date: "27–28 JULY",
       title: "Campervan, then coast",
       location: "Melbourne · Torquay · Apollo Bay",
@@ -79,9 +79,9 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "great-ocean-road",
-      navTitle: "Great Ocean Road",
+      navTitle: "Rain and hot springs",
       date: "29–30 JULY",
-      title: "Great Ocean Road",
+      title: "Rain, rainforest and hot springs",
       location: "Lorne · Apollo Bay · Port Campbell · Warrnambool",
       paragraphs: [
         "The Great Ocean Road was mostly seen through a very large windscreen: wet coast, quick stops and a lot of road.",
@@ -135,9 +135,9 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "balconies",
-      navTitle: "The Balconies",
+      navTitle: "Hitchhikers & pink shorts",
       date: "31 JULY–1 AUGUST",
-      title: "The Balconies",
+      title: "The Balconies and the floral shorts",
       location: "The Grampians",
       paragraphs: [
         "The Balconies was the first proper Grampians view: sandstone ranges, forest forever and a very convenient place to stop for a photo.",
@@ -185,9 +185,9 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "hollow-mountain",
-      navTitle: "Hollow Mountain",
+      navTitle: "Above the campervan",
       date: "31 JULY–1 AUGUST",
-      title: "Hollow Mountain",
+      title: "Hollow Mountain, tiny campervan",
       location: "The Grampians",
       paragraphs: [
         "Hollow Mountain was the proper hike. Once we were above the canopy, the Grampians opened out in every direction and it felt properly high.",
@@ -229,7 +229,7 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "bendigo",
-      navTitle: "Bendigo",
+      navTitle: "The Bendigo detour",
       date: "2–4 AUGUST",
       title: "The detour that became Bendigo",
       location: "Halls Gap · Avoca · Marong · Bendigo",
@@ -247,9 +247,9 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "echuca",
-      navTitle: "Echuca",
+      navTitle: "Steam, bats & a campfire",
       date: "5 AUGUST",
-      title: "Echuca & the PS Pevensey",
+      title: "Steam, bats and a campfire",
       location: "Port of Echuca · Murray River",
       paragraphs: [
         "Echuca was probably my favourite surprise of the Victorian leg.",
@@ -267,9 +267,9 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "melbourne",
-      navTitle: "Melbourne",
+      navTitle: "Rain and a big screen",
       date: "6–7 AUGUST",
-      title: "Back to Melbourne",
+      title: "Wet streets and a very big screen",
       location: "Barmah · Fitzroy · Carlton · CBD",
       paragraphs: [
         "After Barmah it was back toward Melbourne and the end of the campervan section.",
@@ -285,9 +285,9 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "queenstown",
-      navTitle: "Queenstown",
+      navTitle: "Van keys to ski gear",
       date: "8 AUGUST",
-      title: "Melbourne → Queenstown",
+      title: "Van keys away, ski gear out",
       location: "Melbourne Airport · ZQN · Nomads",
       paragraphs: [
         "Then straight into the next part of the trip.",
@@ -300,7 +300,7 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "queenstown-rhythm",
-      navTitle: "Ski rhythm",
+      navTitle: "Ski, eat, repeat",
       date: "9–12 AUGUST",
       title: "Finding the Queenstown rhythm",
       location: "Queenstown · early ski days",
@@ -320,9 +320,9 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "cardrona",
-      navTitle: "Cardrona",
+      navTitle: "Three on a chairlift",
       date: "MID-AUGUST",
-      title: "Cardrona",
+      title: "Three on a chairlift at Cardrona",
       location: "Cardrona Alpine Resort",
       paragraphs: [
         "Cardrona was one of the proper group ski days with Harshil and Daniel.",
@@ -336,7 +336,7 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "nightlife",
-      navTitle: "Nights out",
+      navTitle: "Bulls and silent discos",
       date: "QUEENSTOWN NIGHTS",
       title: "Cowboys, Winnies & the silent disco",
       location: "Shotover Street and wherever the night went next",
@@ -356,9 +356,9 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "final-ski-days",
-      navTitle: "Final ski days",
+      navTitle: "Above the clouds",
       date: "FINAL SKI DAYS",
-      title: "Coronet Peak & The Remarkables",
+      title: "Above the clouds, off the piste",
       location: "Queenstown ski fields",
       paragraphs: [
         "The last ski days blur together a bit, but the contrast between the two mountains does not.",
@@ -373,7 +373,7 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "after-dark",
-      navTitle: "After dark",
+      navTitle: "Lake lights",
       date: "LAST NIGHTS",
       title: "Queenstown after dark",
       location: "Lake Wakatipu",
@@ -389,7 +389,7 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "brazz-and-gondola",
-      navTitle: "Gondola hike",
+      navTitle: "The climb to a beer",
       date: "18 AUGUST",
       title: "Brazz, browser tabs & the gondola",
       location: "Brazz · Queenstown Hill · Skyline",
@@ -410,9 +410,9 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "remarkables-again",
-      navTitle: "Remarkables again",
+      navTitle: "Skis, snooze, sunset",
       date: "19 AUGUST",
-      title: "Remarks",
+      title: "Remarks, a nap and a fire alarm",
       location: "The Remarkables",
       song: {
         url: "https://open.spotify.com/track/2N5zMZX7YeL1tico8oQxa9",
@@ -437,9 +437,9 @@ window.TRAVEL_DIARY = {
 
     {
       id: "rest-day",
-      navTitle: "20 August",
+      navTitle: "Out for the sunset",
       date: "20 AUGUST",
-      title: "A quieter day",
+      title: "A rest day, with sunset",
       location: "Home · sunset walk",
       paragraphs: [
         "20 August was mostly a day at home. I was still sick, so that was about the right level of ambition.",
@@ -453,7 +453,7 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "skiing-and-spice-bag",
-      navTitle: "21–22 August",
+      navTitle: "A sensible recovery plan",
       date: "21–22 AUGUST",
       title: "A very sensible recovery plan",
       location: "Queenstown · Poges Irish Pub",
@@ -471,9 +471,9 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "coronet-peak-return",
-      navTitle: "25 August",
+      navTitle: "Back on the slopes",
       date: "25 AUGUST",
-      title: "Back on the slopes",
+      title: "Back on the slopes at Coronet",
       location: "Coronet Peak",
       paragraphs: [
         "Feeling much better today, I ventured back to the slopes and got a few good runs in at Coronet Peak."
@@ -488,7 +488,7 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "stormbound-road-ahead",
-      navTitle: "26–28 August",
+      navTitle: "Storms and road plans",
       date: "26–28 AUGUST",
       title: "Stormbound & the road ahead",
       location: "Queenstown · Coronet Peak · the next leg",
@@ -510,7 +510,7 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "on-the-road-again",
-      navTitle: "30 August",
+      navTitle: "The road to Milford",
       date: "30 AUGUST",
       title: "On the road again",
       location: "Queenstown → Milford Sound",
@@ -537,7 +537,7 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "milford-sound-cruise",
-      navTitle: "31 August",
+      navTitle: "Milford, no notes",
       date: "31 AUGUST",
       title: "Milford Sound, no notes",
       location: "Milford Sound · Fiordland",
@@ -560,7 +560,7 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "lumsden-to-invercargill",
-      navTitle: "1 September",
+      navTitle: "The luxury of heating",
       date: "1 SEPTEMBER",
       title: "Rest, recovery and actual heating",
       location: "Lumsden → Invercargill",
@@ -578,7 +578,7 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "bluff-and-waipapa-point",
-      navTitle: "2 September",
+      navTitle: "Sea lions to the pub",
       date: "2 SEPTEMBER",
       title: "Bluff, sea lions and a pub car park",
       location: "Invercargill → Bluff → Waipapa Point → Tokanui",
@@ -597,7 +597,7 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "catlins-waterfalls",
-      navTitle: "3 September",
+      navTitle: "Waterfalls, then work",
       date: "3 SEPTEMBER",
       title: "Two waterfalls and some actual work",
       location: "Tokanui → The Catlins → Kaka Point",
@@ -612,6 +612,31 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/sep03-mclean-falls.jpg", alt: "McLean Falls cascading over several rocky tiers through dense bush.", caption: "McLean Falls doing most of the work." },
         { type: "image", src: "assets/sep03-mclean-falls-portrait.jpg", alt: "A person standing beside the cascades at McLean Falls.", caption: "One for scale at McLean Falls." },
         { type: "image", src: "assets/sep03-kaka-point-coast.jpg", alt: "A road beside a sandy beach and rocky coastline at Kaka Point beneath a partly cloudy sky.", caption: "Kaka Point, before getting some actual work done." }
+      ]
+    },
+    {
+      id: "albury-lambing",
+      navTitle: "Lambing duty",
+      date: "5 SEPTEMBER",
+      title: "Twins, spares and a few pints",
+      location: "Dunedin → Albury · Rosie's family farm",
+      paragraphs: [
+        "We drove from Dunedin to Albury in a bit of a hurry to get to Daniel’s friend Rosie’s sheep farm for lambing season. Still managed a stop at the beach to see the famous boulders on the way.",
+        "Helping the sheep give birth turned out to be a huge amount of fun, and very educational. I hadn’t realised that heavily pregnant sheep can get stuck on their backs, and that it can be fatal if they’re left too long. I flipped three back over myself, which was a good feeling.",
+        "I also had a go at being a sheep midwife and helped deliver a set of twins. Slimy, but very rewarding. Not something I expected to be doing on this trip.",
+        "Then there were the ‘spares’ — lambs that had been separated from or rejected by their mothers — which we helped bottle-feed. Very cute.",
+        "The family took us in and treated us to a hot shower, a hot meal and a night sleeping somewhere other than the van. A real treat. Huge thanks to Rosie and the whole family for being so welcoming and hospitable.",
+        "We also ended up at the country pub in the evening for a few pints. An amazing and completely unexpected detour."
+      ],
+      media: [
+        { type: "image", src: "assets/sep05-beach-stop.jpg", alt: "A sandy beach with driftwood beneath a cloudy sky.", caption: "A beach stop to see the boulders on the drive to Albury." },
+        { type: "image", src: "assets/sep05-albury-paddock.jpg", alt: "Two people among sheep in a sunlit paddock with snowy ranges beyond.", caption: "Out in the paddocks at Rosie’s family farm." },
+        { type: "image", src: "assets/sep05-farm-rounds.jpg", alt: "A passenger holding a lamb beside the driver of a farm vehicle.", caption: "Farm rounds, with a small passenger." },
+        { type: "image", src: "assets/sep05-lamb-passenger.jpg", alt: "Two people in a farm vehicle, with the person in front holding a black-faced lamb.", caption: "A very good travelling companion." },
+        { type: "video", src: "assets/sep05-lambing.mp4", poster: "assets/sep05-spares.jpg", alt: "A ewe with two wet newborn lambs in the paddock.", caption: "Newborn lambs in the paddock. Lambing clip — contains birth fluids." },
+        { type: "image", src: "assets/sep05-spares.jpg", alt: "A group of lambs resting together on straw.", caption: "A quiet moment with the lambs." },
+        { type: "image", src: "assets/sep05-bottle-feeding.jpg", alt: "A person bottle-feeding lambs in a straw-covered pen.", caption: "Bottle-feeding the ‘spares’. Very cute." },
+        { type: "image", src: "assets/sep05-country-pub.jpg", alt: "Three people playing cards around a table with drinks.", caption: "From the paddocks to a few pints at the country pub." }
       ]
     }
   ],
