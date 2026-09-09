@@ -1,12 +1,12 @@
 window.TRAVEL_DIARY = {
   title: "Rain, road, fresh snow",
   subtitle: "Victoria first. Queenstown later.",
-  dates: "27 July – 9 September 2026",
+  dates: "27 July – 14 September 2026",
   heroImage: "assets/hero.jpg",
   heroAlt: "Lake Wakatipu and the mountains around Queenstown in winter.",
   intro: [
-    "Three weeks is apparently enough time to drive a campervan across a decent chunk of Victoria, spend a few days in Melbourne, then go to Queenstown and ski until walking normally becomes optional.",
-    "The campervan plan changed a few times. By New Zealand the routine was simpler: work out which mountain, spend the day skiing, eat something substantial, then somehow still go out."
+    "I left on 27 July and won’t be home until 14 September — seven weeks away. It started with a campervan through Victoria, the Great Ocean Road, the Grampians, Bendigo and Echuca, then a few days in Melbourne before flying across to Queenstown.",
+    "Queenstown brought the skiing. Then came a South Island road trip, Milford Sound, lambing duty at a sheep farm, a very long climb towards Mueller Hut and a return to town for Snow Machine. The plan has changed a few times along the way, and there are still a few days to go."
   ],
   stats: [
     ["1,834 km", "driven"],
@@ -709,6 +709,6 @@ window.TRAVEL_DIARY = {
     "The numbers are fine — 1,834 km driven, 224 km skied and 46 km walked — but they aren’t really the trip.",
     "I’ll remember the campervan feeling far too large until it suddenly didn’t. Rain on the coast. Another bakery stop. The floral shorts at The Balconies. Hollow Mountain. Going underground in Bendigo, then walking into the Great Stupa. A steam engine working on the Murray. Trees full of bats. Melbourne in the rain.",
     "Then $10 breakfast at Brazz. Fever dream Casey. Fresh snow. Chairlifts. Bluebird days. Cowboys. Winnies. The silent disco. Making a game featuring Steve Irwin versus Jason Mamoa. Standing beside Lake Wakatipu after another full day. Vibe coding with Daniel, climbing the gondola track and earning a beer while Queenstown lit up below us. Then getting up to do it again.",
-    "Three weeks earlier none of it had happened. Now it is already turning into memory. That is basically the reason for making this."
+    "Before I left on 27 July, none of this had happened. The trip is still going, but it is already turning into memory. That is basically the reason for making this."
   ]
 };
