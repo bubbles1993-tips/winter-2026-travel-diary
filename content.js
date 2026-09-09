@@ -1,7 +1,7 @@
 window.TRAVEL_DIARY = {
   title: "Rain, road, fresh snow",
   subtitle: "Victoria first. Queenstown later.",
-  dates: "27 July – 5 September 2026",
+  dates: "27 July – 9 September 2026",
   heroImage: "assets/hero.jpg",
   heroAlt: "Lake Wakatipu and the mountains around Queenstown in winter.",
   intro: [
@@ -13,7 +13,7 @@ window.TRAVEL_DIARY = {
     ["224 km", "skied"],
     ["46 km", "walked"]
   ],
-  route: "Perth → Melbourne → Torquay → Apollo Bay → Port Campbell → Warrnambool → Grampians → Bendigo → Echuca → Melbourne → Queenstown → Milford Sound → Lumsden → Invercargill → Bluff → Waipapa Point → Tokanui → The Catlins → Kaka Point → Tunnel Beach → Dunedin → Albury",
+  route: "Perth → Melbourne → Torquay → Apollo Bay → Port Campbell → Warrnambool → Grampians → Bendigo → Echuca → Melbourne → Queenstown → Milford Sound → Lumsden → Invercargill → Bluff → Waipapa Point → Tokanui → The Catlins → Kaka Point → Tunnel Beach → Dunedin → Albury → Wanaka → Queenstown",
   entries: [
     {
       id: "campervan-start",
@@ -659,6 +659,26 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/sep05-spares.jpg", alt: "A group of lambs resting together on straw.", caption: "A quiet moment with the lambs." },
         { type: "image", src: "assets/sep05-bottle-feeding.jpg", alt: "A person bottle-feeding lambs in a straw-covered pen.", caption: "Bottle-feeding the ‘spares’. Very cute." },
         { type: "image", src: "assets/sep05-country-pub.jpg", alt: "Three people playing cards around a table with drinks.", caption: "From the paddocks to a few pints at the country pub." }
+      ]
+    },
+    {
+      id: "queenstown-snow-machine",
+      navTitle: "Back, and drenched",
+      date: "9 SEPTEMBER",
+      title: "Back in Queenstown, absolutely drenched",
+      location: "Wanaka → Queenstown",
+      paragraphs: [
+        "Drove back to Queenstown from Wanaka today, stopping for a haircut at a random barber shop in the middle of nowhere. Also managed to get some study done beside the camper.",
+        "Went along to the Snow Machine street party, which had taken over a closed road right in the town centre. Had a dance, then headed to an old favourite, World Bar.",
+        "Ben and I also went for a hike in the rain. I ended up absolutely drenched. Plenty of photographic evidence of that."
+      ],
+      media: [
+        { type: "image", src: "assets/sep09-haircut.jpg", alt: "A close-up showing a fresh haircut, with a camper behind.", caption: "The middle-of-nowhere haircut." },
+        { type: "image", src: "assets/sep09-campsite-study.jpg", alt: "A laptop on a table beside a green JUCY camper, with a wooded mountain behind.", caption: "Getting some study done beside the camper." },
+        { type: "image", src: "assets/sep09-snow-machine-street-party.jpg", alt: "A crowd filling a closed Queenstown street at night beneath a Snow Machine banner.", caption: "Snow Machine taking over the town centre." },
+        { type: "image", src: "assets/sep09-drenched-selfie.jpg", alt: "Two people smiling in a rainy night-time selfie, with wet hoodies and raindrops on a pair of glasses.", caption: "Absolutely drenched, as advertised." },
+        { type: "image", src: "assets/sep09-under-cover.jpg", alt: "A person in a wet purple hoodie sheltering in a white gazebo beside a rain-soaked path.", caption: "A brief stop under cover." },
+        { type: "image", src: "assets/sep09-rainy-path.jpg", alt: "Streetlights reflecting on a wet path between trees and garden beds at night.", caption: "Rain and streetlights on the way through town." }
       ]
     }
   ],
