@@ -13,7 +13,7 @@ window.TRAVEL_DIARY = {
     ["224 km", "skied"],
     ["46 km", "walked"]
   ],
-  route: "Perth → Melbourne → Torquay → Apollo Bay → Port Campbell → Warrnambool → Grampians → Bendigo → Echuca → Melbourne → Queenstown → Milford Sound → Lumsden → Invercargill → Bluff → Waipapa Point → Tokanui → The Catlins → Kaka Point → Tunnel Beach → Dunedin → Albury → Wanaka → Queenstown",
+  route: "Perth → Melbourne → Torquay → Apollo Bay → Port Campbell → Warrnambool → Grampians → Bendigo → Echuca → Melbourne → Queenstown → Milford Sound → Lumsden → Invercargill → Bluff → Waipapa Point → Tokanui → The Catlins → Kaka Point → Tunnel Beach → Dunedin → Albury → Glentanner → Mount Cook → Wanaka → Queenstown",
   entries: [
     {
       id: "campervan-start",
@@ -659,6 +659,29 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/sep05-spares.jpg", alt: "A group of lambs resting together on straw.", caption: "A quiet moment with the lambs." },
         { type: "image", src: "assets/sep05-bottle-feeding.jpg", alt: "A person bottle-feeding lambs in a straw-covered pen.", caption: "Bottle-feeding the ‘spares’. Very cute." },
         { type: "image", src: "assets/sep05-country-pub.jpg", alt: "Three people playing cards around a table with drinks.", caption: "From the paddocks to a few pints at the country pub." }
+      ]
+    },
+    {
+      id: "mount-cook-mueller-hut",
+      navTitle: "A long freaking way up",
+      date: "8 SEPTEMBER",
+      title: "Halfway to Mueller Hut",
+      location: "Glentanner → Mount Cook → Wanaka",
+      paragraphs: [
+        "Woke up at Glentanner, a beautiful spot nestled amongst the New Zealand Alps. Pretty good place to start the day.",
+        "We drove down the valley to Mount Cook and took on the very challenging climb towards Mueller Hut. The hut was the goal, but we only made it about halfway. Still a long freaking way up.",
+        "Snow underfoot, mountains all around and a view down over the lake. The views weren’t half bad, and it was certainly worth the effort.",
+        "Then it was back in the van and on to Wanaka for the night. Big day!"
+      ],
+      media: [
+        { type: "image", src: "assets/sep08-valley-panorama.jpg", alt: "A wide alpine valley with a winding river, golden grass and snow-covered peaks beneath a bright blue sky.", caption: "Down the valley towards Mount Cook. Pretty good start." },
+        { type: "image", src: "assets/sep08-mount-cook-valley.jpg", alt: "Sunlight over a broad river valley surrounded by snowy mountains.", caption: "Mountains in just about every direction." },
+        { type: "video", src: "assets/sep08-mount-cook-valley.mp4", poster: "assets/sep08-video-poster.jpg", alt: "A view from inside the camper, moving from takeaway coffees to the alpine landscape and road towards snowy peaks.", caption: "The drive down the valley towards Mount Cook." },
+        { type: "image", src: "assets/sep08-lake-and-peaks.jpg", alt: "A pale green lake beyond dense alpine scrub, with snow-covered mountains rising behind.", caption: "The views were already doing their bit." },
+        { type: "image", src: "assets/sep08-sunshine-selfie.jpg", alt: "A smiling hiker in sunglasses above a lake and alpine valley, with snowy peaks behind.", caption: "Sunshine on the way up." },
+        { type: "image", src: "assets/sep08-climb-panorama.jpg", alt: "A hiker seated above a pale green lake, with a wide panorama of snowy mountains and the valley below.", caption: "Not a bad place to stop for a breather." },
+        { type: "image", src: "assets/sep08-snowy-selfie.jpg", alt: "A hiker in a black beanie taking a selfie on a snowy slope above a lake, with cloud around the mountains.", caption: "Quite a different scene further up." },
+        { type: "image", src: "assets/sep08-snowy-climb.jpg", alt: "A hiker standing in snow above a pale green lake, with steep snowy mountains disappearing into cloud.", caption: "Halfway. Still a long freaking way up." }
       ]
     },
     {
