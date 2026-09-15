@@ -1,5 +1,5 @@
 const D = window.TRAVEL_DIARY;
-const entries = [...D.entries].reverse();
+const entries = [...D.entries];
 const esc = value => String(value).replace(/[&<>"']/g, character => ({
   "&": "&amp;",
   "<": "&lt;",
