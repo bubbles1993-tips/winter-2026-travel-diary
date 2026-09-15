@@ -5,15 +5,44 @@ window.TRAVEL_DIARY = {
   heroImage: "assets/hero.jpg",
   heroAlt: "Lake Wakatipu and the mountains around Queenstown in winter.",
   intro: [
-    "I left on 27 July and won’t be home until 14 September — seven weeks away. It started with a campervan through Victoria, the Great Ocean Road, the Grampians, Bendigo and Echuca, then a few days in Melbourne before flying across to Queenstown.",
-    "Queenstown brought the skiing. Then came a South Island road trip, Milford Sound, lambing duty at a sheep farm, a very long climb towards Mueller Hut and a return to town for Snow Machine. The plan has changed a few times along the way, and there are still a few days to go."
+    "I left on 27 July and got home on 14 September — seven weeks away. It started with a campervan through Victoria, the Great Ocean Road, the Grampians, Bendigo and Echuca, then a few days in Melbourne before flying across to Queenstown.",
+    "Queenstown brought the skiing. Then came a South Island road trip, Milford Sound, lambing duty at a sheep farm, a very long climb towards Mueller Hut and a return to town for Snow Machine. It finished with Korean food, an Auckland stopover and an assignment submitted 22 seconds late."
   ],
   stats: [
-    ["1,834 km", "driven"],
-    ["224 km", "skied"],
-    ["46 km", "walked"]
+    ["4,045 km", "driven"],
+    ["424 km", "skied"],
+    ["164 km", "walked"]
   ],
-  route: "Perth → Melbourne → Torquay → Apollo Bay → Port Campbell → Warrnambool → Grampians → Bendigo → Echuca → Melbourne → Queenstown → Milford Sound → Lumsden → Invercargill → Bluff → Waipapa Point → Tokanui → The Catlins → Kaka Point → Tunnel Beach → Dunedin → Albury → Glentanner → Mount Cook → Wanaka → Queenstown",
+  route: [
+    { label: "Perth", entryId: "campervan-start" },
+    { label: "Melbourne", entryId: "campervan-start" },
+    { label: "Torquay", entryId: "campervan-start" },
+    { label: "Apollo Bay", entryId: "great-ocean-road" },
+    { label: "Port Campbell", entryId: "great-ocean-road" },
+    { label: "Warrnambool", entryId: "great-ocean-road" },
+    { label: "Grampians", entryId: "balconies" },
+    { label: "Bendigo", entryId: "bendigo" },
+    { label: "Echuca", entryId: "echuca" },
+    { label: "Melbourne", entryId: "melbourne" },
+    { label: "Queenstown", entryId: "queenstown" },
+    { label: "Milford Sound", entryId: "milford-sound-cruise" },
+    { label: "Lumsden", entryId: "lumsden-to-invercargill" },
+    { label: "Invercargill", entryId: "lumsden-to-invercargill" },
+    { label: "Bluff", entryId: "bluff-and-waipapa-point" },
+    { label: "Waipapa Point", entryId: "bluff-and-waipapa-point" },
+    { label: "Tokanui", entryId: "bluff-and-waipapa-point" },
+    { label: "The Catlins", entryId: "catlins-waterfalls" },
+    { label: "Kaka Point", entryId: "catlins-waterfalls" },
+    { label: "Tunnel Beach", entryId: "kaka-point-to-dunedin" },
+    { label: "Dunedin", entryId: "kaka-point-to-dunedin" },
+    { label: "Albury", entryId: "albury-lambing" },
+    { label: "Glentanner", entryId: "mount-cook-mueller-hut" },
+    { label: "Mount Cook", entryId: "mount-cook-mueller-hut" },
+    { label: "Wanaka", entryId: "mount-cook-mueller-hut" },
+    { label: "Queenstown", entryId: "queenstown-snow-machine" },
+    { label: "Auckland", entryId: "home-via-auckland" },
+    { label: "Perth", entryId: "home-via-auckland" }
+  ],
   entries: [
     {
       id: "campervan-start",
@@ -703,12 +732,122 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/sep09-under-cover.jpg", alt: "A person in a wet purple hoodie sheltering in a white gazebo beside a rain-soaked path.", caption: "A brief stop under cover." },
         { type: "image", src: "assets/sep09-rainy-path.jpg", alt: "Streetlights reflecting on a wet path between trees and garden beds at night.", caption: "Rain and streetlights on the way through town." }
       ]
+    },
+    {
+      id: "snow-machine-friday",
+      navTitle: "Ninajirachi",
+      date: "11 SEPTEMBER",
+      title: "Snow Machine, first proper night",
+      location: "Queenstown",
+      song: { url: "https://open.spotify.com/track/3pkXNBtkg8E2xRAKrnu43s", title: "iPod Touch", artist: "Ninajirachi" },
+      paragraphs: [
+        "Snow Machine was mostly us partying in Queenstown, which was the point of being there. Ninajirachi was the highlight on Friday night.",
+        "A fairly efficient way to spend a winter evening."
+      ],
+      media: [
+        {
+          type: "image",
+          src: "assets/sep11-snow-machine-entrance.jpg",
+          alt: "Elliot taking a selfie beneath the multicoloured neon entrance at Snow Machine in Queenstown.",
+          caption: "The subtle entrance."
+        },
+        {
+          type: "image",
+          src: "assets/sep11-snow-machine-stage.jpg",
+          alt: "Purple and blue stage lights over the Snow Machine crowd in Queenstown.",
+          caption: "Snow Machine from the crowd. No notes."
+        },
+        {
+          type: "video",
+          src: "assets/sep11-snow-machine-live.mp4",
+          poster: "assets/sep11-snow-machine-live-poster.jpg",
+          alt: "A short video from close to the stage at Snow Machine on Friday night.",
+          caption: "A short burst from Friday night."
+        }
+      ]
+    },
+    {
+      id: "snow-machine-saturday",
+      navTitle: "Four rows back",
+      date: "12 SEPTEMBER",
+      title: "Four rows back, slightly right",
+      location: "Queenstown",
+      song: { url: "https://open.spotify.com/track/3dcWKFefG4Otjdb6ykBVcY", title: "Feel The Vibration", artist: "Kanine" },
+      paragraphs: [
+        "Saturday was Kanine and Restricted at Snow Machine. We ended up four rows back and slightly to the right, which turned out to be a great spot.",
+        "Mason was there in a pink cowboy hat and was an absolute legend."
+      ],
+      media: [
+        {
+          type: "image",
+          src: "assets/sep12-snow-machine-stage.jpg",
+          alt: "The Snow Machine stage lit purple and white during the Saturday night sets.",
+          caption: "Four rows back was doing the job."
+        },
+        {
+          type: "video",
+          src: "assets/sep12-restricted-live.mp4",
+          poster: "assets/sep12-restricted-live-poster.jpg",
+          alt: "A short video of Restricted performing at Snow Machine, with the artist name across the stage screen.",
+          caption: "Restricted, from the useful side of row four."
+        },
+        {
+          type: "image",
+          src: "assets/sep12-mason-pink-hat.jpg",
+          alt: "Elliot and Mason smiling in the Snow Machine crowd, with Mason wearing a bright pink cowboy hat.",
+          caption: "Mason and the pink cowboy hat. Absolute legend."
+        }
+      ]
+    },
+    {
+      id: "mapo88-dinner",
+      navTitle: "Mapo88",
+      date: "13 SEPTEMBER",
+      title: "Mapo88 and the glass noodles",
+      location: "Queenstown",
+      paragraphs: [
+        "Sunday night we went to Mapo88 for Korean with Casey and Daniel from 216, plus Rosie. The food was incredible.",
+        "It was Casey’s first time eating Korean. The japchae, or glass noodles, were the highlight for me."
+      ],
+      media: [
+        {
+          type: "image",
+          src: "assets/sep13-mapo88-group.jpg",
+          alt: "Elliot, Casey, Daniel and Rosie smiling outside Mapo88 in Queenstown.",
+          caption: "Outside Mapo88 before Korean dinner."
+        },
+        {
+          type: "image",
+          src: "assets/sep13-mapo88-food.jpg",
+          alt: "A table at Mapo88 covered with Korean dishes, with japchae on the left.",
+          caption: "The japchae did not last long."
+        }
+      ]
+    },
+    {
+      id: "home-via-auckland",
+      navTitle: "Home, 22 seconds late",
+      date: "14 SEPTEMBER",
+      title: "Home, via Auckland",
+      location: "Queenstown → Auckland → Perth",
+      paragraphs: [
+        "Then it was the trip home to Perth, with a stopover at Auckland Airport.",
+        "I tried to work on my assignment on the plane. It was a challenge, but I got it in 22 seconds after the deadline. Missed it by that much."
+      ],
+      media: [
+        {
+          type: "image",
+          src: "assets/sep14-flight-map.jpg",
+          alt: "The in-flight map showing the route from Auckland across the Tasman to Perth.",
+          caption: "Auckland to Perth. Assignment still in progress."
+        }
+      ]
     }
   ],
   reflection: [
-    "The numbers are fine — 1,834 km driven, 224 km skied and 46 km walked — but they aren’t really the trip.",
+    "The numbers are fine — 4,045 km driven, 424 km skied and 164 km walked — but they aren’t really the trip.",
     "I’ll remember the campervan feeling far too large until it suddenly didn’t. Rain on the coast. Another bakery stop. The floral shorts at The Balconies. Hollow Mountain. Going underground in Bendigo, then walking into the Great Stupa. A steam engine working on the Murray. Trees full of bats. Melbourne in the rain.",
     "Then $10 breakfast at Brazz. Fever dream Casey. Fresh snow. Chairlifts. Bluebird days. Cowboys. Winnies. The silent disco. Making a game featuring Steve Irwin versus Jason Mamoa. Standing beside Lake Wakatipu after another full day. Vibe coding with Daniel, climbing the gondola track and earning a beer while Queenstown lit up below us. Then getting up to do it again.",
-    "Before I left on 27 July, none of this had happened. The trip is still going, but it is already turning into memory. That is basically the reason for making this."
+    "Before I left on 27 July, none of this had happened. By the time I got home on 14 September, it was already turning into memory. That is basically the reason for making this."
   ]
 };
