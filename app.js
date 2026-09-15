@@ -73,7 +73,19 @@ document.getElementById("stats").innerHTML = D.stats
 document.getElementById("intro-copy").innerHTML = D.intro
   .map(paragraph => `<p>${esc(paragraph)}</p>`)
   .join("");
-document.getElementById("route").textContent = D.route;
+const routeStops = Array.isArray(D.route)
+  ? D.route
+  : String(D.route).split("→").map(label => ({ label: label.trim() }));
+document.getElementById("route").innerHTML = routeStops
+  .map(stop => {
+    const target = stop.entryId
+      ? D.entries.find(item => item.id === stop.entryId)
+      : null;
+    if (!target) return `<li><span>${esc(stop.label)}</span></li>`;
+    const accessibleLabel = `${stop.label}, jump to ${target.date}: ${target.title}`;
+    return `<li><a href="#${esc(stop.entryId)}" aria-label="${esc(accessibleLabel)}">${esc(stop.label)}</a></li>`;
+  })
+  .join("");
 document.getElementById("entries").innerHTML = entries.map(entry).join("");
 document.getElementById("nav").innerHTML = entries
   .map(item => `<a href="#${esc(item.id)}">${esc(item.navTitle || item.title)}</a>`)
