@@ -738,13 +738,20 @@ window.TRAVEL_DIARY = {
       navTitle: "Ninajirachi",
       date: "11 SEPTEMBER",
       title: "Snow Machine, first proper night",
-      location: "Queenstown",
+      location: "Queenstown → Coronet Peak → Queenstown",
       song: { url: "https://open.spotify.com/track/3pkXNBtkg8E2xRAKrnu43s", title: "iPod Touch", artist: "Ninajirachi" },
       paragraphs: [
-        "Snow Machine was mostly us partying in Queenstown, which was the point of being there. Ninajirachi was the highlight on Friday night.",
-        "A fairly efficient way to spend a winter evening."
+        "I woke up early and went to the doctor to try to get my ear infection sorted before flying home. I grabbed a coffee, then peer-pressured Daniel into driving up to Coronet Peak.",
+        "His plan had been to stay home and get some important work done. It turns out he has a rubber arm. I told him that if he wanted to stay behind he would have to go into the office, because the van was going up the mountain. So off we went.",
+        "We skied all day, then headed back and got ready to go out. Ninajirachi was crazy. We stayed out all night and ended up at the afterparty. Big dance vibes. Good times were had."
       ],
       media: [
+        {
+          type: "image",
+          src: "assets/sep11-coronet-peak-skiing.jpg",
+          alt: "A skier descending Coronet Peak with the brown mountain valley behind.",
+          caption: "The van was going up the mountain."
+        },
         {
           type: "image",
           src: "assets/sep11-snow-machine-entrance.jpg",
