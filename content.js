@@ -778,13 +778,22 @@ window.TRAVEL_DIARY = {
       navTitle: "Four rows back",
       date: "12 SEPTEMBER",
       title: "Four rows back, slightly right",
-      location: "Queenstown",
+      location: "Queenstown → Coronet Peak → Queenstown",
       song: { url: "https://open.spotify.com/track/3dcWKFefG4Otjdb6ykBVcY", title: "Feel The Vibration", artist: "Kanine" },
       paragraphs: [
-        "Saturday was Kanine and Restricted at Snow Machine. We ended up four rows back and slightly to the right, which turned out to be a great spot.",
-        "Mason was there in a pink cowboy hat and was an absolute legend."
+        "On Saturday morning we woke up pretty dusty from a big night and hesitated briefly before once again strong-arming Daniel up the mountain. Coronet Peak again. It was my last day on the slopes, so I was full sending it down as many runs as possible.",
+        "It was quite icy and I took a magnificent stack, nicknamed the Rapid Unscheduled Disassembly, or R.U.D. for short. I slid about 20 metres down the hill, losing a ski and both poles in the process.",
+        "Afterwards we regained some strength, started drinking and headed to the main stage for Kanine. Incredible. One of my favourite sets of the festival. D&B is my jam. Restricted was on the bill too.",
+        "Of course I found Mason in the mosh, pink cowboy hat and all, four rows back and a little to the right. Great spot. We ended up partying together for the rest of the night, talking about our jobs and making plans to catch up in WA. Absolute legend.",
+        "So many cool people. I was sad that Daniel and I would be returning the camper the next day and getting ready for our respective trips home."
       ],
       media: [
+        {
+          type: "image",
+          src: "assets/sep12-coronet-final-runs.jpg",
+          alt: "Skiers on a snowy Coronet Peak run overlooking the valley and surrounding mountains.",
+          caption: "Last day on the slopes. As many runs as possible."
+        },
         {
           type: "image",
           src: "assets/sep12-snow-machine-stage.jpg",
