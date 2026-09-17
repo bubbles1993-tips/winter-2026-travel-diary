@@ -43,6 +43,14 @@ window.TRAVEL_DIARY = {
     { label: "Auckland", entryId: "home-via-auckland" },
     { label: "Perth", entryId: "home-via-auckland" }
   ],
+  chapters: [
+    { id: "victoria", title: "Victoria", dates: "27 July – 7 August", start: "campervan-start", places: "The coast, the Grampians & Melbourne" },
+    { id: "queenstown", title: "Queenstown", dates: "August", start: "queenstown", places: "Ski days & late nights" },
+    { id: "back-on-the-mountain", title: "Back on the mountain", dates: "18–28 August", start: "brazz-and-gondola", places: "More snow, a few rest days & a plan" },
+    { id: "southern-coast", title: "The southern coast", dates: "30 August – 3 September", start: "on-the-road-again", places: "Milford Sound, Bluff & the Catlins" },
+    { id: "inland", title: "Inland & uphill", dates: "4–8 September", start: "kaka-point-to-dunedin", places: "Dunedin, Albury & Mount Cook" },
+    { id: "snow-machine", title: "Snow Machine & home", dates: "9–14 September", start: "queenstown-snow-machine", places: "Back to Queenstown, then Perth" }
+  ],
   entries: [
     {
       id: "campervan-start",

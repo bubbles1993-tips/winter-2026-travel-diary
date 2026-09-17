@@ -9,34 +9,55 @@
 <meta property="og:type" content="website">
 <title>Rain, road, fresh snow — Winter 2026</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23a34d2a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-size='40' fill='white' font-family='Georgia'%3EW%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="styles.css?v=20260909-gallery-minimal">
+<link rel="stylesheet" href="styles.css?v=20260917-reading">
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to journal</a>
+<header class="reader-bar">
+  <div class="bar-inner">
+    <a class="wordmark" href="#trip" aria-label="Winter 2026, journal cover">Winter <span>2026</span></a>
+    <span class="reading-position" id="reading-position">A travel diary</span>
+    <button type="button" class="contents-button" id="open-contents" aria-haspopup="dialog" aria-controls="contents-dialog">Contents <span aria-hidden="true">☰</span></button>
+  </div>
+  <progress id="reading-progress" value="0" max="1" aria-label="Progress through this chapter" hidden></progress>
+</header>
+<main id="main" tabindex="-1">
+<div id="cover">
 <header class="hero">
-  <img id="hero-image" alt="Queenstown waterfront">
+  <img id="hero-image" alt="Queenstown waterfront" fetchpriority="high" decoding="async">
   <div class="hero-inner">
     <div class="kicker">Winter 2026 · Travel diary</div>
     <h1 id="title"></h1>
     <div class="sub" id="subtitle"></div>
     <div class="dates" id="dates"></div>
-    <div class="stats" id="stats"></div>
+    <div class="hero-actions"><a class="button" id="start-reading" href="#chapter-victoria">Start reading <span aria-hidden="true">↗</span></a><a href="#contents">Explore the chapters <span aria-hidden="true">↓</span></a></div>
   </div>
 </header>
-<nav class="nav" aria-label="Journal entries"><div class="nav-inner" id="nav"></div></nav>
-<section class="intro" id="trip">
-  <div class="kicker" style="color:var(--accent)">THE TRIP</div>
-  <h2>Seven weeks away.</h2>
+<section class="intro" id="trip" aria-labelledby="intro-title">
+  <div class="intro-head"><div class="kicker">THE TRIP</div><h2 id="intro-title">Seven weeks away.</h2><div class="stats" id="stats"></div></div>
+  <div class="intro-body">
   <div id="intro-copy"></div>
-  <div class="route-card"><div class="eyebrow">Route</div><ol class="route-list" id="route" aria-label="Trip route"></ol></div>
+  <details class="route-card"><summary>The full route</summary><ol class="route-list" id="route" aria-label="Trip route"></ol></details>
+  </div>
 </section>
-<main class="timeline" id="entries"></main>
-<section class="reflection"><div class="eyebrow">WHAT I’LL ACTUALLY REMEMBER</div><h2>The numbers aren’t really the trip.</h2><div id="reflection-copy"></div></section>
-<footer>Winter 2026 · Perth, Victoria & Queenstown</footer>
-<div id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" aria-describedby="lightbox-caption" hidden>
-  <button type="button" aria-label="Close image viewer" data-close-lightbox>×</button>
-  <figure><img alt=""><figcaption id="lightbox-caption"></figcaption></figure>
+<section class="contents-section" id="contents" aria-labelledby="contents-title"><div class="section-heading"><div><div class="eyebrow">THE JOURNAL</div><h2 id="contents-title">One trip. Six chapters.</h2></div><span id="journal-count"></span></div><ol class="chapter-list" id="chapter-list"></ol><a class="afterword-link" href="#reflection">Afterword · The numbers aren’t really the trip <span aria-hidden="true">↗</span></a></section>
 </div>
-<script src="content.js?v=20260909-intro"></script><script src="app.js?v=20260909-gallery-minimal"></script>
+<div id="reader" hidden>
+  <header class="chapter-head" id="chapter-head" tabindex="-1"></header>
+  <div class="reading-layout"><aside class="chapter-sidebar" aria-label="In this chapter" id="chapter-sidebar"></aside><div class="timeline" id="entries"></div></div>
+  <nav class="pagination" id="pagination" aria-label="Chapter pagination"></nav>
+</div>
+<section class="reflection" id="reflection" aria-labelledby="reflection-title" hidden><div class="eyebrow">WHAT I’LL ACTUALLY REMEMBER</div><h1 id="reflection-title" tabindex="-1">The numbers aren’t really the trip.</h1><div id="reflection-copy"></div><nav class="reflection-nav" aria-label="Afterword navigation"><a href="#chapter-snow-machine">← Last chapter</a><a href="#trip">Back to the cover ↑</a></nav></section>
+<noscript><p class="no-script">Please enable JavaScript to read the journal and browse its photos.</p></noscript>
+</main>
+<footer>Winter 2026 <span aria-hidden="true">·</span> Perth, Victoria & Queenstown</footer>
+<dialog id="contents-dialog" aria-labelledby="dialog-title"><div class="dialog-head"><h2 id="dialog-title">The journal</h2><button type="button" class="icon-button" aria-label="Close contents" data-close-contents>×</button></div><nav id="contents-menu" aria-label="All chapters and entries"></nav></dialog>
+<dialog id="lightbox" aria-label="Image viewer" aria-describedby="lightbox-caption">
+  <div class="lightbox-toolbar"><span id="lightbox-count" aria-live="polite"></span><button type="button" class="icon-button" aria-label="Close image viewer" data-close-lightbox>×</button></div>
+  <figure><img alt=""><figcaption id="lightbox-caption"></figcaption></figure>
+  <div class="lightbox-navigation"><button type="button" class="icon-button" aria-label="Previous image" id="lightbox-prev">←</button><button type="button" class="icon-button" aria-label="Next image" id="lightbox-next">→</button></div>
+</dialog>
+<script src="content.js?v=20260917-reading"></script><script src="app.js?v=20260917-reading"></script>
 <!-- Cloudflare Web Analytics -->
 <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"2f8c20c90c254ed3939c3e10203c4bd8"}'></script>
 <!-- End Cloudflare Web Analytics -->
