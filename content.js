@@ -740,7 +740,6 @@ window.TRAVEL_DIARY = {
       title: "Full send, then Hilltop Hoods",
       location: "Queenstown → The Remarkables → Queenstown",
       paragraphs: [
-        "I went to the doctor to try to get my ear infection sorted before flying home.",
         "After all the rain the night before, the snow on the mountain was incredible. I managed to convince the forever reluctant Daniel that we had to full send it up the hill. My peer pressure game was only getting started, as it turned out. We got some great runs in at The Remarkables, with plenty of powder.",
         "There was a rave in the snow halfway up the hill. That created all kinds of chaos when a huge, half-drunk pack of inexperienced ravers who hadn’t bothered getting lessons tried to ski down together. Managed to escape the mob unscathed.",
         "I also managed to lose my jumper, which was a bummer. It has since been handed in and will be returned in the post. Big win.",
