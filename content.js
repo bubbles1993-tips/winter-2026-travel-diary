@@ -734,14 +734,38 @@ window.TRAVEL_DIARY = {
       ]
     },
     {
+      id: "snow-machine-thursday",
+      navTitle: "Powder and Hilltop Hoods",
+      date: "10 SEPTEMBER",
+      title: "Full send, then Hilltop Hoods",
+      location: "Queenstown → The Remarkables → Queenstown",
+      paragraphs: [
+        "I went to the doctor to try to get my ear infection sorted before flying home.",
+        "After all the rain the night before, the snow on the mountain was incredible. I managed to convince the forever reluctant Daniel that we had to full send it up the hill. My peer pressure game was only getting started, as it turned out. We got some great runs in at The Remarkables, with plenty of powder.",
+        "There was a rave in the snow halfway up the hill. That created all kinds of chaos when a huge, half-drunk pack of inexperienced ravers who hadn’t bothered getting lessons tried to ski down together. Managed to escape the mob unscathed.",
+        "I also managed to lose my jumper, which was a bummer. It has since been handed in and will be returned in the post. Big win.",
+        "Somehow we found the energy to get to the Snow Machine main stage for the first time. Hilltop Hoods, an old Aussie classic. Such a good crew and so much energy. We had an incredible time.",
+        "Daniel and I were quite comfortable about 20 rows back, but we ran into Mason and I hit it off with him straight away. He dragged us up to about four rows from the front, slightly to the right. That became our spot for the rest of the festival.",
+        "I couldn’t handle going out afterwards, so it was a relatively early night. Very grateful for that at the time. I wasn’t going to miss getting up the hill again the next day."
+      ],
+      media: [
+        { type: "image", src: "assets/sep10-remarkables-powder.jpg", alt: "Snow-covered ski slopes and a chairlift, with cloud lifting over the mountains beyond.", caption: "Plenty of snow up at The Remarkables." },
+        { type: "video", src: "assets/sep10-mountain-rave.mp4", poster: "assets/sep10-mountain-rave-poster.jpg", alt: "A crowd in ski gear gathered in front of an outdoor stage surrounded by snowy slopes.", caption: "The rave halfway up the hill. Before the chaotic ski down." },
+        { type: "image", src: "assets/sep10-remarkables-valley.jpg", alt: "A mountain car park between snowy slopes, with the valley and snow-covered ranges beyond.", caption: "The Remarkables after a day in the powder." },
+        { type: "image", src: "assets/sep10-queenstown-return.jpg", alt: "A view from the camper down a steep street towards the lake, with parked cars and mountains beyond.", caption: "Back in Queenstown, with the lake at the bottom of the hill." },
+        { type: "image", src: "assets/sep10-lake-evening.jpg", alt: "Late-afternoon light on mountains across the lake, viewed past a roadside and parked cars.", caption: "A bit of late light before Hilltop Hoods." },
+        { type: "video", src: "assets/sep10-hilltop-hoods-live.mp4", poster: "assets/sep10-hilltop-hoods-live-poster.jpg", alt: "Hilltop Hoods performing under blue stage lights, filmed from close to the front of the crowd.", caption: "Hilltop Hoods. Four rows back, slightly to the right." }
+      ]
+    },
+    {
       id: "snow-machine-friday",
       navTitle: "Ninajirachi",
       date: "11 SEPTEMBER",
-      title: "Snow Machine, first proper night",
+      title: "Ninajirachi and a rubber arm",
       location: "Queenstown → Coronet Peak → Queenstown",
       song: { url: "https://open.spotify.com/track/3pkXNBtkg8E2xRAKrnu43s", title: "iPod Touch", artist: "Ninajirachi" },
       paragraphs: [
-        "I woke up early and went to the doctor to try to get my ear infection sorted before flying home. I grabbed a coffee, then peer-pressured Daniel into driving up to Coronet Peak.",
+        "We went for brekkie right near the medical centre, then I peer-pressured Daniel into another day up the mountain, this time at Coronet Peak.",
         "His plan had been to stay home and get some important work done. It turns out he has a rubber arm. I told him that if he wanted to stay behind he would have to go into the office, because the van was going up the mountain. So off we went.",
         "We skied all day, then headed back and got ready to go out. Ninajirachi was crazy. We stayed out all night and ended up at the afterparty. Big dance vibes. Good times were had."
       ],
