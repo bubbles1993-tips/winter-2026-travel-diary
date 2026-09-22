@@ -1,11 +1,11 @@
 window.TRAVEL_DIARY = {
   title: "Rain, road, fresh snow",
-  subtitle: "Victoria first. Queenstown later.",
+  subtitle: "Victoria: Melbourne: Queenstown: South Island Roadtrip: Snowmachine",
   dates: "27 July – 14 September 2026",
   heroImage: "assets/hero.jpg",
   heroAlt: "Lake Wakatipu and the mountains around Queenstown in winter.",
   intro: [
-    "I left on 27 July and got home on 14 September — seven weeks away. It started with a campervan through Victoria, the Great Ocean Road, the Grampians, Bendigo and Echuca, then a few days in Melbourne before flying across to Queenstown.",
+    "I left on 27 July and got home on 14 September — seven weeks away. It started with a campervan road-trip through Victoria, the Great Ocean Road, the Grampians, Bendigo and Echuca, then a few days in Melbourne before flying across to Queenstown.",
     "Queenstown brought the skiing. Then came a South Island road trip, Milford Sound, lambing duty at a sheep farm, a very long climb towards Mueller Hut and a return to town for Snow Machine. It finished with Korean food, an Auckland stopover and an assignment submitted 22 seconds late."
   ],
   stats: [
@@ -59,7 +59,7 @@ window.TRAVEL_DIARY = {
       title: "Campervan, then coast",
       location: "Melbourne · Torquay · Apollo Bay",
       paragraphs: [
-        "The trip started at Melbourne airport, followed by collecting the motorhome and pointing it at the coast. That was about as organised as the opening got.",
+        "The trip started at Melbourne airport, followed by collecting the campervan and pointing it at the coast. That was about as organised as the opening got.",
         "The Maui was hard to miss and not exactly small. Melbourne eventually gave way to the Great Ocean Road.",
         "By the afternoon there was rain on the windows and ocean outside. The sofa made more sense once it had a view."
       ],
@@ -67,49 +67,49 @@ window.TRAVEL_DIARY = {
         {
           type: "image",
           src: "assets/campervan-pickup-redacted.jpg",
-          alt: "A white Maui motorhome parked at the Melbourne rental depot.",
+          alt: "A white Maui motorhome that would become our home.",
           caption: "Not a small vehicle."
         },
         {
           type: "image",
           src: "assets/great-ocean-melbourne-departure.jpg",
-          alt: "The motorhome being driven through central Melbourne.",
+          alt: "Squeezing the Maui through central Melbourne.",
           caption: "Getting the motorhome through central Melbourne was the first challenge."
         },
         {
           type: "image",
           src: "assets/great-ocean-campervan-driving.jpg",
-          alt: "Elliot driving the campervan on the Great Ocean Road.",
+          alt: "My turn wielding the campervan on the Great Ocean Road.",
           caption: "Me, the camper and another few hours of road."
         },
         {
           type: "image",
           src: "assets/great-ocean-prince-driving.jpg",
-          alt: "Prince driving the campervan.",
+          alt: "Prince looking jacked driving the campervan.",
           caption: "Prince taking a turn at the wheel."
         },
         {
           type: "image",
           src: "assets/great-ocean-thelo-gyros.jpg",
-          alt: "Gyros served at Thelo in Torquay.",
+          alt: "Gyros in the rain with the lad.",
           caption: "Thelo Gyros in Torquay. Exactly what the weather called for."
         },
         {
           type: "image",
           src: "assets/great-ocean-morning-coffee-coast.jpg",
-          alt: "A hot mug held beside the coast at Point Danger in Torquay.",
+          alt: "A hot mug on the coast at Point Danger in Torquay.",
           caption: "Coffee by the coast while Torquay’s weather worked itself out."
         },
         {
           type: "image",
           src: "assets/great-ocean-double-rainbow.jpg",
           alt: "A full double rainbow over the ocean at Torquay.",
-          caption: "A full double rainbow over the ocean. Bit hard to improve on that."
+          caption: "Woah, double rainbow. Downright angelic."
         },
         {
           type: "image",
           src: "assets/campervan-rain.jpg",
-          alt: "A friend sitting inside the campervan with rain and the ocean visible through the windows.",
+          alt: "Looking contemplative in this totally un-staged candid with rain and the ocean outside, stunning.",
           caption: "Rain outside. Sofa inside. Fair trade."
         }
       ]
@@ -122,15 +122,15 @@ window.TRAVEL_DIARY = {
       location: "Lorne · Apollo Bay · Port Campbell · Warrnambool",
       paragraphs: [
         "The Great Ocean Road was mostly seen through a very large windscreen: wet coast, quick stops and a lot of road.",
-        "Lorne, Apollo Bay, Maits Rest and Port Campbell all fitted somewhere between the driving and the bakery stops. By night it was headlights, wet road and not much else.",
-        "Warrnambool included Deep Blue Hot Springs. I came away with three photos of the signs and none of the water. One is enough here."
+        "Lorne, Apollo Bay, Maits Rest and Port Campbell all fit somewhere between the driving and the bakery stops. Amazing views, great campsites and awesome walks through the forest.",
+        "Warrnambool included Deep Blue Hot Springs. I came away with three photos of the signs and none of the water… Victoria is cold and wet but beautiful."
       ],
       media: [
         {
           type: "image",
           src: "assets/great-ocean-apollo-bay-brewhouse.jpg",
           alt: "The Great Ocean Road Brewhouse in Apollo Bay.",
-          caption: "The Great Ocean Road Brewhouse making a fairly specific claim."
+          caption: "The Great Ocean Road Brewhouse – southern most pub on the Australian mainland, pretty hype."
         },
         {
           type: "image",
@@ -147,8 +147,8 @@ window.TRAVEL_DIARY = {
         {
           type: "image",
           src: "assets/great-ocean-twelve-apostles-selfie.jpg",
-          alt: "Elliot taking a windy selfie at the Twelve Apostles.",
-          caption: "The wind making sure I did not linger."
+          alt: "Elliott taking a windy selfie at the Twelve Apostles.",
+          caption: "The 12 apostles were so beautiful, worth the stop."
         },
         {
           type: "image",
@@ -165,7 +165,7 @@ window.TRAVEL_DIARY = {
         {
           type: "image",
           src: "assets/deep-blue-hot-springs.jpg",
-          alt: "A sign explaining the natural geothermal water at Deep Blue Hot Springs in Warrnambool.",
+          alt: "A sign explaining the natural geothermal water at Deep Blue Hot Springs in Warrnambool. Was pretty I swear.",
           caption: "The only hot-springs photo with no actual hot springs."
         }
       ]
@@ -185,38 +185,38 @@ window.TRAVEL_DIARY = {
         {
           type: "image",
           src: "assets/grampians.jpg",
-          alt: "Elliot at a Grampians lookout in pink floral shorts with the ranges stretching behind him.",
+          alt: "Grampians lookout, looking sexy.",
           caption: "The Balconies. Strong hiking wardrobe."
         },
         {
           type: "image",
           src: "assets/grampians-prince-balconies.jpg",
-          alt: "Prince standing at The Balconies with the Grampians behind him.",
-          caption: "Prince at The Balconies."
+          alt: "Prince doing his best to ruin the photo.",
+          caption: "Prince with a view"
         },
         {
           type: "image",
           src: "assets/grampians-balconies-rock.jpg",
-          alt: "Sandstone edges around The Balconies lookout.",
-          caption: "Sandstone around the lookout."
+          alt: "The Balconies lookout.",
+          caption: "Think I see why they call it the balconies. High risk viewing point for the bold."
         },
         {
           type: "image",
           src: "assets/grampians-balconies-view.jpg",
           alt: "Forested ranges stretching away from The Balconies.",
-          caption: "The ranges opening out from The Balconies."
+          caption: "The ranges opening out."
         },
         {
           type: "image",
           src: "assets/grampians-campfire.jpg",
           alt: "A campfire burning beside the campervan in the Grampians.",
-          caption: "A cold evening solved with a proper fire beside the camper."
+          caption: "A cold evening solved with a proper fire. Personally, I was obsessed with our barrel and ended up out here all night. What is a roadtrip without a fire? Somebody tell me."
         },
         {
           type: "image",
           src: "assets/balconies-hitchhikers.jpg",
-          alt: "Elliot, Prince and two Tasmanian hikers smiling together at a lookout in the Grampians.",
-          caption: "The Balconies with two Tasmanian hitchhikers after their 12-day hike."
+          alt: "Elliott, Prince and two Tasmanian hikers smiling together at a lookout in the Grampians.",
+          caption: "The Balconies with two Tasmanian hitchhikers after their 12-day hike. They said the feeling of walking without their packs was akin to floating, inspired me to do a multi-day hike. Watch this space."
         }
       ]
     },
@@ -227,15 +227,15 @@ window.TRAVEL_DIARY = {
       title: "Hollow Mountain, tiny campervan",
       location: "The Grampians",
       paragraphs: [
-        "Hollow Mountain was the proper hike. Once we were above the canopy, the Grampians opened out in every direction and it felt properly high.",
-        "We could even see the campervan from the top, which made it look very small. Stunning view. One of the best Victorian days."
+        "Hollow Mountain a proper hike, scrambling up the rock faces, watching the Maui disappear to a speck on the horizon. Once we were above the canopy, the Grampians opened out in every direction and it felt properly high.",
+        "We could even see the campervan from the top, which made it look very small. Stunning view. One of the best Victorian days. Got my iconic Hollow Mountain rock window pic, pretty stoked."
       ],
       media: [
         {
           type: "image",
           src: "assets/hollow-window-profile.jpg",
-          alt: "A person resting inside a sandstone opening at Hollow Mountain.",
-          caption: "A quiet pause inside Hollow Mountain."
+          alt: "Resting inside a sandstone opening at Hollow Mountain.",
+          caption: "A quiet pause inside Hollow Mountain. Iconic"
         },
         {
           type: "image",
@@ -247,8 +247,8 @@ window.TRAVEL_DIARY = {
           type: "video",
           src: "assets/hollow-rock-hang.mp4",
           poster: "assets/hollow-rock-hang.jpg",
-          alt: "A short clip of Elliot hanging from a sandstone ledge at Hollow Mountain.",
-          caption: "A very brief career in rock climbing."
+          alt: "Someone has got to do it. Sandstone ledge at Hollow Mountain.",
+          caption: "Holding up the mountain, no big deal."
         },
         {
           type: "image",
@@ -259,8 +259,8 @@ window.TRAVEL_DIARY = {
         {
           type: "image",
           src: "assets/hollow-mountain-summit-selfie.jpg",
-          alt: "Elliot taking a selfie with Prince on rocky ground above the Grampians.",
-          caption: "Prince and me, high enough above the trees to spot the campervan below."
+          alt: "Elliottt taking a selfie with Prince on rocky ground above the Grampians.",
+          caption: "Prince and I, high enough above the trees to spot the campervan below. One earphone each, because we social."
         }
       ]
     },
@@ -271,15 +271,15 @@ window.TRAVEL_DIARY = {
       title: "The detour that became Bendigo",
       location: "Halls Gap · Avoca · Marong · Bendigo",
       paragraphs: [
-        "The campervan was meant to be heading back, but I extended it instead. That took the pressure off and let us head through Avoca to Bendigo.",
-        "Bendigo ended up being much more than a quick stop: Rosalind Park, the Central Deborah Gold Mine, the Great Stupa and a winery stop.",
+        "The campervan was meant to be heading back, the committee decided that more time on the road trumps an opportunity to party in Melbourne over the weekend. Few extra days took the pressure off and let us head through to Bendigo.",
+        "Bendigo ended up being much more than a quick stop: Rosalind Park, the Central Deborah Gold Mine, the Great Stupa and a winery stop made for quite a chill day. Prince loved the Stupa, so much culture.",
         "Going from underground mining machinery to a huge Buddhist temple on the same day was a pretty good contrast."
       ],
       media: [
-        { type: "image", src: "assets/bendigo.jpg", alt: "Elliot posing beside the large Bendigo sign.", caption: "Obligatory Bendigo photo." },
+        { type: "image", src: "assets/bendigo.jpg", alt: "Elliott posing beside the large Bendigo sign. Looking goofy as hell in my maroon thermals.", caption: "Obligatory Bendigo photo." },
         { type: "image", src: "assets/prince-mine.jpg", alt: "Prince inside the Central Deborah Gold Mine.", caption: "Prince at Central Deborah Gold Mine." },
         { type: "image", src: "assets/stupa.jpg", alt: "The ornate interior of the Great Stupa near Bendigo.", caption: "Inside the Great Stupa." },
-        { type: "image", src: "assets/sandhurst-ridge.jpg", alt: "A glass of wine outside at Sandhurst Ridge near Bendigo.", caption: "Wine in the sun at Sandhurst Ridge." }
+        { type: "image", src: "assets/sandhurst-ridge.jpg", alt: "A glass of wine outside at Sandhurst Ridge near Bendigo.", caption: "Wine in the sun at Sandhurst Ridge. Ended up ordering a case back to Perth." }
       ]
     },
     {
@@ -296,7 +296,7 @@ window.TRAVEL_DIARY = {
       media: [
         { type: "image", src: "assets/engine.jpg", alt: "The exposed working steam engine aboard the PS Pevensey.", caption: "The Pevensey’s working steam engine." },
         { type: "image", src: "assets/echuca.jpg", alt: "A view across the Murray River from the PS Pevensey.", caption: "On the Murray at Echuca." },
-        { type: "image", src: "assets/kookaburra.jpg", alt: "A kookaburra perched on the paddle steamer.", caption: "A kookaburra hitching a ride." },
+        { type: "image", src: "assets/kookaburra.jpg", alt: "A kookaburra perched on the paddle steamer.", caption: "A kookaburra hitching a ride. Damn freeloaders ruining this country." },
         { type: "image", src: "assets/bats.jpg", alt: "A colony of flying foxes filling the trees beside the Murray.", caption: "The trees were absolutely full of flying foxes." },
         { type: "image", src: "assets/campfire.jpg", alt: "A campfire burning beside the campervan at night.", caption: "Campfire back at the camper." },
         { type: "image", src: "assets/road.jpg", alt: "The road south from Echuca under an orange sunset.", caption: "The road south at sunset." }
@@ -309,15 +309,15 @@ window.TRAVEL_DIARY = {
       title: "Wet streets and a very big screen",
       location: "Barmah · Fitzroy · Carlton · CBD",
       paragraphs: [
-        "After Barmah it was back toward Melbourne and the end of the campervan section.",
-        "Melbourne became a proper stop rather than just somewhere to return the van: Builders Arms, Carlton Gardens, IMAX, Lygon Street, the GPO, Japanese and Malaysian food, and Young & Jackson.",
-        "The weather was very Melbourne — rain, wet streets and a drink outside anyway. The city looked great at night."
+        "After Echuca it was back toward Melbourne and the end of the campervan section. Bittersweet returning the van that had taken such good care of us.",
+        "Melbourne and Collingwood became home for the next few days as Prince and I crashed with my aunty walking and drinking at the Builders Arms, Carlton Gardens. We did over 10,000 steps a day walking into down, heading to the IMAX Ramen in Lygon Street, Malaysian food, and general tourist behavior.",
+        "The weather was very Melbourne — rain, wet streets and a drinking outside anyway. The city looked great at night."
       ],
       media: [
         { type: "image", src: "assets/parliament.jpg", alt: "Parliament House in Melbourne reflected on a rain-soaked street.", caption: "Parliament House in the rain." },
         { type: "image", src: "assets/cathedral.jpg", alt: "St Patrick’s Cathedral lit against the night sky in Melbourne.", caption: "St Patrick’s Cathedral at night." },
-        { type: "image", src: "assets/melbourne-rain-break.jpg", alt: "Elliot and Prince beneath an umbrella on a wet Melbourne street.", caption: "Waiting out another Melbourne shower." },
-        { type: "image", src: "assets/melbourne-imax.jpg", alt: "A large IMAX screen displaying an image for The Odyssey.", caption: "The IMAX screen, not exactly subtle." }
+        { type: "image", src: "assets/melbourne-rain-break.jpg", alt: "Elliott and Prince beneath an umbrella on a wet Melbourne street.", caption: "Waiting out another Melbourne shower, ordering a pint and sharing our table with some rain refugees that made Prince feel claustrophobic." },
+        { type: "image", src: "assets/melbourne-imax.jpg", alt: "A large IMAX screen displaying an image for The Odyssey.", caption: "The IMAX screen, what a spectacle. Homers Epic indeed." }
       ]
     },
     {
@@ -328,8 +328,8 @@ window.TRAVEL_DIARY = {
       location: "Melbourne Airport · ZQN · Nomads",
       paragraphs: [
         "Then straight into the next part of the trip.",
-        "The flight map with Melbourne on one side and ZQN on the other was the point the trip changed completely. Campervan away, ski gear out.",
-        "Nomads became the base. From there it was the lake, Shotover Street, food, bars and buses up the mountains."
+        "The flight map with Melbourne on one side and Queenstown on the other was the point the trip changed completely. Campervan away, then searching for some cheap skiis and boots on Marketplace.",
+        "Nomads became the base. From there it was the lake, the botanical gardens, food, bars and buses up the hill to ski all day."
       ],
       media: [
         { type: "image", src: "assets/flight.jpg", alt: "The in-flight map showing the route across the Tasman to Queenstown.", caption: "Across the Tasman." }
@@ -342,16 +342,16 @@ window.TRAVEL_DIARY = {
       title: "Finding the Queenstown rhythm",
       location: "Queenstown · early ski days",
       paragraphs: [
-        "The days start to blur here, which feels about right.",
-        "$10 breakfast at Brazz's with Daniel and Casey. Then it was sort the gear, get up the mountain, ski most of the day, eat a lot, and recover enough to do it again.",
-        "Harshil and Daniel went from people I met in Queenstown to proper friends very quickly. We spent a lot of time together, learned from each other and made the whole stretch much better.",
-        "Daniel and I also turned a ridiculous Steve Irwin versus Jason Momoa argument into a game idea. He actually built it. A productive use of a ski trip.",
-        "One ski day was full storm mode — visibility basically gone, but fresh snow under the skis. Another had us above the cloud with the valley disappearing below."
+        "The days start to blur here, met some good lads in the room who became my squad for the Queenstown leg. Everyone got sick in the disease riddled hostel. Seemed like everyone was suffering from the Nomads rattle, coughing their lungs out.",
+        "$10 breakfast at Brazz's with Daniel and Casey (216 crew). Then it was sort the gear, get up the mountain, ski most of the day, eat a lot, and then hit the Exchange Bar for $12 jugs of Summit Ultra.",
+        "Daniel and Casey went from NPCs from the room to proper friends quick. We spent a lot of time together, learned from each other and made the whole stretch much better.",
+        "Daniel and I also turned a ridiculous Steve Irwin versus Jason Momoa argument into a smash bro’s-esque game. We built it, you can play right now: https://mud-legends-swamp-rumble.procrastix.chatgpt.site/ . Message me if you are jumping on I’ll give you a woopin.",
+        "One ski day was full storm mode — visibility basically gone, but fresh snow under the skis. Another had us above the cloud with the valley disappearing below. The Remarkables was my favorite, lots of off-piste some good snow and some creative lines available."
       ],
       media: [
-        { type: "image", src: "assets/breakfast.jpg", alt: "Elliot, Daniel and Casey seated around a table at Brazz's for breakfast.", caption: "$10 breakfast at Brazz's with Daniel and Casey." },
+        { type: "image", src: "assets/breakfast.jpg", alt: "Elliott, Daniel and Casey seated around a table at Brazz's for breakfast.", caption: "$10 breakfast at Brazz's with Daniel and Casey." },
         { type: "image", src: "assets/daniel-queenstown-night.jpg", alt: "Daniel standing beside Lake Wakatipu at night.", caption: "Daniel by Lake Wakatipu at night." },
-        { type: "image", src: "assets/powder.jpg", alt: "Skiers moving through fresh snow in very low visibility.", caption: "Fresh snow. Visibility optional." },
+        { type: "image", src: "assets/powder.jpg", alt: "Skiers moving through fresh snow in very low visibility.", caption: "Fresh snow. Visibility overrated when the snow is this good." },
         { type: "image", src: "assets/clouds.jpg", alt: "A ski field above a layer of cloud covering the valley.", caption: "Skiing above the cloud layer." }
       ]
     },
@@ -364,11 +364,11 @@ window.TRAVEL_DIARY = {
       paragraphs: [
         "Cardrona was one of the proper group ski days with Harshil and Daniel.",
         "The chairlift photo is probably one of the best shots from the trip — three of us packed onto the lift, skis hanging underneath and a ridiculous mountain backdrop.",
-        "By then the routine was established: ski all day, come back wrecked, eat, then go out again anyway."
+        "By then the routine was established: ski all day, come back, eat, drink and go out anyway, especially on Wednesdays for Silent Disco at the World Bar."
       ],
       media: [
-        { type: "image", src: "assets/chairlift.jpg", alt: "Elliot, Harshil and Daniel together on a chairlift at Cardrona.", caption: "Cardrona with Harshil and Daniel." },
-        { type: "image", src: "assets/ski-group.jpg", alt: "Elliot taking a ski-slope selfie with another skier behind him at Cardrona.", caption: "Ski selfie, mountain doing the rest." }
+        { type: "image", src: "assets/chairlift.jpg", alt: "Elliott, Harshil and Daniel together on a chairlift at Cardrona.", caption: "Cardrona, the boys looking steezy." },
+        { type: "image", src: "assets/ski-group.jpg", alt: "cheeky ski-slope selfie", caption: "Ski selfie, looking stoked to be oot and aboot." }
       ]
     },
     {
@@ -376,18 +376,18 @@ window.TRAVEL_DIARY = {
       navTitle: "Bulls and silent discos",
       date: "QUEENSTOWN NIGHTS",
       title: "Cowboys, Winnies & the silent disco",
-      location: "Shotover Street and wherever the night went next",
+      location: "Exchange Bar > Cowboys > Globe Bar Silent Disco >",
       dark: true,
       paragraphs: [
         "Queenstown was definitely not just skiing.",
-        "We found the pub crawl, ended up at Cowboys with the mechanical bull and the very subtle “Buck Me Gently” sign, and later at Winnies once it had turned into much more of a late-night club.",
-        "Then the silent disco: glowing headphones, blue and purple lights, drinks in hand and absolutely no dignity required.",
+        "We found the pub crawl, ended up at Cowboys watching countless drunk Aussies getting dumped by the bull, later at Winnies (pizza bar turned nightclub).",
+        "Then the silent disco: glowing headphones, blue and purple lights, drinks in hand and drum and bass pumped right into the brain.",
         "The photos are chaotic. Which is about right."
       ],
       media: [
         { type: "image", src: "assets/pubcrawl.jpg", alt: "A Queenstown pub crawl flyer.", caption: "The flyer that started it." },
-        { type: "image", src: "assets/cowboys.jpg", alt: "The mechanical bull and Buck Me Gently sign inside Cowboys bar.", caption: "Cowboys. Subtle." },
-        { type: "image", src: "assets/silent.jpg", alt: "Friends wearing glowing headphones at the silent disco.", caption: "Silent disco after skiing." },
+        { type: "image", src: "assets/cowboys.jpg", alt: "The mechanical bull and Buck Me Gently sign inside Cowboys bar.", caption: "Cowboys. Enough said." },
+        { type: "image", src: "assets/silent.jpg", alt: "Friends wearing glowing headphones at the silent disco.", caption: "Silent disco after skiing with the Mantel lads. Work trip off the chain." },
         { type: "image", src: "assets/silent2.jpg", alt: "The group dancing under blue and purple lights at the silent disco.", caption: "Roughly as composed as expected." }
       ]
     },
@@ -398,14 +398,14 @@ window.TRAVEL_DIARY = {
       title: "Above the clouds, off the piste",
       location: "Queenstown ski fields",
       paragraphs: [
-        "The last ski days blur together a bit, but the contrast between the two mountains does not.",
+        "Ski days can blur together a bit but I savored every moment took a few lessons, met some great people and then immediately lost those people. Straight from chair to chair, sending runs until my quads burnt out. Incredible views, great runs, new top speeds.",
         "Coronet Peak gave us those strange above-the-weather views, with cloud sitting below parts of the mountain. It was especially good on the bluebird days after fresh snow.",
         "The Remarkables is probably my favourite of the two. It is where I skied the most, the off-piste stuff was better, and the runs off Shadow Chairlift were very good fun.",
         "Both mountains were great, but The Remarkables is the one I kept wanting to go back to."
       ],
       media: [
         { type: "image", src: "assets/remarkables.jpg", alt: "A wide view across the snowy Remarkables under a clear blue sky.", caption: "The Remarkables on a bluebird day." },
-        { type: "image", src: "assets/ski-portrait.jpg", alt: "Elliot standing in ski gear with the mountains behind him.", caption: "One for the travel diary." }
+        { type: "image", src: "assets/ski-portrait.jpg", alt: "Elliott standing in ski gear with the mountains behind him.", caption: "One for the travel diary." }
       ]
     },
     {
@@ -421,7 +421,7 @@ window.TRAVEL_DIARY = {
       ],
       media: [
         { type: "image", src: "assets/queenstown-night.jpg", alt: "Colourful lights from Queenstown reflected across Lake Wakatipu at night.", caption: "Queenstown reflected across Lake Wakatipu." },
-        { type: "image", src: "assets/cooked.jpg", alt: "Elliot completely exhausted after a full day of skiing.", caption: "The less glamorous side of a ski trip: completely cooked." }
+        { type: "image", src: "assets/cooked.jpg", alt: "Elliott completely exhausted after a full day of skiing.", caption: "The less glamorous side of a ski trip: cooked, sick and ready for a nap." }
       ]
     },
     {
@@ -433,12 +433,13 @@ window.TRAVEL_DIARY = {
       song: { url: "https://open.spotify.com/track/4ufLb2iVVHymHQSXMO5zMz", title: "3AM", artist: "Matchbox Twenty" },
       paragraphs: [
         "Daniel and I started with breakfast at Brazz, then spent most of the day vibe coding and making upgrades to this website. Slightly strange to spend the day building the diary and then immediately create another day worth adding to it.",
-        "Later we traded the laptops for the hike up to the top of the gondola. It was properly tiring, but the Remarkables turning pink behind Queenstown made the climb feel worthwhile before we had even reached the top.",
-        "By the time we arrived, the town was lit up below us and the beer felt very well earned. Tiring, but absolutely worth it."
+        "Later we traded the laptops for the hike up to the top of the gondola. Much higher than it looks, my cardiovascular endurance was called into questions, but we were rewarded for our persistence and greeted with a view of The Remarkables turning pink behind Queenstown made the climb feel worthwhile before we had even reached the top.",
+        "We did have to stop for a work meeting half-way up where I broke the news to work that I would be extending my trip for an additional few week, oops.",
+        "By the time we arrived, the town was lit up below us and the beer felt very well earned. Absolutely worth it, especially when we realized the Gondola down was free, thank the lord for that."
       ],
       media: [
         { type: "image", src: "assets/aug18-gondola-approach.jpg", alt: "Daniel walking toward the base of the Queenstown gondola with the station visible above.", caption: "Heading toward the climb, with the gondola station waiting above." },
-        { type: "image", src: "assets/aug18-remarkables-sunset.jpg", alt: "The Remarkables glowing pink at sunset above Queenstown Cemetery.", caption: "The Remarkables catching the last pink light on the way up." },
+        { type: "image", src: "assets/aug18-remarkables-sunset.jpg", alt: "The Remarkables glowing pink at sunset above Queenstown.", caption: "The Remarkables catching the last pink light on the way up." },
         { type: "image", src: "assets/aug18-forest-climb.jpg", alt: "A steep forest track through tall trees on the walk up Queenstown Hill.", caption: "The steep forest track doing a good job of making us earn the view." },
         { type: "image", src: "assets/aug18-skyline-beer.jpg", alt: "A glass of beer beside the Skyline Cafe and Bar menu.", caption: "A very well-earned beer at Skyline Cafe & Bar." },
         { type: "image", src: "assets/aug18-queenstown-night.jpg", alt: "Queenstown illuminated at night beside Lake Wakatipu, viewed from Skyline.", caption: "Queenstown glowing below us after dark." },
@@ -465,7 +466,7 @@ window.TRAVEL_DIARY = {
       media: [
         { type: "image", src: "assets/remarkables-sunny-basin.jpg", alt: "A wide view across snowy runs, chairlifts and the mountains beyond The Remarkables.", caption: "Sunny, clear and not much to complain about." },
         { type: "image", src: "assets/remarkables-sunny-runs.jpg", alt: "The sun and a white contrail above snowy ski runs at The Remarkables.", caption: "Music on and another run." },
-        { type: "image", src: "assets/remarkables-chairlift-selfie.jpg", alt: "Elliot taking a selfie in ski gear on a chairlift with the snowy valley behind him.", caption: "Last few runs before the very important 3:30 snooze." },
+        { type: "image", src: "assets/remarkables-chairlift-selfie.jpg", alt: "Taking a selfie in ski gear on a chairlift with the snowy valley behind him.", caption: "Last few runs before the very important 3:30 snooze." },
         { type: "image", src: "assets/remarkables-fire-alarm.jpg", alt: "A crowd gathered outside Nomads at night.", caption: "Everyone outside while the fire alarm did its thing." },
         { type: "image", src: "assets/sundeck-firepit.jpg", alt: "A firepit burning beside the bar at Sundeck.", caption: "A quieter kind of fire at Sundeck." },
         { type: "image", src: "assets/sundeck-rooftop.jpg", alt: "Rooftop seating at Sundeck with the mountains visible beyond the terrace.", caption: "Drinks on the roof with the mountains still hanging around." }
@@ -483,9 +484,9 @@ window.TRAVEL_DIARY = {
         "I did make it out for a walk at sunset. The light made a decent case for leaving the house, then it was back inside. That was plenty."
       ],
       media: [
-        { type: "image", src: "assets/queenstown-rest-day-sunset-1.jpg", alt: "A person by a stone wall beside a lake and mountains in sunset light.", caption: "Sunset doing most of the work." },
-        { type: "image", src: "assets/queenstown-rest-day-sunset-2.jpg", alt: "A person standing by a lakeshore with mountains lit by the setting sun.", caption: "A brief outing." },
-        { type: "image", src: "assets/queenstown-rest-day-meal.jpg", alt: "Two people seated at a table with meals and drinks." }
+        { type: "image", src: "assets/queenstown-rest-day-sunset-1.jpg", alt: "Lake and Mountain staples", caption: "Sunset doing work." },
+        { type: "image", src: "assets/queenstown-rest-day-sunset-2.jpg", alt: "Lake and Mountains looking hot.", caption: "A brief outing." },
+        { type: "image", src: "assets/queenstown-rest-day-meal.jpg", alt: "Dan and I back at Exchange bar for Brekkie." }
       ]
     },
     {
@@ -495,15 +496,15 @@ window.TRAVEL_DIARY = {
       title: "A very sensible recovery plan",
       location: "Queenstown · Poges Irish Pub",
       paragraphs: [
-        "21 August was back to skiing, which was probably ambitious given I had spent the day before sick at home. I still went out drinking afterwards and ended up at Poges Irish Pub for a spice bag.",
+        "21 August was back to skiing, which was probably ambitious given I had spent the day before sick at home. I still went out drinking afterwards and ended up at Poges Irish Pub for a spice bag, my first try of the dish which slapped extremely hard.",
         "That all seemed reasonable at the time. I woke up properly sick on the 22nd, so apparently not.",
-        "By the 22nd I was getting worse. Influenza A, a hostel room, Panadol, hand sanitiser and three hot showers a day. Hostels are apparently not where you go to stay well. Who knew."
+        "By the 22nd I was getting worse. Influenza A, a hostel room, Panadol, hand sanitiser and three hot showers a day. Hostels are apparently not where you go to keep well. Who knew."
       ],
       media: [
         { type: "image", src: "assets/aug21-lake-view.jpg", alt: "A lake with mountains beyond it in late-day light.", caption: "A decent view on the way through the day." },
         { type: "image", src: "assets/aug21-lakeside.jpg", alt: "A person standing on rocks beside a lake with mountains beyond.", caption: "A brief stop by the water." },
         { type: "image", src: "assets/aug21-ski-base.jpg", alt: "Skiers gathered around outdoor tables beneath a snow-covered slope.", caption: "Back on the snow." },
-        { type: "image", src: "assets/aug21-ski-layers.jpg", alt: "A person wearing ski layers and an orange face covering taking a mirror photo.", caption: "Ski gear assembled." }
+        { type: "image", src: "assets/aug21-ski-layers.jpg", alt: "A person wearing ski layers and an orange face covering taking a mirror photo.", caption: "Ski gear assembled. Do you think Orange is my colour? The debate is out there." }
       ]
     },
     {
@@ -518,7 +519,7 @@ window.TRAVEL_DIARY = {
       media: [
         { type: "image", src: "assets/aug25-coronet-base.jpg", alt: "Skiers gathered at the Coronet Peak base area beneath a large cloud.", caption: "Back at Coronet Peak, with a pretty dramatic cloud overhead." },
         { type: "image", src: "assets/aug25-coronet-ski-view.jpg", alt: "Ski tips and poles resting on the snow above the Wakatipu Basin and surrounding mountains.", caption: "A pause between runs to take in the view." },
-        { type: "image", src: "assets/aug25-coronet-selfie.jpg", alt: "Elliot in ski gear on a Coronet Peak slope with the basin, lake and mountains behind him.", caption: "Feeling much better and very glad to be back on the slopes." },
+        { type: "image", src: "assets/aug25-coronet-selfie.jpg", alt: "Elliott in ski gear on a Coronet Peak slope with the basin, lake and mountains behind him.", caption: "Feeling much better and very glad to be back on the slopes." },
         { type: "image", src: "assets/aug25-coronet-panorama.jpg", alt: "A wide view from Coronet Peak across snowy runs, rugged ridges and the Wakatipu Basin.", caption: "Coronet Peak opening out across the basin." },
         { type: "image", src: "assets/aug25-wakatipu-basin.jpg", alt: "A broad view across the Wakatipu Basin toward snow-capped mountains beneath blue sky and clouds.", caption: "The Wakatipu Basin and snow-capped ranges beyond." }
       ]
@@ -533,16 +534,16 @@ window.TRAVEL_DIARY = {
         "Wednesday started with a catch-up with Casey and Daniel over a few beers and burgers. After that we headed out dancing at my favourite Queenstown event: the silent disco at The World Bar.",
         "Being able to change the DJ and set your own volume is peak. The option of listening to mostly drum and bass all night works for me. Fun night, big vibes — but I definitely woke up pretty dusty on Thursday.",
         "The last couple of days have been stormy and wet in town, while up on the mountains it has been dumping snow. That should be a good thing, except the roads have been closing and buses have been stopped when the visibility gets too bad.",
-        "That kept me home on Thursday. Today, 28 August, the road up to The Remarkables is closed, so I’m heading back to Coronet Peak instead. Disappointing, but Mother Nature is a cruel mistress at times.",
+        "That kept me home on Thursday. Today, 28 August, the road up to The Remarkables is closed, so I’m heading back to Coronet Peak instead. Disappointing but the ski vibes continue nonetheless.",
         "Meanwhile, the next — and last — leg of the holiday is now booked. Dan and I are picking up a JUCY Chaser on Sunday the 30th for a two-week campervan road trip.",
-        "We have a few loose ideas about where we might go, but nothing is set in stone. For now, that is the plan: a van, two weeks and enough flexibility to let the road decide the rest."
+        "We have a few loose ideas about where we might go, but nothing is set in stone. For now, that is the plan: a van, two weeks and enough flexibility to let the road decide."
       ],
       media: [
         { type: "image", src: "assets/aug28-storm-day-selfie.jpg", alt: "Three friends smiling together in their Queenstown hostel room.", caption: "Casey, Daniel and me after beers and burgers, before we went dancing." },
         { type: "image", src: "assets/aug28-hostel-room.jpg", alt: "Three friends standing together between the bunks in their hostel room.", caption: "One more hostel-room photo before The World Bar." },
         { type: "image", src: "assets/aug28-storm-day-faces.jpg", alt: "Three friends pulling faces for a selfie in their hostel room.", caption: "Big vibes before the silent disco had even started." },
         { type: "image", src: "assets/aug28-beers-and-burgers.jpg", alt: "Three friends with burgers and drinks at a pub table before heading out dancing.", caption: "Wednesday catch-up: a few beers and burgers before the night moved on." },
-        { type: "image", src: "assets/aug28-jucy-chaser.jpg", alt: "A green JUCY Chaser campervan parked beside a beach in New Zealand.", caption: "The next home on wheels: a JUCY Chaser. Promotional image courtesy of JUCY." }
+        { type: "image", src: "assets/aug28-jucy-chaser.jpg", alt: "A green JUCY Chaser campervan parked beside a beach in New Zealand.", caption: "The next home on wheels: a JUCY Chaser looking sexy in green." }
       ]
     },
     {
@@ -557,7 +558,8 @@ window.TRAVEL_DIARY = {
         "The drive shifted from bright open country to rain-soaked valleys and sheer rock walls, with snow still hanging on the peaks. Every bend seemed to make the road feel a little wilder.",
         "Milford Sound is an incredible spot. A pretty strong start to the last leg of the trip.",
         "That evening we had a very nice meal at the only restaurant in Milford Sound, which happened to be connected to our campsite at Milford Sound Lodge. About as convenient as dinner gets.",
-        "We met a lovely Irish couple while we were there and ended up having a great conversation over dinner. One of those easy travel encounters that makes a place even more memorable."
+        "We met a lovely Irish couple while we were there and ended up having a great conversation over dinner. One of those easy travel encounters that makes a place even more memorable.",
+        "‘This is going to be hard to top’ became a bit of a mantra that continued to be mistaken as the trip went on."
       ],
       media: [
         { type: "image", src: "assets/aug30-milford-rainy-road.jpg", alt: "A wet road winding between steep, misty mountains on the approach to Milford Sound.", caption: "Rain on the windscreen and mountains closing in." },
@@ -565,11 +567,11 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/aug30-road-light.jpg", alt: "Sunlight reflecting from a wet road with fields and mountains beyond.", caption: "A brief bit of light on the four-hour drive." },
         { type: "image", src: "assets/aug30-snowy-ranges.jpg", alt: "Golden tussock and scrub beside brown hills with a snow-covered peak beyond.", caption: "Forests, tussock and snow on the same road." },
         { type: "image", src: "assets/aug30-milford-mountain-road.jpg", alt: "A rain-streaked mountain road through a steep valley on the way to Milford Sound.", caption: "The last stretch into Milford Sound. Incredible road, incredible spot." },
-        { type: "image", src: "assets/aug30-jucy-mountain-stop.jpg", alt: "The green JUCY Chaser parked in a broad valley beneath snow-covered mountains.", caption: "The JUCY Chaser looking very at home on the Milford Road." },
-        { type: "image", src: "assets/aug30-milford-lodge.jpg", alt: "Daniel standing outside Milford Sound Lodge with steep mountains and waterfalls behind the building.", caption: "Milford Sound Lodge, with the mountains doing their usual thing behind it." },
-        { type: "image", src: "assets/aug30-irish-dinner-friend.jpg", alt: "Elliot smiling beside an Irish man they met over dinner at Milford Sound Lodge.", caption: "One half of the lovely Irish couple we met over dinner — great company and a great conversation." },
-        { type: "image", src: "assets/aug30-lodge-dinner.jpg", alt: "Two plated mains with vegetables, glasses of red wine and a bottle of wine on a restaurant table.", caption: "A very nice meal at the only restaurant in Milford Sound." },
-        { type: "image", src: "assets/aug30-dinner-with-daniel.jpg", alt: "Daniel seated behind a plated meal with glasses of red wine at Milford Sound Lodge.", caption: "Dinner with Daniel at Milford Sound Lodge. Pretty hard to complain." }
+        { type: "image", src: "assets/aug30-jucy-mountain-stop.jpg", alt: "The green JUCY Chaser parked in a broad valley beneath snow-covered mountains.", caption: "The JUCY Chaser looking very at home on the Milford Road. What a photo, chills." },
+        { type: "image", src: "assets/aug30-milford-lodge.jpg", alt: "Daniel standing outside Milford Sound Lodge with steep mountains and waterfalls behind the building.", caption: "Milford Sound Lodge, with the mountains looming large." },
+        { type: "image", src: "assets/aug30-irish-dinner-friend.jpg", alt: "Elliott smiling beside an Irish man they met over dinner at Milford Sound Lodge.", caption: "One half of the lovely Irish couple we met over dinner — great company and a great conversation. They also bought us whiskey and shared their dessert, legends." },
+        { type: "image", src: "assets/aug30-lodge-dinner.jpg", alt: "Two plated mains with vegetables, glasses of red wine and a bottle of wine on a restaurant table.", caption: "A very nice meal at the only restaurant in Milford Sound, fine dining and camping is a strange combo that I can get behind." },
+        { type: "image", src: "assets/aug30-dinner-with-daniel.jpg", alt: "Daniel seated behind a plated meal with glasses of red wine at Milford Sound Lodge.", caption: "Dinner with Daniel at Milford Sound Lodge. Venison and a bottle of Red, stunning." }
       ]
     },
     {
@@ -579,20 +581,20 @@ window.TRAVEL_DIARY = {
       title: "Milford Sound, no notes",
       location: "Milford Sound · Fiordland",
       paragraphs: [
-        "We woke up at Milford Sound and meandered down to the boat cruise, which was stunning from start to finish. Snow on the peaks, waterfalls off the cliffs and the whole sound looking fairly ridiculous.",
+        "We woke up at Milford Sound and meandered down to the boat cruise, which was stunning from start to finish. Snow on the peaks, waterfalls off the cliffs and the whole sound looking ridiculous. Got ourselves a glacial facial which is renowned for its healing powers and anti-aging properties.",
         "Afterwards we took a walk through the forest, then headed on and found a free camp in a car park for the night.",
         "Dinner was van-cooked pasta bolognese, followed by converting the JUCY into cinema mode. Wonderful day from beginning to end. No notes."
       ],
       media: [
         { type: "image", src: "assets/aug31-milford-wharf.jpg", alt: "Milford Sound from the wharf beneath cloud and snow-dusted peaks.", caption: "Not a bad view for the walk down to the boat." },
         { type: "image", src: "assets/aug31-milford-wharf-panorama.jpg", alt: "A panoramic view across Milford Sound from the wharf.", caption: "Milford Sound looking suitably dramatic." },
-        { type: "image", src: "assets/aug31-milford-selfie.jpg", alt: "Elliot smiling in a rain jacket on the Milford Sound cruise.", caption: "Wrapped up and very pleased to be on the boat." },
-        { type: "image", src: "assets/aug31-milford-fiord.jpg", alt: "The cruise boat moving between the steep walls of Milford Sound.", caption: "Out into the sound, with the mountains doing most of the work." },
+        { type: "image", src: "assets/aug31-milford-selfie.jpg", alt: "Elliott smiling in a rain jacket on the Milford Sound cruise.", caption: "Wrapped up and very pleased to be on the boat." },
+        { type: "image", src: "assets/aug31-milford-fiord.jpg", alt: "The cruise boat moving between the steep walls of Milford Sound.", caption: "Out into the sound, with the mountains looking cinematic." },
         { type: "image", src: "assets/aug31-milford-sunlit-peak.jpg", alt: "Brief sunlight breaking through cloud above a steep Milford Sound peak.", caption: "The sun made a brief attempt over the peaks." },
-        { type: "image", src: "assets/aug31-milford-waterfall.jpg", alt: "A large waterfall dropping through forest into Milford Sound.", caption: "One of the waterfalls putting on a proper show." },
+        { type: "image", src: "assets/aug31-milford-waterfall.jpg", alt: "A large waterfall dropping through forest into Milford Sound.", caption: "One of the waterfalls putting on a show" },
         { type: "image", src: "assets/aug31-fiordland-forest.jpg", alt: "A moss-covered Fiordland forest beside the water.", caption: "A post-cruise wander through the mossy forest." },
         { type: "image", src: "assets/aug31-van-bolognese.jpg", alt: "Pasta bolognese and a drink served inside the JUCY campervan.", caption: "Free camp, van-cooked bolognese and a well-earned drink." },
-        { type: "image", src: "assets/aug31-cinema-mode.jpg", alt: "A laptop playing a film inside the darkened campervan.", caption: "Cinema mode to finish. No notes." }
+        { type: "image", src: "assets/aug31-cinema-mode.jpg", alt: "A laptop playing a film inside the darkened campervan.", caption: "Cinema mode to finish." }
       ]
     },
     {
@@ -603,7 +605,7 @@ window.TRAVEL_DIARY = {
       location: "Lumsden → Invercargill",
       paragraphs: [
         "Woke up at the Lumsden freedom camping site beside the old railway hotel. Calling it a campsite might be generous — it was a car park with a toilet — but it was free and did the job.",
-        "We drove on to Invercargill, where I wandered around Queens Park, found the animals and paid a visit to Burt Munro. Beyond that, it was mostly a much-needed rest and recovery day.",
+        "We drove on to Invercargill, where I wandered around Queens Park, found the animals and paid a visit to Burt Munro (Worlds Fastest Indian). Beyond that, it was mostly a much-needed rest and recovery day.",
         "Finished at a powered site in Invercargill, which meant we could finally run the heater and sleep a little warmer. Luxury, apparently."
       ],
       media: [
@@ -620,8 +622,8 @@ window.TRAVEL_DIARY = {
       title: "Bluff, sea lions and a pub car park",
       location: "Invercargill → Bluff → Waipapa Point → Tokanui",
       paragraphs: [
-        "We woke up at the Amble On Inn in Invercargill and headed south to Bluff. It was pretty, we walked around for about 40 minutes, and it was nice to be right at the southern end of mainland New Zealand.",
-        "From there we carried on to Waipapa Point Lighthouse. The sea lions were directly underneath it, which was amazing.",
+        "We woke up at the “Amble On Inn” - Invercargill and headed south to Bluff. It was pretty, we walked around for about 40 minutes, and it was nice to be right at the southern end of mainland New Zealand.",
+        "From there we carried on to Waipapa Point Lighthouse. The sea lions were directly underneath it, which was amazing. Sea puppies is a pretty good descriptor.",
         "We ended the day in Tokanui and slept in the camper behind the pub. A very convenient place to free-camp. Hard to argue with that."
       ],
       media: [
@@ -640,7 +642,7 @@ window.TRAVEL_DIARY = {
       location: "Tokanui → The Catlins → Kaka Point",
       paragraphs: [
         "Woke up behind the Tokanui Tavern, got back on the road and headed through the Catlins.",
-        "I stopped for two very good bush walks along the way, first to Koropuku Falls and then McLean Falls. Both were awesome and easily worth getting off the road for.",
+        "I stopped for two very good bush walks along the way, first to Koropuku Falls and then McLean Falls. Both were awesome and easily worth getting off the road for. Crazy how much the terrain can change in just a few hours.",
         "By the afternoon I was at the Kaka Point campsite, where I sat down and worked on my financial planning course. Plenty of bush walking and sightseeing, plus a decent amount of study. A great day all round."
       ],
       media: [
@@ -670,7 +672,7 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/sep04-indian-dinner.jpg", alt: "The colourful interior of an Indian restaurant with patterned wallpaper and a guard statue.", caption: "A solo Indian dinner on the long walk home." },
         { type: "image", src: "assets/sep04-emersons-pint.jpg", alt: "A golden beer in an Emerson’s glass beside a bowl of bar snacks on an outdoor wooden table.", caption: "A well-earned pint at Emerson’s. The snacks did not last long." },
         { type: "image", src: "assets/sep04-first-church.jpg", alt: "The tall Gothic stone spire of First Church in Dunedin, framed by bare trees at dusk.", caption: "First Church looking properly gothic in the evening light." },
-        { type: "image", src: "assets/sep04-escooter.jpg", alt: "Elliot taking a night-time selfie beside a red rental e-scooter on a wooden deck.", caption: "Phone dying, camp still miles away. The e-scooter was a vibe." }
+        { type: "image", src: "assets/sep04-escooter.jpg", alt: "Elliott taking a night-time selfie beside a red rental e-scooter on a wooden deck.", caption: "Phone dying, camp still miles away. The e-scooter was a great choice." }
       ]
     },
     {
@@ -684,8 +686,8 @@ window.TRAVEL_DIARY = {
         "Helping the sheep give birth turned out to be a huge amount of fun, and very educational. I hadn’t realised that heavily pregnant sheep can get stuck on their backs, and that it can be fatal if they’re left too long. I flipped three back over myself, which was a good feeling.",
         "I also had a go at being a sheep midwife and helped deliver a set of twins. Slimy, but very rewarding. Not something I expected to be doing on this trip.",
         "Then there were the ‘spares’ — lambs that had been separated from or rejected by their mothers — which we helped bottle-feed. Very cute.",
-        "The family took us in and treated us to a hot shower, a hot meal and a night sleeping somewhere other than the van. A real treat. Huge thanks to Rosie and the whole family for being so welcoming and hospitable.",
-        "We also ended up at the country pub in the evening for a few pints. An amazing and completely unexpected detour."
+        "The family took us in and treated us to a hot shower, a hot meal and a night sleeping somewhere other than the van. A real treat. Huge thanks to Rosie and the whole family for being so welcoming and hospitable. Also ate lamb for dinner so we saw the whole life cycle of a farm sheep from birth to dinner. Yum.",
+        "We also ended up at the country pub in the evening for a few pints and a game of bean trading. An amazing and completely unexpected detour."
       ],
       media: [
         { type: "image", src: "assets/sep05-beach-stop.jpg", alt: "A sandy beach with driftwood beneath a cloudy sky.", caption: "A beach stop to see the boulders on the drive to Albury." },
@@ -695,7 +697,7 @@ window.TRAVEL_DIARY = {
         { type: "video", src: "assets/sep05-lambing.mp4", poster: "assets/sep05-spares.jpg", alt: "A ewe with two wet newborn lambs in the paddock.", caption: "Newborn lambs in the paddock. Lambing clip — contains birth fluids." },
         { type: "image", src: "assets/sep05-spares.jpg", alt: "A group of lambs resting together on straw.", caption: "A quiet moment with the lambs." },
         { type: "image", src: "assets/sep05-bottle-feeding.jpg", alt: "A person bottle-feeding lambs in a straw-covered pen.", caption: "Bottle-feeding the ‘spares’. Very cute." },
-        { type: "image", src: "assets/sep05-country-pub.jpg", alt: "Three people playing cards around a table with drinks.", caption: "From the paddocks to a few pints at the country pub." }
+        { type: "image", src: "assets/sep05-country-pub.jpg", alt: "Three people playing cards around a table with drinks.", caption: "From the paddocks to a few pints at the country pub. Trading beans and making deals." }
       ]
     },
     {
@@ -728,7 +730,7 @@ window.TRAVEL_DIARY = {
       title: "Back in Queenstown, absolutely drenched",
       location: "Wanaka → Queenstown",
       paragraphs: [
-        "Drove back to Queenstown from Wanaka today, stopping for a haircut at a random barber shop in the middle of nowhere. Also managed to get some study done beside the camper.",
+        "Drove back to Queenstown from Wanaka today, stopping for a haircut at a random barber shop in the middle of nowhere, got the tightest fade they had. Also managed to get some study done beside the camper.",
         "Went along to the Snow Machine street party, which had taken over a closed road right in the town centre. Had a dance, then headed to an old favourite, World Bar.",
         "Ben and I also went for a hike in the rain. I ended up absolutely drenched. Plenty of photographic evidence of that."
       ],
@@ -786,7 +788,7 @@ window.TRAVEL_DIARY = {
         {
           type: "image",
           src: "assets/sep11-snow-machine-entrance.jpg",
-          alt: "Elliot taking a selfie beneath the multicoloured neon entrance at Snow Machine in Queenstown.",
+          alt: "Elliott taking a selfie beneath the multicoloured neon entrance at Snow Machine in Queenstown.",
           caption: "The subtle entrance."
         },
         {
@@ -841,7 +843,7 @@ window.TRAVEL_DIARY = {
         {
           type: "image",
           src: "assets/sep12-mason-pink-hat.jpg",
-          alt: "Elliot and Mason smiling in the Snow Machine crowd, with Mason wearing a bright pink cowboy hat.",
+          alt: "Elliott and Mason smiling in the Snow Machine crowd, with Mason wearing a bright pink cowboy hat.",
           caption: "Mason and the pink cowboy hat. Absolute legend."
         }
       ]
@@ -860,7 +862,7 @@ window.TRAVEL_DIARY = {
         {
           type: "image",
           src: "assets/sep13-mapo88-group.jpg",
-          alt: "Elliot, Casey, Daniel and Rosie smiling outside Mapo88 in Queenstown.",
+          alt: "Elliott, Casey, Daniel and Rosie smiling outside Mapo88 in Queenstown.",
           caption: "Outside Mapo88 before Korean dinner."
         },
         {
@@ -892,9 +894,9 @@ window.TRAVEL_DIARY = {
     }
   ],
   reflection: [
-    "The numbers are fine — 4,045 km driven, 424 km skied and 164 km walked — but they aren’t really the trip.",
-    "I’ll remember the campervan feeling far too large until it suddenly didn’t. Rain on the coast. Another bakery stop. The floral shorts at The Balconies. Hollow Mountain. Going underground in Bendigo, then walking into the Great Stupa. A steam engine working on the Murray. Trees full of bats. Melbourne in the rain.",
-    "Then $10 breakfast at Brazz. Fever dream Casey. Fresh snow. Chairlifts. Bluebird days. Cowboys. Winnies. The silent disco. Making a game featuring Steve Irwin versus Jason Mamoa. Standing beside Lake Wakatipu after another full day. Vibe coding with Daniel, climbing the gondola track and earning a beer while Queenstown lit up below us. Then getting up to do it again.",
-    "Before I left on 27 July, none of this had happened. By the time I got home on 14 September, it was already turning into memory. That is basically the reason for making this."
+    "The numbers are pretty cool — 4,045 km driven, 424 km skied and 164 km walked — but they aren’t really the trip.",
+    "I’ll remember the campervan feeling far too large until it suddenly didn’t. Rain on the coast. Bakery stops. The floral shorts at The Balconies. Hollow Mountain. Going underground in Bendigo, The Oddysey in IMAX. A steam engine working on the Murray. Melbourne in the rain.",
+    "The $10 breakfast at Brazz. Fever dream Casey. Fresh snow. Chairlifts. Bluebird days. Cowboys. Winnies. The silent disco. Making a game featuring Steve Irwin versus Jason Mamoa. Standing beside Lake Wakatipu after another full day. Working remotely with Dan, climbing the gondola track and earning a beer while Queenstown lit up below us. Lambing, driving up mountains, Snowmachine party vibes and all the good people met along the way.",
+    "Before I left on 27 July, none of this had happened. By the time I got home 49 days later I had a world of new experiences, photos and memories that I don’t want to lose. That’s basically the reason for making this to keep these memories close."
   ]
 };
