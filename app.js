@@ -3,6 +3,11 @@ const entries = [...D.entries];
 const esc = value => String(value).replace(/[&<>"']/g, character => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
 })[character]);
+const paragraphCopy = value => String(value).split(/(https?:\/\/[^\s<>]+)/g).map(part =>
+  /^https?:\/\//.test(part)
+    ? `<a href="${esc(part)}" target="_blank" rel="noopener noreferrer">${esc(part)}</a>`
+    : esc(part)
+).join("");
 const $ = id => document.getElementById(id);
 const number = value => String(value).padStart(2, "0");
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -34,7 +39,7 @@ function entry(item) {
     <div class="gallery" id="${esc(galleryId)}" data-count="${media.length}" role="region" aria-label="${esc(item.title)} photos and videos" tabindex="0">${media.map(mediaItem).join("")}</div>
     ${media.length > 1 ? `<div class="gallery-footer"><span class="gallery-position" aria-live="polite" aria-atomic="true"></span><div class="gallery-actions"><button type="button" class="gallery-toggle" aria-expanded="false" aria-controls="${esc(galleryId)}">View all ${media.length}</button><div class="gallery-arrows"><button type="button" class="icon-button gallery-prev" aria-label="Previous photos" aria-controls="${esc(galleryId)}">←</button><button type="button" class="icon-button gallery-next" aria-label="Next photos" aria-controls="${esc(galleryId)}">→</button></div></div></div>` : ""}
   </div>` : "";
-  const paragraphs = item.paragraphs.map(paragraph => `<p>${esc(paragraph)}</p>`).join("");
+  const paragraphs = item.paragraphs.map(paragraph => `<p>${paragraphCopy(paragraph)}</p>`).join("");
   // A collapsed player keeps music available without interrupting the entry or loading an iframe.
   const track = item.song?.url.match(/\/track\/([a-zA-Z0-9]+)/)?.[1];
   const song = track ? `<details class="song-card"><summary><span class="eyebrow">Song of the day</span><span>${esc(item.song.title)} <span class="song-artist">— ${esc(item.song.artist)}</span></span></summary><div class="song-player" data-track="${esc(track)}" data-title="${esc(item.song.title)} by ${esc(item.song.artist)}"></div><a href="${esc(item.song.url)}" target="_blank" rel="noopener noreferrer">Listen on Spotify ↗</a></details>` : "";
