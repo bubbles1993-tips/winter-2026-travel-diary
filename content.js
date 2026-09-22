@@ -393,9 +393,9 @@ window.TRAVEL_DIARY = {
     },
     {
       id: "final-ski-days",
-      navTitle: "Above the clouds",
-      date: "FINAL SKI DAYS",
-      title: "Above the clouds, off the piste",
+      navTitle: "Bluebird days",
+      date: "MORE RUNS",
+      title: "Bluebird days and burnt quads",
       location: "Queenstown ski fields",
       paragraphs: [
         "Ski days can blur together a bit but I savored every moment took a few lessons, met some great people and then immediately lost those people. Straight from chair to chair, sending runs until my quads burnt out. Incredible views, great runs, new top speeds.",
