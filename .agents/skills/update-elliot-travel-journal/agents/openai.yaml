@@ -1,0 +1,4 @@
+interface:
+  display_name: "Update Elliot Travel Journal"
+  short_description: "Update Elliot journal in his voice"
+  default_prompt: "Use $update-elliot-travel-journal to add my latest travels and photos to the website in my usual tone."
