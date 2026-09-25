@@ -8,6 +8,12 @@ window.TRAVEL_DIARY = {
     "I left on 27 July and got home on 14 September — seven weeks away. It started with a campervan road-trip through Victoria, the Great Ocean Road, the Grampians, Bendigo and Echuca, then a few days in Melbourne before flying across to Queenstown.",
     "Queenstown brought the skiing. Then came a South Island road trip, Milford Sound, lambing duty at a sheep farm, a very long climb towards Mueller Hut and a return to town for Snow Machine. It finished with Korean food, an Auckland stopover and an assignment submitted 22 seconds late."
   ],
+  introFilm: {
+    src: "assets/trip-film-2026.mp4?v=20260925-portrait-extended",
+    poster: "assets/trip-film-2026-poster.jpg?v=20260925-portrait-extended",
+    alt: "Trip film with photos and video from Victoria, Queenstown and the South Island.",
+    caption: "Seven weeks in 6 minutes 40 seconds."
+  },
   stats: [
     ["4,045 km", "driven"],
     ["424 km", "skied"],
@@ -212,6 +218,7 @@ window.TRAVEL_DIARY = {
           alt: "A campfire burning beside the campervan in the Grampians.",
           caption: "A cold evening solved with a proper fire. Personally, I was obsessed with our barrel and ended up out here all night. What is a roadtrip without a fire? Somebody tell me."
         },
+        { type: "image", src: "assets/jul31-campfire-portrait.jpg", alt: "A man in pink patterned shorts crouching beside a lit fire barrel at a campsite.", caption: "31 July. More time with the fire barrel." },
         {
           type: "image",
           src: "assets/balconies-hitchhikers.jpg",
@@ -278,6 +285,7 @@ window.TRAVEL_DIARY = {
       media: [
         { type: "image", src: "assets/bendigo.jpg", alt: "Elliott posing beside the large Bendigo sign. Looking goofy as hell in my maroon thermals.", caption: "Obligatory Bendigo photo." },
         { type: "image", src: "assets/prince-mine.jpg", alt: "Prince inside the Central Deborah Gold Mine.", caption: "Prince at Central Deborah Gold Mine." },
+        { type: "image", src: "assets/aug02-mine-selfie.jpg", alt: "Two people wearing illuminated hard hats inside a mine.", caption: "2 August. Properly equipped for the mine." },
         { type: "image", src: "assets/stupa.jpg", alt: "The ornate interior of the Great Stupa near Bendigo.", caption: "Inside the Great Stupa." },
         { type: "image", src: "assets/sandhurst-ridge.jpg", alt: "A glass of wine outside at Sandhurst Ridge near Bendigo.", caption: "Wine in the sun at Sandhurst Ridge. Ended up ordering a case back to Perth." }
       ]
@@ -285,7 +293,7 @@ window.TRAVEL_DIARY = {
     {
       id: "echuca",
       navTitle: "Steam, bats & a campfire",
-      date: "5 AUGUST",
+      date: "3 AUGUST",
       title: "Steam, bats and a campfire",
       location: "Port of Echuca · Murray River",
       paragraphs: [
@@ -298,6 +306,8 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/echuca.jpg", alt: "A view across the Murray River from the PS Pevensey.", caption: "On the Murray at Echuca." },
         { type: "image", src: "assets/kookaburra.jpg", alt: "A kookaburra perched on the paddle steamer.", caption: "A kookaburra hitching a ride. Damn freeloaders ruining this country." },
         { type: "image", src: "assets/bats.jpg", alt: "A colony of flying foxes filling the trees beside the Murray.", caption: "The trees were absolutely full of flying foxes." },
+        { type: "image", src: "assets/aug03-echuca-riverside.jpg", alt: "A person holding a drink on a timber platform beside the Murray River.", caption: "3 August. A drink by the Murray." },
+        { type: "video", src: "assets/aug03-echuca-campervan.mp4", poster: "assets/aug03-echuca-campervan-poster.jpg", alt: "A campsite video moving between the campervan, chairs, fire and a person beside the van.", caption: "3 August. Back at the camper." },
         { type: "image", src: "assets/campfire.jpg", alt: "A campfire burning beside the campervan at night.", caption: "Campfire back at the camper." },
         { type: "image", src: "assets/road.jpg", alt: "The road south from Echuca under an orange sunset.", caption: "The road south at sunset." }
       ]
@@ -388,7 +398,8 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/pubcrawl.jpg", alt: "A Queenstown pub crawl flyer.", caption: "The flyer that started it." },
         { type: "image", src: "assets/cowboys.jpg", alt: "The mechanical bull and Buck Me Gently sign inside Cowboys bar.", caption: "Cowboys. Enough said." },
         { type: "image", src: "assets/silent.jpg", alt: "Friends wearing glowing headphones at the silent disco.", caption: "Silent disco after skiing with the Mantel lads. Work trip off the chain." },
-        { type: "image", src: "assets/silent2.jpg", alt: "The group dancing under blue and purple lights at the silent disco.", caption: "Roughly as composed as expected." }
+        { type: "image", src: "assets/silent2.jpg", alt: "The group dancing under blue and purple lights at the silent disco.", caption: "Roughly as composed as expected." },
+        { type: "video", src: "assets/aug12-silent-disco.mp4", poster: "assets/aug12-silent-disco-poster.jpg", alt: "People dancing under coloured lights while wearing illuminated headphones.", caption: "12 August. The silent disco, in motion." }
       ]
     },
     {
@@ -421,6 +432,7 @@ window.TRAVEL_DIARY = {
       ],
       media: [
         { type: "image", src: "assets/queenstown-night.jpg", alt: "Colourful lights from Queenstown reflected across Lake Wakatipu at night.", caption: "Queenstown reflected across Lake Wakatipu." },
+        { type: "image", src: "assets/aug16-lakeside-tree.jpg", alt: "A person sitting in a tree above a lakeside beach, with town lights across the water.", caption: "16 August. A different angle on the waterfront." },
         { type: "image", src: "assets/cooked.jpg", alt: "Elliott completely exhausted after a full day of skiing.", caption: "The less glamorous side of a ski trip: cooked, sick and ready for a nap." }
       ]
     },
@@ -630,6 +642,7 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/sep02-bluff-bush-walk.jpg", alt: "A person walking along a narrow bush track at Bluff.", caption: "About 40 minutes walking around Bluff." },
         { type: "image", src: "assets/sep02-bluff-coast.jpg", alt: "A coastal headland and low scrub beneath an overcast sky at Bluff.", caption: "Looking out from Bluff." },
         { type: "image", src: "assets/sep02-waipapa-sea-lions.jpg", alt: "Several sea lions resting in grass above the coast at Waipapa Point.", caption: "Sea lions directly underneath the lighthouse." },
+        { type: "video", src: "assets/sep02-waipapa-sea-lions-live.mp4", poster: "assets/sep02-waipapa-sea-lions-live-poster.jpg", alt: "Sea lions moving in the grass beside the coast at Waipapa Point.", caption: "2 September. The sea puppies, doing their thing." },
         { type: "image", src: "assets/sep02-waipapa-lighthouse.jpg", alt: "Waipapa Point Lighthouse beneath an overcast sky.", caption: "Waipapa Point Lighthouse." },
         { type: "image", src: "assets/sep02-tokanui-free-camp.jpg", alt: "A low building beside a gravel parking area under grey skies in Tokanui.", caption: "Our very convenient free camp behind the pub in Tokanui." }
       ]
@@ -650,6 +663,7 @@ window.TRAVEL_DIARY = {
         { type: "image", src: "assets/sep03-koropuku-falls.jpg", alt: "Koropuku Falls dropping into a dark pool surrounded by dense green bush.", caption: "Koropuku Falls, well worth the wet track." },
         { type: "image", src: "assets/sep03-mclean-falls.jpg", alt: "McLean Falls cascading over several rocky tiers through dense bush.", caption: "McLean Falls doing most of the work." },
         { type: "image", src: "assets/sep03-mclean-falls-portrait.jpg", alt: "A person standing beside the cascades at McLean Falls.", caption: "One for scale at McLean Falls." },
+        { type: "video", src: "assets/sep03-mclean-falls-live.mp4", poster: "assets/sep03-mclean-falls-live-poster.jpg", alt: "Water cascading down the tiers of McLean Falls, with a person standing beside the water.", caption: "3 September. McLean Falls, with the sound on." },
         { type: "image", src: "assets/sep03-kaka-point-coast.jpg", alt: "A road beside a sandy beach and rocky coastline at Kaka Point beneath a partly cloudy sky.", caption: "Kaka Point, before getting some actual work done." }
       ]
     },
@@ -785,6 +799,7 @@ window.TRAVEL_DIARY = {
           alt: "A skier descending Coronet Peak with the brown mountain valley behind.",
           caption: "The van was going up the mountain."
         },
+        { type: "video", src: "assets/sep11-coronet-chairlift.mp4", poster: "assets/sep11-coronet-chairlift-poster.jpg", alt: "A view from a moving chairlift, panning from hanging skis to the snowy slopes at Coronet Peak.", caption: "11 September. On the way up at Coronet Peak." },
         {
           type: "image",
           src: "assets/sep11-snow-machine-entrance.jpg",
@@ -870,7 +885,8 @@ window.TRAVEL_DIARY = {
           src: "assets/sep13-mapo88-food.jpg",
           alt: "A table at Mapo88 covered with Korean dishes, with japchae on the left.",
           caption: "The japchae did not last long."
-        }
+        },
+        { type: "image", src: "assets/sep13-queenstown-pub-group.jpg", alt: "Four friends around a pub table with drinks.", caption: "13 September. One more group photo." }
       ]
     },
     {

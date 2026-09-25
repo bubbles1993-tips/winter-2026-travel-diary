@@ -53,6 +53,11 @@ $("subtitle").textContent = D.subtitle;
 $("dates").textContent = D.dates;
 $("stats").innerHTML = D.stats.map(([value, label]) => `<div class="stat"><b>${esc(value)}</b><span>${esc(label)}</span></div>`).join("");
 $("intro-copy").innerHTML = D.intro.map(paragraph => `<p>${esc(paragraph)}</p>`).join("");
+if (D.introFilm) {
+  const film = D.introFilm;
+  $("intro-film").innerHTML = `<video id="intro-film-player" controls playsinline preload="none" poster="${esc(film.poster)}" aria-label="${esc(film.alt)}" aria-describedby="intro-film-caption"><source src="${esc(film.src)}" type="video/mp4">Your browser does not support embedded video. <a href="${esc(film.src)}">Watch the trip film.</a></video><figcaption id="intro-film-caption">${esc(film.caption)}</figcaption>`;
+  $("intro-film").hidden = false;
+}
 $("reflection-copy").innerHTML = D.reflection.map(paragraph => `<p>${esc(paragraph)}</p>`).join("");
 const routeStops = Array.isArray(D.route) ? D.route : String(D.route).split("→").map(label => ({ label: label.trim() }));
 $("route").innerHTML = routeStops.map(stop => {
@@ -197,6 +202,13 @@ lightbox.addEventListener("close", () => {
 let currentChapter = null, currentView = null, lastHash = null;
 let progressFrame = 0, positionTimer;
 const pageTitle = `${D.title} — Winter 2026`;
+function pauseVideos(except) {
+  document.querySelectorAll("video").forEach(video => { if (video !== except) video.pause(); });
+}
+// Native media play events do not bubble; capture them for every rendered chapter.
+document.addEventListener("play", event => {
+  if (event.target instanceof HTMLVideoElement) pauseVideos(event.target);
+}, true);
 function updateProgress() {
   if (!currentChapter) return;
   const sections = [...document.querySelectorAll(".entry")];
@@ -230,7 +242,7 @@ function renderView({ initial = false, restore, saved = {} } = {}) {
   if (currentView !== view.key) {
     galleryCleanups.forEach(cleanup => cleanup());
     galleryCleanups = [];
-    document.querySelectorAll(".entry video").forEach(video => video.pause());
+    pauseVideos();
     $("entries").replaceChildren();
     currentView = view.key;
     currentChapter = view.chapter || null;
@@ -312,6 +324,6 @@ document.addEventListener("click", event => {
 history.scrollRestoration = "manual";
 window.addEventListener("popstate", () => { clearTimeout(positionTimer); renderView({ restore: history.state?.journalScroll, saved: history.state || {} }); });
 window.addEventListener("hashchange", () => { if (lastHash !== location.hash) renderView(); });
-window.addEventListener("pagehide", rememberPosition);
+window.addEventListener("pagehide", () => { pauseVideos(); rememberPosition(); });
 const savedPosition = history.state?.journalView === resolveView(location.hash).key ? history.state : {};
 renderView({ initial: true, restore: savedPosition.journalScroll, saved: savedPosition });
